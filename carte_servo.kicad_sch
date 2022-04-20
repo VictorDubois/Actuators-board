@@ -3280,16 +3280,16 @@
       (reference "J10") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
     )
     (path "/8cf8b4bb-2251-4ebd-baba-4f57c988e66e/57ca8b50-fa42-403e-8d73-f79d5e093fd0"
-      (reference "J11") (unit 1) (value "Transistor_2") (footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
+      (reference "J11") (unit 1) (value "Transistor_2") (footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
     )
     (path "/8cf8b4bb-2251-4ebd-baba-4f57c988e66e/f76c9308-1c2d-4599-ae09-015ff0392721"
-      (reference "J12") (unit 1) (value "Transistor_1") (footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
+      (reference "J12") (unit 1) (value "Transistor_1") (footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
     )
     (path "/8cf8b4bb-2251-4ebd-baba-4f57c988e66e/010c9b9a-c720-43ed-b1dc-b16d44793e01"
-      (reference "J13") (unit 1) (value "Transistor_4") (footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
+      (reference "J13") (unit 1) (value "Transistor_4") (footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
     )
     (path "/8cf8b4bb-2251-4ebd-baba-4f57c988e66e/693dc8bc-f937-4bad-9534-494c6dad1ca3"
-      (reference "J14") (unit 1) (value "Transistor_.3") (footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
+      (reference "J14") (unit 1) (value "Transistor_.3") (footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
     )
     (path "/411c7a06-8ca1-458c-a13f-a01605a028e9"
       (reference "J15") (unit 1) (value "12V_BATT") (footprint "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal")
