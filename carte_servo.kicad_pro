@@ -381,6 +381,7 @@
         "name": "POWER",
         "nets": [
           "12V_before_fuse",
+          "5V",
           "BATT_12V",
           "SERVO_12V_1",
           "SERVO_12V_2",
