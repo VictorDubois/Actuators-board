@@ -1,0 +1,3 @@
+*.lck
+krabi-actuator-board-v2-backups/
+!.gitignore
