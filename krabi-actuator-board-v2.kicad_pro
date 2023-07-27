@@ -465,6 +465,8 @@
     "net_colors": null,
     "netclass_assignments": {
       "12_V": "POWER",
+      "6V1": "POWER",
+      "6V2": "POWER",
       "Net-(J8-Pin_1)": "POWER"
     },
     "netclass_patterns": [
@@ -536,6 +538,10 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
+    ],
+    [
+      "6f9f4425-d6b2-463f-b002-0f3b8b01ea6e",
+      "servos"
     ]
   ],
   "text_variables": {}
