@@ -1,3 +1,7 @@
 *.lck
 krabi-actuator-board-v2-backups/
+*.log
+*.raw
+*.zip
+*.bak
 !.gitignore

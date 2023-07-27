@@ -5,8 +5,8 @@
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [
-      "/SDA{slash}20",
-      "/SCL{slash}21"
+      "Net-(D2-A)",
+      "SCL"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
