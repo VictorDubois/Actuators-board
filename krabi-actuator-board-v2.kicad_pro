@@ -468,8 +468,11 @@
     "netclass_assignments": {
       "12V": "POWER",
       "6V1": "POWER",
-      "6V2": "POWER",
-      "Net-(J8-Pin_1)": "POWER"
+      "Net-(D1_VR1-K)": "POWER",
+      "Net-(D1_VR2-K)": "POWER",
+      "Net-(J8-Pin_1)": "POWER",
+      "Net-(MCP6N11_VR1-VIP)": "POWER",
+      "Net-(MCP6N11_VR2-VIP)": "POWER"
     },
     "netclass_patterns": [
       {
