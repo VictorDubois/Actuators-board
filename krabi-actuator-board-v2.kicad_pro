@@ -204,7 +204,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|774700|1257300|00000000-0000-0000-0000-000056d75ab8|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -464,7 +466,7 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "12_V": "POWER",
+      "12V": "POWER",
       "6V1": "POWER",
       "6V2": "POWER",
       "Net-(J8-Pin_1)": "POWER"
