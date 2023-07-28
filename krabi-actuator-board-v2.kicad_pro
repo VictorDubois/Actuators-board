@@ -468,6 +468,7 @@
     "netclass_assignments": {
       "12V": "POWER",
       "6V1": "POWER",
+      "6V2": "POWER",
       "Net-(D1_VR1-K)": "POWER",
       "Net-(D1_VR2-K)": "POWER",
       "Net-(J8-Pin_1)": "POWER",
@@ -547,6 +548,10 @@
     [
       "6f9f4425-d6b2-463f-b002-0f3b8b01ea6e",
       "servos"
+    ],
+    [
+      "55fd7014-48ef-4cf3-914d-288b69fed1ef",
+      "LEDstrip"
     ]
   ],
   "text_variables": {}
