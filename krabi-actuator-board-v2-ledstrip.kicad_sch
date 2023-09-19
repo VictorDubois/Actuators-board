@@ -1530,8 +1530,8 @@
     (property "Sim.Enable" "0" (at 130.81 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 788ca86d-4e33-431f-9042-49fb11f850a4))
-    (pin "2" (uuid 65f26507-03ac-4211-84bf-b7668309289c))
+    (pin "1" (uuid 1c4e930a-579b-451a-b2b4-76b6185779da))
+    (pin "2" (uuid d9e4ded1-4f28-40c6-9c3e-80a54fc0a4f8))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6f9f4425-d6b2-463f-b002-0f3b8b01ea6e"
@@ -1565,8 +1565,8 @@
     (property "Sim.Enable" "0" (at 69.85 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e5c09cf1-e01d-48a0-a496-23d99d36267f))
-    (pin "2" (uuid 6fd3df1d-e266-46fe-8a6f-3b6d64a109d5))
+    (pin "1" (uuid e08511e0-5fa4-44f8-bde1-ffedb39bdbbb))
+    (pin "2" (uuid 323271cc-3992-43ec-9a91-32343f14104c))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55fd7014-48ef-4cf3-914d-288b69fed1ef"
@@ -1594,8 +1594,8 @@
     (property "Sim.Enable" "0" (at 231.14 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c16ec367-c9bf-4c63-a211-24a00131d45b))
-    (pin "2" (uuid c605923e-bf0e-4cce-b3c7-d22946e8f89a))
+    (pin "1" (uuid 7e77b9a5-6326-4b5d-afff-1abec9c29973))
+    (pin "2" (uuid 1beb7e07-c027-4092-80b9-cd512d79dc21))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -1626,8 +1626,8 @@
     (property "Datasheet" "~" (at 217.17 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0f0acd20-906c-4994-a2e3-b8c6cb39462c))
-    (pin "2" (uuid 8a106972-24e4-4c96-bca1-df822388f2e5))
+    (pin "1" (uuid a83b6c4f-97b6-45b8-9da6-5bd2760b7f88))
+    (pin "2" (uuid 7cbb59ee-3ee2-4026-8cd8-dc37504f535f))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -1658,8 +1658,8 @@
     (property "Datasheet" "~" (at 200.66 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6572c79d-178d-44ca-a5fa-7e564991c22b))
-    (pin "2" (uuid 2087bd28-0d8b-441f-b429-208de1909a33))
+    (pin "1" (uuid b377e42a-1438-4441-925b-ab087c4a4bd1))
+    (pin "2" (uuid 2bfeb3f7-cb89-43e4-988a-382bfb107a71))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -1690,8 +1690,8 @@
     (property "Datasheet" "~" (at 127 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 08d89069-29f0-428d-b9f6-ccea53163b82))
-    (pin "2" (uuid e1b28b9d-df34-4a3f-b331-b1c91d076386))
+    (pin "1" (uuid d2da5c66-7d29-4458-95c1-cfbb576fa12d))
+    (pin "2" (uuid ca45d40a-39b8-4538-99a3-1218563c58a9))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -1725,14 +1725,14 @@
     (property "Sim.Enable" "0" (at 134.62 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 84b33318-7e7e-4f68-9734-71c0f04a7152))
-    (pin "2" (uuid b800b79a-3897-4894-9bcf-b91a40b6acab))
-    (pin "3" (uuid 4f6eb2f2-685c-4f93-a276-97500021fa26))
-    (pin "4" (uuid 5cef5a3f-f183-4d38-9a56-fac96fcf733a))
-    (pin "5" (uuid 44c3e791-de8b-4dd8-86e2-aa0472be52bc))
-    (pin "6" (uuid 6e98b6af-9b17-4918-af40-720f8d46c655))
-    (pin "7" (uuid b2ba1170-65e1-480a-a996-e5fe6623911d))
-    (pin "8" (uuid 3b079699-0f5c-4a83-9018-3758de317151))
+    (pin "1" (uuid c876b790-ae58-4809-b543-231b0f3c406f))
+    (pin "2" (uuid 1e77a66a-09a0-48a5-a34c-cb50bd9aeee0))
+    (pin "3" (uuid 2c4e0a7e-8349-4b76-915a-829b585eb448))
+    (pin "4" (uuid 100f609d-3c57-432c-b8dc-65f3312eeb91))
+    (pin "5" (uuid a0d06c12-de7f-4130-a87d-1ca2935a9579))
+    (pin "6" (uuid ac21f62c-8dd3-4d4c-bf39-6ee3b92faeef))
+    (pin "7" (uuid 15cbd926-07a3-4bbb-8184-631ac6d2f5b5))
+    (pin "8" (uuid b9ba9a83-2a98-4bf4-8fed-f8ac7fcaf925))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6f9f4425-d6b2-463f-b002-0f3b8b01ea6e"
@@ -1763,8 +1763,8 @@
     (property "Datasheet" "~" (at 262.89 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4ad87ac7-252c-4640-b64d-ab3f1c8514a6))
-    (pin "2" (uuid ee3e6ddb-7f30-4e95-b40d-8a2375ffcb72))
+    (pin "1" (uuid fe2add6c-e2cd-4b2a-875a-badd5bc719fb))
+    (pin "2" (uuid 65dce6d6-d37a-4012-9f16-eccdd1528749))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -1795,8 +1795,8 @@
     (property "Datasheet" "~" (at 116.84 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e2757fa5-9c45-4b82-aeb8-b8984eba07e9))
-    (pin "2" (uuid f7187f2a-e04f-4929-bda8-4db7b4077f4d))
+    (pin "1" (uuid d4b9e5d5-9758-432b-9097-6fcb24bf9a39))
+    (pin "2" (uuid 98efa78e-fcd0-4fb8-b877-5c50133a454c))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6f9f4425-d6b2-463f-b002-0f3b8b01ea6e"
@@ -1827,8 +1827,8 @@
     (property "Datasheet" "~" (at 163.83 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d5254d73-20e7-465b-a288-b69c352aa788))
-    (pin "2" (uuid 9ea8587b-3bf5-47af-a968-4afe721d5c52))
+    (pin "1" (uuid b0890745-caca-4046-a99d-f6b5430c791d))
+    (pin "2" (uuid 8354c765-dd8c-4bff-9017-cc3844d6fa1f))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -1862,8 +1862,8 @@
     (property "Sim.Enable" "0" (at 255.27 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a40fc499-ee08-470a-a968-c7aca4fa3636))
-    (pin "2" (uuid 7e23e07b-1653-4bdc-a5d8-b75eb5a27b44))
+    (pin "1" (uuid 61e2b516-fa57-4a7f-bb1e-5414e7a027d8))
+    (pin "2" (uuid 5b5897d7-2868-48e4-a24b-b73ccf96ce1b))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6f9f4425-d6b2-463f-b002-0f3b8b01ea6e"
@@ -1894,8 +1894,8 @@
     (property "Datasheet" "~" (at 40.64 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8beb5f1c-d3e5-4159-875f-0f8926d7be18))
-    (pin "2" (uuid 6dc28f31-0956-47f8-a550-0f34df6b49f0))
+    (pin "1" (uuid 64dfc4d2-c31c-4fb0-929d-d450a3405337))
+    (pin "2" (uuid 8165f9f4-b7cf-4d04-90a0-8e04098d7f65))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55fd7014-48ef-4cf3-914d-288b69fed1ef"
@@ -1923,8 +1923,8 @@
     (property "Sim.Enable" "0" (at 97.79 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b1476508-36fe-4aba-996c-99bbd5861e17))
-    (pin "2" (uuid 57a806bd-b3dd-460f-8beb-a259021418d3))
+    (pin "1" (uuid 4f700976-8a7b-4330-9746-c6f2f3a3d82c))
+    (pin "2" (uuid df7635eb-0ae4-4647-af12-49b25046fae7))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -1955,8 +1955,8 @@
     (property "Datasheet" "~" (at 78.74 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0dfeb0a1-ecfb-468b-8b20-062d6620d2f5))
-    (pin "2" (uuid b2b2091e-8371-4cc6-bf2f-c15902ea2d82))
+    (pin "1" (uuid 05c41d4c-54b3-46a9-b97a-9fa459b1ee68))
+    (pin "2" (uuid 67dc9b28-7c7a-4396-abfd-c73b050569b5))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -1987,8 +1987,8 @@
     (property "Datasheet" "~" (at 208.28 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f506937f-a6f5-45b6-bbb6-32eef9b6dea8))
-    (pin "2" (uuid 7519ac30-04c6-4078-86c3-4a7375f10e6c))
+    (pin "1" (uuid 09177a74-531a-479a-ba12-8519d2a5a103))
+    (pin "2" (uuid f86f1860-4d37-46a5-a283-403b045bf7cd))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6f9f4425-d6b2-463f-b002-0f3b8b01ea6e"
@@ -2022,8 +2022,8 @@
     (property "Sim.Enable" "0" (at 154.94 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 333aa145-9391-4207-8a30-1341a9cad9ea))
-    (pin "2" (uuid 5a112b9a-0aff-49ad-a609-42f463e75cbc))
+    (pin "1" (uuid f64186f8-5dd6-475d-9cb6-b1c165173d73))
+    (pin "2" (uuid 1641b8e3-7427-4680-bebd-325e0133be18))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2054,8 +2054,8 @@
     (property "Datasheet" "~" (at 157.48 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid beef3fa2-788b-4637-a946-b8b7bf34f974))
-    (pin "2" (uuid 19344f2d-afbc-4d92-8b12-4603e5e38786))
+    (pin "1" (uuid 64411529-d48b-48b8-8959-44bd180ce806))
+    (pin "2" (uuid 05bed46f-117f-47cd-959d-fa184d910874))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2086,8 +2086,8 @@
     (property "Datasheet" "~" (at 245.11 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2cdd6378-cf27-44b6-b5c7-eae90b3c6761))
-    (pin "2" (uuid f1763e8f-7fec-404c-89cf-b17f161ec4c9))
+    (pin "1" (uuid 3fdcf021-efcf-4bfa-8c8e-cbbc0486f5c3))
+    (pin "2" (uuid 4bfd3089-a638-40bf-be0b-199f812bf797))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2118,8 +2118,8 @@
     (property "Datasheet" "~" (at 171.45 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 64c758f2-b980-4545-b86e-90d5682888d3))
-    (pin "2" (uuid 1f1b01fe-60b4-4961-bf06-705839723775))
+    (pin "1" (uuid 34cdbaf7-5ccd-4107-b552-c5633798bf35))
+    (pin "2" (uuid e694831b-41cb-430c-96f8-3631859657ea))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2150,8 +2150,8 @@
     (property "Datasheet" "~" (at 231.14 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 158af1ff-1338-4da2-ad5f-b8c3e5c5eca0))
-    (pin "2" (uuid 73d3a932-4d6f-4b4b-a880-bda841fce2b3))
+    (pin "1" (uuid 3c8a3574-4ae4-4dd3-8add-4bc6f0cf1820))
+    (pin "2" (uuid 916aa042-8a1b-430c-b597-041917065493))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2185,8 +2185,8 @@
     (property "Sim.Enable" "0" (at 130.81 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5d3ec702-9815-45ca-a951-c2c2bd20de52))
-    (pin "2" (uuid e3dd43b2-4377-4173-b303-a479f258b889))
+    (pin "1" (uuid 1ad51b06-57e9-43f6-9d99-e1b4b9a133e2))
+    (pin "2" (uuid 972891bf-d616-4655-a7f0-feb611cd2426))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6f9f4425-d6b2-463f-b002-0f3b8b01ea6e"
@@ -2217,8 +2217,8 @@
     (property "Datasheet" "~" (at 260.35 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 69dae10d-2064-4af4-a826-26b50decac11))
-    (pin "2" (uuid 0eb28ad6-cb51-4a1a-bdba-9cf6da2c08e9))
+    (pin "1" (uuid 1769accf-1da2-4808-8b2f-15fdc34f91b0))
+    (pin "2" (uuid e11db927-eb91-45bf-9dfd-41456e591cdc))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2252,8 +2252,8 @@
     (property "Sim.Enable" "0" (at 254 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a3270eff-41e6-4aac-837d-689582a63bb0))
-    (pin "2" (uuid 173ddb94-0668-4cbb-968b-c9eb34292631))
+    (pin "1" (uuid 8f27b323-f41a-4a8b-ae3a-0e7905aa369b))
+    (pin "2" (uuid 80463eab-74e0-48d5-a740-c62cba393b38))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2284,8 +2284,8 @@
     (property "Datasheet" "~" (at 111.76 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0cf7df86-0aeb-4c08-b6c0-adf76470283a))
-    (pin "2" (uuid b9620bf0-fb2d-4c9d-aaae-6c6a2246d1e3))
+    (pin "1" (uuid 30c3f660-35f1-453f-835c-5311a7474b08))
+    (pin "2" (uuid 7dadb957-38c1-4028-b19d-2dc3f7a77cd6))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2316,8 +2316,8 @@
     (property "Datasheet" "~" (at 208.28 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 475eb6ac-9743-4398-903e-c024e8f88afc))
-    (pin "2" (uuid bbb122e7-324a-40d5-a200-c9e261b43e33))
+    (pin "1" (uuid ebbaed80-60f2-4fde-a20c-aee7210794b8))
+    (pin "2" (uuid eaf9bb77-c564-4c88-bea3-e42aee253f84))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6f9f4425-d6b2-463f-b002-0f3b8b01ea6e"
@@ -2348,8 +2348,8 @@
     (property "Datasheet" "~" (at 212.09 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9b14f6c0-f147-4f00-a5bd-137f14825dd5))
-    (pin "2" (uuid fe554a8f-72dc-407c-8602-8f6bc53816c9))
+    (pin "1" (uuid 7e5d143e-7234-455a-8f89-7f103f977668))
+    (pin "2" (uuid 4265e5b9-d1e9-4cdf-9a9e-e781285638a3))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6f9f4425-d6b2-463f-b002-0f3b8b01ea6e"
@@ -2380,8 +2380,8 @@
     (property "Datasheet" "~" (at 163.83 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9d1bc800-c738-4beb-ab29-e591a434e0a0))
-    (pin "2" (uuid d48535be-68d0-4025-9203-2e485cda9c56))
+    (pin "1" (uuid c671308d-047e-4224-8c71-75f5b3feb2ca))
+    (pin "2" (uuid fc44bb1d-08ea-47e7-bda0-ec5ca3948fe5))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2412,8 +2412,8 @@
     (property "Datasheet" "~" (at 113.03 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a0e23fbd-4b90-4936-8922-5636e0165dc1))
-    (pin "2" (uuid c42e61e8-8c0f-42b3-b5a2-00e5ea1c48b8))
+    (pin "1" (uuid a6b11511-62f4-4195-8fc4-90ad7a3fc848))
+    (pin "2" (uuid a68da871-0c97-463e-9a4b-142db72bfee5))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6f9f4425-d6b2-463f-b002-0f3b8b01ea6e"
@@ -2447,8 +2447,8 @@
     (property "Sim.Enable" "0" (at 154.94 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9fa43723-6ab3-4cf7-afec-c140816558e0))
-    (pin "2" (uuid cdaef301-d79e-4236-8854-886739fb2d62))
+    (pin "1" (uuid e2e96f62-34c2-4adc-a681-647bf571611f))
+    (pin "2" (uuid f8289270-f3a0-4506-9139-b57ee1d3f631))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2482,14 +2482,14 @@
     (property "Sim.Enable" "0" (at 62.23 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 891f9d59-56bf-4edf-8522-c7c5f36c0732))
-    (pin "2" (uuid 866fd9fb-ab9f-4427-920c-7b41a7a37f5a))
-    (pin "3" (uuid 7ba7fc0a-8b03-4c23-b3b8-7f40490ed28e))
-    (pin "4" (uuid 2f575435-0a19-4c3d-8fad-1b35bdcefda2))
-    (pin "5" (uuid ce6d8825-3f2a-4b08-842a-6c4eb7280fb4))
-    (pin "6" (uuid dfeeb9aa-26b9-47d7-9d41-4b6983eef075))
-    (pin "7" (uuid b1706ff3-02a7-4f48-a3dc-af24042d7eee))
-    (pin "8" (uuid ece40099-a1c9-4803-ae4a-2650bf874058))
+    (pin "1" (uuid d81b4c00-cbcd-49e5-af6f-4a114c2d3065))
+    (pin "2" (uuid 86f6d56a-6069-447a-a8a1-4cfb460221b7))
+    (pin "3" (uuid 88fe9a35-02e8-4c97-b920-9bca7cc91a9b))
+    (pin "4" (uuid e1906f53-1f23-4ce2-a07c-a6b131f84417))
+    (pin "5" (uuid aeb596a5-6e00-4676-bc34-fd3f7b08f866))
+    (pin "6" (uuid 9db79445-30a7-431f-9f60-e42b3e1948e0))
+    (pin "7" (uuid 4108a333-9a03-44a4-bf15-b7639ce3c447))
+    (pin "8" (uuid 83a41d52-9831-442d-b10b-920fc106ece4))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55fd7014-48ef-4cf3-914d-288b69fed1ef"
@@ -2517,8 +2517,8 @@
     (property "Sim.Enable" "0" (at 251.46 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ce209aef-e5b6-484b-a962-b4fafa08392e))
-    (pin "2" (uuid 405005b0-2316-4436-8a32-bb79a9d51b74))
+    (pin "1" (uuid 4c13efbb-3ce3-4824-81da-93aa6876ce09))
+    (pin "2" (uuid e0a01022-f98c-4536-9ad7-c431ea3dbddb))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2552,8 +2552,8 @@
     (property "Sim.Enable" "0" (at 186.69 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5834e683-80a9-456c-946e-c488a41746bc))
-    (pin "2" (uuid e758ee68-fa2e-48c6-aab8-9eba68e317e4))
+    (pin "1" (uuid 5e012f78-fb9b-45ff-8093-e10be8c235f0))
+    (pin "2" (uuid 77e69c34-99f3-4bef-a381-513f41669970))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2587,14 +2587,14 @@
     (property "Sim.Enable" "0" (at 59.69 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eaa3db01-37cf-4a25-8412-8ccf0f0eea41))
-    (pin "2" (uuid da2ed871-9a94-405b-b842-2b48b0090b96))
-    (pin "3" (uuid 0b80822d-8c7f-4b21-b65f-60577cd413db))
-    (pin "4" (uuid 4d3897a9-10db-4094-8b6d-8ee619dcb250))
-    (pin "5" (uuid 6af810c3-629f-48cd-b1de-5f0cfcb1ee5d))
-    (pin "6" (uuid 4905b4b6-eb79-4293-ba9a-5f29d2a000be))
-    (pin "7" (uuid 20b32f5a-5c3c-48f6-a26c-80d56a074c57))
-    (pin "8" (uuid 19f15b24-4bd1-4b43-b05e-ca32016d59e2))
+    (pin "1" (uuid 00338957-8f68-4f56-b1c2-1fe0b34962d6))
+    (pin "2" (uuid 874add1f-ae71-4e7b-becc-38b0680397b2))
+    (pin "3" (uuid 2b7bd988-5832-45fa-830d-7ab5facb3ee1))
+    (pin "4" (uuid 4af6d3d9-de49-4953-9ae1-9340953c837f))
+    (pin "5" (uuid 198f7e60-56ce-420a-8bb1-3d832d434eae))
+    (pin "6" (uuid ec451912-a672-4bb7-afd0-067920dccb62))
+    (pin "7" (uuid 42604895-deff-4573-81d8-94f148d66d20))
+    (pin "8" (uuid bc823bb6-667d-486f-af8c-944f6fe6109c))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55fd7014-48ef-4cf3-914d-288b69fed1ef"
@@ -2619,8 +2619,8 @@
     (property "Datasheet" "~" (at 80.01 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f0db5064-e754-4891-8937-1d94a6f20a58))
-    (pin "2" (uuid 543969dd-f8b7-4b26-8aa5-7056874f5d70))
+    (pin "1" (uuid 46347483-c375-4e50-9c45-f6cb47acdf20))
+    (pin "2" (uuid 23616c5b-89e1-4bf2-9fc1-78af40b1b60e))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2654,8 +2654,8 @@
     (property "Sim.Enable" "0" (at 259.08 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4e95ff36-e909-4b84-b88e-244373baea0e))
-    (pin "2" (uuid 2d34029f-1fb4-4dc0-9744-f9275daeda54))
+    (pin "1" (uuid 71bba12c-f630-4ce9-ae47-d5d249821b82))
+    (pin "2" (uuid 73905256-4463-4740-b313-6a2a86a82297))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2689,8 +2689,8 @@
     (property "Sim.Enable" "0" (at 171.45 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2e332fa6-597e-412f-9c6c-439b67d4c96f))
-    (pin "2" (uuid f915d124-0d56-45bd-8f67-26dfff60ee4d))
+    (pin "1" (uuid 8055fbe9-3aad-478c-8df0-fa9186d278a1))
+    (pin "2" (uuid 8f53e750-9d52-4312-9064-f9357e16501a))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2724,8 +2724,8 @@
     (property "Sim.Enable" "0" (at 255.27 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 51d3b93a-56d7-4e91-a2a1-56afe14cc515))
-    (pin "2" (uuid d7ec64ce-2871-42b1-98d2-bc21f4552a0a))
+    (pin "1" (uuid 1c667220-e822-4120-ae9d-e1f6f6c7a4de))
+    (pin "2" (uuid 4c7aecf8-ac97-4f48-b3a5-0752e76eb7ed))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6f9f4425-d6b2-463f-b002-0f3b8b01ea6e"
@@ -2759,8 +2759,8 @@
     (property "Sim.Enable" "0" (at 245.11 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 680bd749-b5c7-415a-97b8-451b4be93c80))
-    (pin "2" (uuid 260be95b-dbfc-4052-a932-61de8a40930b))
+    (pin "1" (uuid 2f7ff1e8-b87d-4a39-b751-5d1329f80261))
+    (pin "2" (uuid c818eeb9-52b6-4b3b-a2d5-c22478867762))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2791,8 +2791,8 @@
     (property "Datasheet" "~" (at 186.69 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 606c7267-b9ff-4e42-9c17-d9e4b511a290))
-    (pin "2" (uuid ebd767c4-d11e-4f9b-a249-ca376c5f1c6c))
+    (pin "1" (uuid 8d125538-e00c-4d9f-ac42-5dd5c1630349))
+    (pin "2" (uuid fbc43d54-d9f1-4805-9af0-442f645417b1))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2826,8 +2826,8 @@
     (property "Sim.Enable" "0" (at 160.02 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 05e37b6d-8548-44df-b3ef-bd16c6ad6730))
-    (pin "2" (uuid 3adab9ae-0d1d-476e-9905-0a99c0e59d28))
+    (pin "1" (uuid 0019aa84-b67a-4762-b375-b1404c17260d))
+    (pin "2" (uuid 21368dd9-56a1-46d6-ad62-7ff492ccbf43))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6f9f4425-d6b2-463f-b002-0f3b8b01ea6e"
@@ -2861,14 +2861,14 @@
     (property "Sim.Enable" "0" (at 134.62 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4983d519-e57b-484f-ab36-bd1837e1c973))
-    (pin "2" (uuid 04f79c5a-3df9-40b6-bf10-7b4a9d2fd191))
-    (pin "3" (uuid 450c5409-7484-4162-ac27-02dc039d8ff2))
-    (pin "4" (uuid 89cb7121-601b-4961-b8de-17dc2b1226a8))
-    (pin "5" (uuid fc7f184a-84c9-4f4e-a6e6-321f1ef102b1))
-    (pin "6" (uuid 80a075ba-d046-40c9-a557-599c02bbad68))
-    (pin "7" (uuid 4d250955-387b-42d8-bb06-cb5af3bafe3b))
-    (pin "8" (uuid 703cce12-9b91-49da-8694-92ad8e0cddfa))
+    (pin "1" (uuid 413e7655-0bf9-4ae2-b1ea-a6bdacdc61d1))
+    (pin "2" (uuid 35ffb56f-422e-4c35-9668-8a765c4096df))
+    (pin "3" (uuid a3cccd2a-ec78-4af6-974b-9b49a26fbdfd))
+    (pin "4" (uuid b56db2d8-6ce1-4f25-b31e-22921b9cbeb6))
+    (pin "5" (uuid eda3888e-27de-488d-a8e1-fba2b507f8e5))
+    (pin "6" (uuid d51390ff-8b19-4440-8cd1-f8cf15aa1309))
+    (pin "7" (uuid 58b7fae4-4fe2-4aef-8467-dd2dbc2f2ed7))
+    (pin "8" (uuid 86aa0f8c-29b4-4ebd-8c50-04a4666c85b4))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6f9f4425-d6b2-463f-b002-0f3b8b01ea6e"
@@ -2899,8 +2899,8 @@
     (property "Datasheet" "" (at 43.18 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c117fe16-8611-4ccc-aa35-e5e6839d8b00))
-    (pin "2" (uuid e8516782-7ba3-44a5-81c6-2a8e9de1e272))
+    (pin "1" (uuid 67e6cf9c-0714-4148-9cb2-12cafcb70b0d))
+    (pin "2" (uuid 7aeef1e2-7800-4d69-912a-abba821b10e6))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55fd7014-48ef-4cf3-914d-288b69fed1ef"
@@ -2925,8 +2925,8 @@
     (property "Datasheet" "~" (at 259.08 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid aec97fb1-fc12-48f7-9979-16b753f29f76))
-    (pin "2" (uuid c446052d-c18d-4206-8d2d-907b5da5e822))
+    (pin "1" (uuid a21892e3-4973-4122-a3e4-bfa3c2ca341b))
+    (pin "2" (uuid 95e19600-87bf-4dc8-a92a-4fb9aac0538f))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2960,8 +2960,8 @@
     (property "Sim.Enable" "0" (at 140.97 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f98e0797-655b-44e6-ba3b-4c6d77e8e163))
-    (pin "2" (uuid edace2f3-67c6-43db-b1bd-47085c0d89d8))
+    (pin "1" (uuid d3e2cc61-d9f4-418a-9a23-c52bdbe8e3fc))
+    (pin "2" (uuid 10946a8c-6274-4881-b303-e17aaf9b2fe5))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -2995,8 +2995,8 @@
     (property "Sim.Enable" "0" (at 80.01 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 508d8180-6218-4f0c-9052-43a16e83b57b))
-    (pin "2" (uuid 143acb13-40ab-4016-a1ef-68f3ffc222e0))
+    (pin "1" (uuid 175d036c-8b77-4399-a935-9fbfeef8c439))
+    (pin "2" (uuid e55c6fde-472c-4477-93da-deeb275409b6))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -3030,8 +3030,8 @@
     (property "Sim.Enable" "0" (at 111.76 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 13c972d9-ab13-4427-9b1a-2d4bc2c3b270))
-    (pin "2" (uuid 961ace6b-e7f1-4b53-a453-a7077307cc2f))
+    (pin "1" (uuid 408e7766-7739-4ef1-80b6-5f479f7898d8))
+    (pin "2" (uuid 05d21b94-19c9-4a46-b90e-50df984a7ea5))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -3065,8 +3065,8 @@
     (property "Sim.Enable" "0" (at 226.06 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 05631528-8103-4a2a-9645-b04bd2eaa763))
-    (pin "2" (uuid c924a4e3-19c7-4147-a1af-f2a39a7a0941))
+    (pin "1" (uuid 55088d96-51e3-4593-babb-31629fb7b506))
+    (pin "2" (uuid 41f76168-0be7-4bf1-adf8-d71de2535462))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6f9f4425-d6b2-463f-b002-0f3b8b01ea6e"
@@ -3097,8 +3097,8 @@
     (property "Datasheet" "~" (at 97.79 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6a8ad505-19cd-4de5-bbf5-217646fd0485))
-    (pin "2" (uuid cbc010df-57b3-42d6-8395-be710659c44e))
+    (pin "1" (uuid 89065092-ae0c-42f6-9be0-f1a431c8a2c1))
+    (pin "2" (uuid 998beb32-264c-462f-9dbb-01b12f7a15d5))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -3132,8 +3132,8 @@
     (property "Sim.Enable" "0" (at 78.74 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 77333976-dbdc-4070-a6b5-4b8b2db16518))
-    (pin "2" (uuid b40af069-5491-4f49-816d-49225d58e4b4))
+    (pin "1" (uuid e6e60b91-68ba-46d9-83ac-dec0b0153eed))
+    (pin "2" (uuid 00bad692-05b2-41cd-8a5a-9474318b1028))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -3167,8 +3167,8 @@
     (property "Sim.Enable" "0" (at 217.17 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 36f33997-30ee-4f8b-b627-3d926edbd4cc))
-    (pin "2" (uuid 9c22d1bd-bc96-459b-8bfa-1b411cca650e))
+    (pin "1" (uuid 4dbf9cd1-60f0-4c60-ae16-c3cda5b7f873))
+    (pin "2" (uuid a7ab6c5e-1b8e-4c5f-8321-14ca51598fe4))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -3202,8 +3202,8 @@
     (property "Sim.Enable" "0" (at 157.48 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dc8d17f4-0aa5-4581-a72e-b9e1a333fa00))
-    (pin "2" (uuid b5f3dfeb-8084-477a-afb6-722a08e30964))
+    (pin "1" (uuid e12ca96c-d812-4443-a412-34a7978b53c9))
+    (pin "2" (uuid 46e149d1-7878-48d8-a2f1-3882ea780ee0))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -3237,8 +3237,8 @@
     (property "Sim.Enable" "0" (at 127 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2d55a06c-2c6c-4a0f-bf91-96d1411a4d34))
-    (pin "2" (uuid 444e095f-412a-46d1-b713-e5a7423aef93))
+    (pin "1" (uuid fc4afe3e-4305-4233-bb84-617b82338515))
+    (pin "2" (uuid 92c830fc-69d4-46c0-b7fe-24092cb0db61))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -3272,14 +3272,14 @@
     (property "Sim.Enable" "0" (at 229.87 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4a124ee2-ea2b-402a-a532-8aaec592b84b))
-    (pin "2" (uuid e0dc2a12-583a-4d91-929c-b84c76ae7d02))
-    (pin "3" (uuid b2eab104-0866-45a4-a865-3edc2f9c7d25))
-    (pin "4" (uuid 57ebfefc-b753-4eda-8b0b-59b3abdd282d))
-    (pin "5" (uuid 119c58b3-b5fc-40e3-b6c6-30893fc6fffb))
-    (pin "6" (uuid bb2722a4-2682-4fe6-a976-184d24b9cff3))
-    (pin "7" (uuid e5ae0163-db4e-4591-b09a-95f59eecb214))
-    (pin "8" (uuid d7600f97-3fe4-40a8-bd0b-0df3cfda66b3))
+    (pin "1" (uuid 64c6ab5c-d291-475b-adbf-593b7d1af2e9))
+    (pin "2" (uuid e12aa22e-a1ee-43ed-897f-1e0569d7cc09))
+    (pin "3" (uuid 8c74e92b-5cb5-42e3-bffc-5bab0a017bb3))
+    (pin "4" (uuid ac0f08ee-8436-4e90-85be-85132712ebfd))
+    (pin "5" (uuid ad59ece8-f23c-4851-87f8-f093778ad4be))
+    (pin "6" (uuid 3bf94c7a-fdd2-4046-a222-01870d525e95))
+    (pin "7" (uuid 0b25985f-9a6e-44a0-825b-171f17306997))
+    (pin "8" (uuid f2661ba0-0ca1-4218-b6e3-5ddb85ab7a82))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6f9f4425-d6b2-463f-b002-0f3b8b01ea6e"
@@ -3310,8 +3310,8 @@
     (property "Datasheet" "~" (at 116.84 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 500a2444-3a93-4de7-ba22-eb8864ca886a))
-    (pin "2" (uuid 584b249b-4399-425a-a77b-3041ee8c910c))
+    (pin "1" (uuid 419b080b-c039-4d8c-a3e9-25d56064421e))
+    (pin "2" (uuid 50f70018-6eac-491c-a414-22e4a4493ef4))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6f9f4425-d6b2-463f-b002-0f3b8b01ea6e"
@@ -3342,8 +3342,8 @@
     (property "Datasheet" "~" (at 113.03 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e8cc3cc2-c883-47aa-92d0-77083d927a63))
-    (pin "2" (uuid 0a853a6d-858d-49fb-ac77-6a770e331aad))
+    (pin "1" (uuid 2b0c8b16-de1c-4742-a1c0-4b1fedaa9bef))
+    (pin "2" (uuid 3e004dc5-b18a-4d6d-a68f-79697a9ecbf3))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6f9f4425-d6b2-463f-b002-0f3b8b01ea6e"
@@ -3377,8 +3377,8 @@
     (property "Sim.Enable" "0" (at 67.31 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 50592d33-a7ea-4170-94f5-29bf4a9ff10a))
-    (pin "2" (uuid ccbaa01e-67fa-42f9-ae0d-8a3b58c73901))
+    (pin "1" (uuid c6bc24a3-db4e-49ec-8bfd-06b9b7f88f40))
+    (pin "2" (uuid 3a6517a2-d2b1-414e-8ed3-0912afa48e69))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55fd7014-48ef-4cf3-914d-288b69fed1ef"
@@ -3406,8 +3406,8 @@
     (property "Sim.Enable" "0" (at 200.66 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c48e7a4a-4c66-4d52-9744-a9c2065a939c))
-    (pin "2" (uuid f9bca766-32d1-4f99-b739-ae68113cd55c))
+    (pin "1" (uuid 3d133681-224b-4567-bdb2-ff08284d9f2d))
+    (pin "2" (uuid 98a59fff-9def-46f2-8e2a-f8dc056390e8))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -3438,8 +3438,8 @@
     (property "Datasheet" "~" (at 140.97 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 02f2d972-aa1f-43f3-b14e-4cc9a8f801d1))
-    (pin "2" (uuid 0d2f8b2b-5b52-4b58-b970-6fb0b463204e))
+    (pin "1" (uuid 666899b5-0d30-47da-a606-c201b4659264))
+    (pin "2" (uuid feb0aeff-711e-4442-9028-2b26fb013a4d))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -3473,8 +3473,8 @@
     (property "Sim.Enable" "0" (at 226.06 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 613410d3-56bd-40fa-b517-020abe3b218c))
-    (pin "2" (uuid a4dce29a-30d9-4a4a-a4dd-bf27a2a8606a))
+    (pin "1" (uuid b6c1a076-3b6a-4462-9c98-faa327ac352f))
+    (pin "2" (uuid 3b416b09-2e52-46c1-871e-ccac6c5105e2))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6f9f4425-d6b2-463f-b002-0f3b8b01ea6e"
@@ -3505,8 +3505,8 @@
     (property "Datasheet" "~" (at 212.09 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ed3886a6-4bd0-4289-8dd7-67be1cc142bf))
-    (pin "2" (uuid 682d5416-5677-4388-b130-4b9dd39fe183))
+    (pin "1" (uuid 61c7c626-5880-4fb6-aab8-f1b53401cb0e))
+    (pin "2" (uuid 1b0e2f97-0ee8-45f1-a61a-5bd9471bcad4))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6f9f4425-d6b2-463f-b002-0f3b8b01ea6e"
@@ -3540,14 +3540,14 @@
     (property "Sim.Enable" "0" (at 229.87 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b3c6898a-55f4-4413-a9ba-32919568f857))
-    (pin "2" (uuid 4de04252-42d1-4481-999e-fbc5a3433348))
-    (pin "3" (uuid 358e38c2-5add-4235-a2b5-fd154be084da))
-    (pin "4" (uuid d92a2d51-19d2-4d68-9995-6266bf15744e))
-    (pin "5" (uuid f9806d0d-a268-495a-a883-641fa44e3c39))
-    (pin "6" (uuid ed4e83ea-4b52-4187-9155-9f4487576aca))
-    (pin "7" (uuid 430bffe2-8e74-45cc-8822-b5ef57ce85ba))
-    (pin "8" (uuid 2d96465c-7adb-4f9e-80ab-d239cf33d133))
+    (pin "1" (uuid 5a4123a9-5b3b-4311-9efa-026b2215ac69))
+    (pin "2" (uuid 11f340cd-4700-48ba-8857-b88b63d21068))
+    (pin "3" (uuid 3d2f5783-017a-4631-9951-1266f538d2d5))
+    (pin "4" (uuid e52f7f76-33ca-40ad-bc5c-6b4095421a8b))
+    (pin "5" (uuid c44f2224-b64c-458b-9027-4d5154312ad2))
+    (pin "6" (uuid ba5670d2-96e7-4c56-8c36-ec07ac29511c))
+    (pin "7" (uuid 2bc87447-06f8-4e6f-935c-0080bd4124e0))
+    (pin "8" (uuid 14fc16ef-3caf-47e8-9b16-12131e693906))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6f9f4425-d6b2-463f-b002-0f3b8b01ea6e"
@@ -3581,8 +3581,8 @@
     (property "Sim.Enable" "0" (at 160.02 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 54d7b904-602f-454b-abe3-81e38111b571))
-    (pin "2" (uuid 4e6b9773-7196-4a18-b99e-7c30282c8def))
+    (pin "1" (uuid 1c774d8c-1ad2-40ef-8be8-0eedb9349e64))
+    (pin "2" (uuid e797250e-3370-4c72-a918-05211d312fd9))
     (instances
       (project "krabi-actuator-board-v2"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6f9f4425-d6b2-463f-b002-0f3b8b01ea6e"
