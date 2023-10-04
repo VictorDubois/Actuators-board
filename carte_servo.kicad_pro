@@ -120,6 +120,7 @@
       },
       "track_widths": [
         0.0,
+        0.25,
         0.8
       ],
       "via_dimensions": [
@@ -383,8 +384,8 @@
           "12V_before_fuse",
           "5V",
           "BATT_12V",
-          "SERVO_12V_1",
-          "SERVO_12V_2",
+          "GND_SERVO_1",
+          "GND_SERVO_2",
           "SERVO_POWER_1",
           "SERVO_POWER_2",
           "TRANSISTOR_OUT_1",
