@@ -44,7 +44,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
+          "45_degree_only": true,
           "min_clearance": 0.508
         }
       },
@@ -85,7 +85,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
@@ -381,6 +381,14 @@
         "microvia_drill": 0.1,
         "name": "POWER",
         "nets": [
+          "/stepper_driver/OA1",
+          "/stepper_driver/OA2",
+          "/stepper_driver/OB1",
+          "/stepper_driver/OB2",
+          "/stepper_driver1/OA1",
+          "/stepper_driver1/OA2",
+          "/stepper_driver1/OB1",
+          "/stepper_driver1/OB2",
           "12V_before_fuse",
           "5V",
           "BATT_12V",
@@ -467,6 +475,18 @@
     [
       "8cf8b4bb-2251-4ebd-baba-4f57c988e66e",
       "transistors_outputs"
+    ],
+    [
+      "4bdf100d-7e35-4013-89a2-8f86fd135421",
+      "stepper_driver"
+    ],
+    [
+      "f86a3d70-fa31-4725-b330-81e2f5dad2cc",
+      "stepper_driver1"
+    ],
+    [
+      "66026453-9027-4575-bae8-7143b4848e55",
+      "AX12_con"
     ]
   ],
   "text_variables": {}
