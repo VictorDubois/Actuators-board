@@ -1,0 +1,8 @@
+*.lck
+krabi-actuator-board-v2-backups/
+*.log
+*.raw
+*.zip
+*.bak
+*auto_saved_files*
+!.gitignore
