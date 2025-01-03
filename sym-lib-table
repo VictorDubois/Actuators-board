@@ -1,3 +1,4 @@
 (sym_lib_table
+  (version 7)
   (lib (name "New_Library_Victor")(type "KiCad")(uri "${KIPRJMOD}/New_Library_Victor.kicad_sym")(options "")(descr ""))
 )
