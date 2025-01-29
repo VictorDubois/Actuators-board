@@ -1160,6 +1160,18 @@
 		)
 		(uuid "d5fe2d64-dad4-4a95-b620-d5133365e9e3")
 	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 90.17 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ecee47ed-f000-4729-bb02-508a16921af8")
+	)
 	(hierarchical_label "master_TX"
 		(shape input)
 		(at 71.12 110.49 180)
@@ -1171,6 +1183,18 @@
 			(justify right)
 		)
 		(uuid "f324dfa1-f7e2-4a84-aeb2-7ec0523a7902")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 90.17 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8ec1795-594a-498a-83a0-2604a5774a61")
 	)
 	(symbol
 		(lib_id "Device:C")
