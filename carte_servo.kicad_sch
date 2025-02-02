@@ -4138,6 +4138,12 @@
 		(uuid "b090de00-cca5-4566-ae1f-e731194eab01")
 	)
 	(junction
+		(at 220.98 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3433af0-c432-4466-81b7-32c5e68d06b9")
+	)
+	(junction
 		(at 491.49 0)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4172,6 +4178,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "def3fe2c-2388-4b0b-8e3f-6f2a4a6b5fce")
+	)
+	(junction
+		(at 229.87 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e93d80e6-14d7-4bb8-8ab1-fd7f1e4a0584")
 	)
 	(no_connect
 		(at 59.69 63.5)
@@ -4290,6 +4302,16 @@
 			(type default)
 		)
 		(uuid "0cd5d480-5788-4e94-b3f4-2898d91c905c")
+	)
+	(wire
+		(pts
+			(xy 220.98 33.02) (xy 220.98 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "105eef67-1e41-4235-9e62-98bf19460aaf")
 	)
 	(wire
 		(pts
@@ -4430,6 +4452,16 @@
 			(type default)
 		)
 		(uuid "2f8b778a-c765-4a06-af0b-655bf149bcd2")
+	)
+	(wire
+		(pts
+			(xy 220.98 38.1) (xy 226.06 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "301151e0-d122-47b7-ae5b-3cbae0944bd6")
 	)
 	(wire
 		(pts
@@ -4590,6 +4622,16 @@
 			(type default)
 		)
 		(uuid "43eb6b8f-4452-4c93-8874-ec858ec716dc")
+	)
+	(wire
+		(pts
+			(xy 171.45 34.29) (xy 179.07 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4508130f-6ab4-4bb2-b9ff-214b00e008b5")
 	)
 	(wire
 		(pts
@@ -4793,6 +4835,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 33.02) (xy 220.98 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ec8a2c4-baed-409c-a407-ab0b828f3174")
+	)
+	(wire
+		(pts
 			(xy 227.33 123.19) (xy 229.87 123.19)
 		)
 		(stroke
@@ -4800,6 +4852,16 @@
 			(type default)
 		)
 		(uuid "61bbea91-305f-4ab5-b11a-fa600680cc17")
+	)
+	(wire
+		(pts
+			(xy 171.45 40.64) (xy 179.07 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6450c265-e71c-46a4-a97f-b115b19aacde")
 	)
 	(wire
 		(pts
@@ -4920,6 +4982,16 @@
 			(type default)
 		)
 		(uuid "778f216b-e9e4-45c9-ae84-0be8c7dff66a")
+	)
+	(wire
+		(pts
+			(xy 257.81 46.99) (xy 257.81 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79c55dbd-57a7-4b00-ada9-54cb3596a8ea")
 	)
 	(wire
 		(pts
@@ -5183,6 +5255,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 53.34) (xy 229.87 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e59c6e-c02e-4ddb-9983-58d0db177a3e")
+	)
+	(wire
+		(pts
 			(xy 82.55 100.33) (xy 90.17 100.33)
 		)
 		(stroke
@@ -5240,6 +5322,16 @@
 			(type default)
 		)
 		(uuid "b2e9655d-dd92-45bf-80a0-b8be7249f7fc")
+	)
+	(wire
+		(pts
+			(xy 229.87 53.34) (xy 210.82 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b320feda-450d-4d2b-9bb8-7fddfc3090f9")
 	)
 	(wire
 		(pts
@@ -5463,6 +5555,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 39.37) (xy 220.98 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1662779-26f5-4836-adf3-b6e990e9e972")
+	)
+	(wire
+		(pts
 			(xy 125.73 180.34) (xy 127 180.34)
 		)
 		(stroke
@@ -5560,6 +5662,16 @@
 			(type default)
 		)
 		(uuid "dd1d903f-8b0f-481d-8ca0-8efb2b8afeae")
+	)
+	(wire
+		(pts
+			(xy 217.17 39.37) (xy 220.98 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de174b31-7dad-4a72-ae90-e4ffa352e84c")
 	)
 	(wire
 		(pts
@@ -5683,6 +5795,26 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 53.34) (xy 229.87 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0fcc43a-6151-4285-8c44-94492a60e29b")
+	)
+	(wire
+		(pts
+			(xy 236.22 62.23) (xy 229.87 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f118b06b-81d9-4c15-84ac-007a05a5d3ae")
+	)
+	(wire
+		(pts
 			(xy 615.95 36.83) (xy 618.49 36.83)
 		)
 		(stroke
@@ -5720,6 +5852,16 @@
 			(type default)
 		)
 		(uuid "f6fb0f99-c936-42c6-9b2e-8293d364804d")
+	)
+	(wire
+		(pts
+			(xy 210.82 50.8) (xy 210.82 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f950732d-783b-46c5-830d-8a3ae8d6b93e")
 	)
 	(wire
 		(pts
@@ -5875,6 +6017,28 @@
 			)
 		)
 	)
+	(global_label "GND_POWER"
+		(shape output)
+		(at 236.22 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0092d5dc-96e3-4ff8-80eb-f1e3345591c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.5142 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape bidirectional)
 		(at 53.34 161.29 0)
@@ -5959,6 +6123,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENABLE_SERVO_POWER_1"
+		(shape input)
+		(at 171.45 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "050bf260-b48d-4954-9b70-cff4e8b11104")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.8188 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7543,6 +7729,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BATT_12V"
+		(shape input)
+		(at 171.45 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8810aa8-5895-4e45-92ab-b62121584f37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 159.6958 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11339,6 +11547,36 @@
 				(justify left top)
 			)
 		)
+		(pin "SERVO_POWER_2" input
+			(at 226.06 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bcd7a9e5-affd-40a2-bfde-acdf20d4a93d")
+		)
+		(pin "GND_SERVO" input
+			(at 257.81 46.99 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "987b8c68-4808-4f26-9624-d4cd39d0fa37")
+		)
+		(pin "SERVO_POWER_1" input
+			(at 226.06 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3ac57847-c5bb-4e7c-9a12-8195994aa0f5")
+		)
 		(instances
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -11582,7 +11820,7 @@
 		)
 	)
 	(sheet
-		(at 144.78 33.02)
+		(at 93.98 29.21)
 		(size 44.45 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -11594,7 +11832,7 @@
 		)
 		(uuid "8cf8b4bb-2251-4ebd-baba-4f57c988e66e")
 		(property "Sheetname" "transistors_outputs"
-			(at 144.78 32.3084 0)
+			(at 93.98 28.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11603,7 +11841,7 @@
 			)
 		)
 		(property "Sheetfile" "transistors.kicad_sch"
-			(at 144.78 59.0046 0)
+			(at 93.98 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11615,6 +11853,84 @@
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 24.13)
+		(size 38.1 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b1050287-31e3-44fe-9bba-b0376ddc40c3")
+		(property "Sheetname" "ServoDCDC"
+			(at 179.07 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "servo_DCDC.kicad_sch"
+			(at 179.07 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 210.82 50.8 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e50d386d-be34-4611-bbb3-69e2d4213a64")
+		)
+		(pin "VOUT" input
+			(at 217.17 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3e3bc509-d25e-4612-bd29-58c2eb903de2")
+		)
+		(pin "Enable" input
+			(at 179.07 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f66d790d-dca2-4e71-a56e-2e35fa5373b2")
+		)
+		(pin "VIN" input
+			(at 179.07 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1b70f144-e2c5-4294-91ef-03b9a07fd026")
+		)
+		(instances
+			(project "carte_servo"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "8")
 				)
 			)
 		)

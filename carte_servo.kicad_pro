@@ -693,6 +693,10 @@
     [
       "2367e876-3b6b-44d8-a508-6ac65d22a61e",
       "diodes"
+    ],
+    [
+      "b1050287-31e3-44fe-9bba-b0376ddc40c3",
+      "ServoDCDC"
     ]
   ],
   "text_variables": {}
