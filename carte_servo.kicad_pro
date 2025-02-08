@@ -696,6 +696,10 @@
     [
       "b1050287-31e3-44fe-9bba-b0376ddc40c3",
       "ServoDCDC"
+    ],
+    [
+      "aa21c943-be8f-4f59-86c0-b8fbf57c2a51",
+      "DCDC_5V"
     ]
   ],
   "text_variables": {}

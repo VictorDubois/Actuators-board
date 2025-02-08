@@ -4202,6 +4202,10 @@
 		(uuid "60853576-f8c5-4fd8-9c34-65cd023563f2")
 	)
 	(no_connect
+		(at 312.42 101.6)
+		(uuid "8969da44-7001-43b1-9b8d-b248916610bc")
+	)
+	(no_connect
 		(at 38.1 63.5)
 		(uuid "92316fa9-17e8-4407-bf08-94ea9052a912")
 	)
@@ -5275,6 +5279,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 109.22) (xy 344.17 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f00b86-9fa3-478e-9323-82f071a91b7b")
+	)
+	(wire
+		(pts
 			(xy 111.76 86.36) (xy 111.76 95.25)
 		)
 		(stroke
@@ -5845,6 +5859,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 97.79) (xy 353.06 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6c3a607-d6f5-4725-9bdb-b39027e52ef4")
+	)
+	(wire
+		(pts
 			(xy 93.98 113.03) (xy 87.63 113.03)
 		)
 		(stroke
@@ -5852,6 +5876,16 @@
 			(type default)
 		)
 		(uuid "f6fb0f99-c936-42c6-9b2e-8293d364804d")
+	)
+	(wire
+		(pts
+			(xy 308.61 95.25) (xy 312.42 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f83a3f7c-6f0d-487c-8053-ddbce6465f48")
 	)
 	(wire
 		(pts
@@ -6028,6 +6062,28 @@
 		(uuid "0092d5dc-96e3-4ff8-80eb-f1e3345591c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 250.5142 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape output)
+		(at 356.87 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "014471c5-ff12-4d11-be07-a7527c5ce7cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 362.1533 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8327,6 +8383,28 @@
 	)
 	(global_label "GND"
 		(shape input)
+		(at 344.17 109.22 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e66b4430-45de-45d3-b2d0-da4b79f60df1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 344.17 116.0757 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
 		(at 115.57 121.92 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8343,6 +8421,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BATT_12V"
+		(shape input)
+		(at 308.61 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e79e260a-cc2c-4498-9bdf-afa378c4963c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 296.8558 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11851,6 +11951,84 @@
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 312.42 90.17)
+		(size 40.64 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aa21c943-be8f-4f59-86c0-b8fbf57c2a51")
+		(property "Sheetname" "DCDC_5V"
+			(at 312.42 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DCDC_5V.kicad_sch"
+			(at 312.42 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vin" input
+			(at 312.42 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ce788c84-afdc-4d0a-adeb-8afee22a1612")
+		)
+		(pin "GND" input
+			(at 344.17 107.95 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2214b6f8-f587-4f57-9ffc-52127554b85a")
+		)
+		(pin "enable" input
+			(at 312.42 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "83ad73f1-f95b-45c6-8a4f-6c2f9447125f")
+		)
+		(pin "Vout_5V" output
+			(at 353.06 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9459614a-5300-41bd-a405-25be235d8f10")
+		)
+		(instances
+			(project "carte_servo"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "9")
 				)
 			)
 		)
