@@ -973,7 +973,6 @@
 	)
 	(label "AX12_DATA"
 		(at 115.57 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -984,7 +983,6 @@
 	)
 	(label "AX12_DATA"
 		(at 123.19 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -995,7 +993,6 @@
 	)
 	(label "AX12_DATA"
 		(at 153.67 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1007,7 +1004,6 @@
 	(hierarchical_label "5V"
 		(shape input)
 		(at 113.03 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1019,7 +1015,6 @@
 	(hierarchical_label "5V"
 		(shape input)
 		(at 77.47 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1031,7 +1026,6 @@
 	(hierarchical_label "12V"
 		(shape input)
 		(at 153.67 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1043,7 +1037,6 @@
 	(hierarchical_label "5V"
 		(shape input)
 		(at 92.71 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1055,7 +1048,6 @@
 	(hierarchical_label "5V"
 		(shape input)
 		(at 120.65 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1067,7 +1059,6 @@
 	(hierarchical_label "12V"
 		(shape input)
 		(at 115.57 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1079,7 +1070,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 92.71 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1091,7 +1081,6 @@
 	(hierarchical_label "master_RX"
 		(shape output)
 		(at 71.12 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1103,7 +1092,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 115.57 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1115,7 +1103,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 102.87 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1127,7 +1114,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 153.67 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1139,7 +1125,6 @@
 	(hierarchical_label "TX_en"
 		(shape input)
 		(at 78.74 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1151,7 +1136,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 113.03 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1163,7 +1147,6 @@
 	(hierarchical_label "5V"
 		(shape input)
 		(at 90.17 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1175,7 +1158,6 @@
 	(hierarchical_label "master_TX"
 		(shape input)
 		(at 71.12 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1187,7 +1169,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 90.17 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

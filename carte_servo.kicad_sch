@@ -5975,7 +5975,6 @@
 	)
 	(label "Pressure_2"
 		(at 83.82 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5986,7 +5985,6 @@
 	)
 	(label "Pressure_1"
 		(at 82.55 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11557,16 +11555,6 @@
 			)
 			(uuid "bcd7a9e5-affd-40a2-bfde-acdf20d4a93d")
 		)
-		(pin "GND_SERVO" input
-			(at 257.81 46.99 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "987b8c68-4808-4f26-9624-d4cd39d0fa37")
-		)
 		(pin "SERVO_POWER_1" input
 			(at 226.06 38.1 180)
 			(effects
@@ -11576,6 +11564,16 @@
 				(justify left)
 			)
 			(uuid "3ac57847-c5bb-4e7c-9a12-8195994aa0f5")
+		)
+		(pin "GND" input
+			(at 257.81 46.99 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6faa3606-607e-4007-a6c1-356753a9a8a1")
 		)
 		(instances
 			(project "carte_servo"
