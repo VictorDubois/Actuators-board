@@ -4180,6 +4180,12 @@
 		(uuid "def3fe2c-2388-4b0b-8e3f-6f2a4a6b5fce")
 	)
 	(junction
+		(at 613.41 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3bfc876-cc75-4751-acb7-a2f4153f2c71")
+	)
+	(junction
 		(at 229.87 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4609,6 +4615,16 @@
 	)
 	(wire
 		(pts
+			(xy 593.09 41.91) (xy 598.17 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4383ca9d-e5b0-4e2a-804f-7f473e19c8b2")
+	)
+	(wire
+		(pts
 			(xy 109.22 153.67) (xy 111.76 153.67)
 		)
 		(stroke
@@ -4646,16 +4662,6 @@
 			(type default)
 		)
 		(uuid "4695fc71-ad15-4add-b326-fd25506e3b8c")
-	)
-	(wire
-		(pts
-			(xy 593.09 36.83) (xy 598.17 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "498d1b35-c27f-47ff-8ee6-7b0d858899f0")
 	)
 	(wire
 		(pts
@@ -4749,6 +4755,16 @@
 	)
 	(wire
 		(pts
+			(xy 593.09 36.83) (xy 598.17 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5651d8a4-70aa-4e5d-9e7e-40a3f63b4114")
+	)
+	(wire
+		(pts
 			(xy 391.16 82.55) (xy 396.24 82.55)
 		)
 		(stroke
@@ -4766,6 +4782,16 @@
 			(type default)
 		)
 		(uuid "5836392a-4dd4-4c8d-ba8a-0d6162f94b21")
+	)
+	(wire
+		(pts
+			(xy 613.41 54.61) (xy 613.41 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "586c688a-0dc4-44f1-a462-a58b40adf4c2")
 	)
 	(wire
 		(pts
@@ -4966,6 +4992,16 @@
 			(type default)
 		)
 		(uuid "74658c6f-a2db-4a83-8bb0-1df56a97102f")
+	)
+	(wire
+		(pts
+			(xy 607.06 54.61) (xy 613.41 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77289e44-8b5f-4bb1-b0b8-009b34ac53a4")
 	)
 	(wire
 		(pts
@@ -5286,6 +5322,16 @@
 			(type default)
 		)
 		(uuid "a6f00b86-9fa3-478e-9323-82f071a91b7b")
+	)
+	(wire
+		(pts
+			(xy 613.41 54.61) (xy 619.76 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abd593a0-0a75-4cdb-b611-617a80ff1a29")
 	)
 	(wire
 		(pts
@@ -5766,16 +5812,6 @@
 			(type default)
 		)
 		(uuid "ea1613d8-4ae6-4e2b-9a02-3371c85b9eb1")
-	)
-	(wire
-		(pts
-			(xy 593.09 41.91) (xy 598.17 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb1dea05-3d42-4756-904a-178306584afd")
 	)
 	(wire
 		(pts
@@ -6687,6 +6723,28 @@
 			)
 		)
 	)
+	(global_label "D-"
+		(shape bidirectional)
+		(at 619.76 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d738223-01db-46e5-9f22-b849d45a0ae4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 625.5876 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ENABLE_SERVO_POWER_1"
 		(shape input)
 		(at 269.24 104.14 0)
@@ -7413,6 +7471,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 613.41 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f02c8cd-cfa3-44c3-95ac-975af3ce1b10")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 620.2657 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND_POWER"
 		(shape input)
 		(at 227.33 130.81 180)
@@ -8086,6 +8166,28 @@
 		(uuid "d0927da8-de46-4a02-aea2-2f784d3fcf93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 512.3155 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D+"
+		(shape bidirectional)
+		(at 607.06 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d20ea096-a98e-419d-9035-8e0043dc0fdb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 612.8876 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9404,6 +9506,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener")
+		(at 607.06 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44b6cef1-b565-460d-beb1-af226ed1ddbf")
+		(property "Reference" "D2"
+			(at 609.6 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD321"
+			(at 609.6 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 607.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/ProductDetail/Texas-Instruments/ESD321DYAR?qs=rQFj71Wb1eXoYwRMra0IYA%3D%3D"
+			(at 607.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 607.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ee0ab3c4-6b54-4307-ac75-da9f0c6dfc60")
+		)
+		(pin "1"
+			(uuid "a3b573be-1dc8-4186-aff6-edf754f5bac1")
+		)
+		(instances
+			(project "carte_servo"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Male")
 		(at 39.37 158.75 0)
 		(unit 1)
@@ -9740,6 +9912,76 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 619.76 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a540081-aeb7-4243-852f-08fc8354fbaa")
+		(property "Reference" "D3"
+			(at 622.3 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD321"
+			(at 622.3 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 619.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/ProductDetail/Texas-Instruments/ESD321DYAR?qs=rQFj71Wb1eXoYwRMra0IYA%3D%3D"
+			(at 619.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 619.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e048f32-9825-4b94-bba3-638fb02b849c")
+		)
+		(pin "1"
+			(uuid "820cdb72-baa7-4f19-85a6-0fb25dd95be9")
+		)
+		(instances
+			(project "carte_servo"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D3")
 					(unit 1)
 				)
 			)
