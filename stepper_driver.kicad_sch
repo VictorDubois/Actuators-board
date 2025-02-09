@@ -239,6 +239,164 @@
 				)
 			)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -843,6 +1001,12 @@
 		)
 	)
 	(junction
+		(at 157.48 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37328563-d0e7-4a78-b744-2c8c71eba819")
+	)
+	(junction
 		(at 81.28 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -893,6 +1057,16 @@
 			(type default)
 		)
 		(uuid "302b9189-e595-4fe0-9f00-14ce278f39ef")
+	)
+	(wire
+		(pts
+			(xy 157.48 62.23) (xy 167.64 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "332e9a34-53f6-4035-9fea-f496785025fc")
 	)
 	(wire
 		(pts
@@ -1056,7 +1230,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 62.23) (xy 140.97 62.23)
+			(xy 128.27 62.23) (xy 157.48 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1113,6 +1287,17 @@
 			(justify left bottom)
 		)
 		(uuid "ba975550-62f8-4447-b89d-a7610fa07ee7")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 157.48 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "58c437f6-3cbe-49b8-b558-e333235f22a4")
 	)
 	(hierarchical_label "Enable"
 		(shape input)
@@ -1182,7 +1367,7 @@
 	)
 	(hierarchical_label "VMotors"
 		(shape input)
-		(at 140.97 62.23 0)
+		(at 167.64 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1201,6 +1386,80 @@
 			(justify left)
 		)
 		(uuid "faa3dbd0-d430-4b51-a1a8-a1116fa27410")
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 157.48 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02ef8cc7-07ea-4c3a-8411-384360cf1ba4")
+		(property "Reference" "C26"
+			(at 161.29 63.8809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 161.29 66.4209 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 158.4452 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6885931c-3dea-43a8-a74a-630ff7c05eed")
+		)
+		(pin "2"
+			(uuid "107d8184-13ff-4cb7-b8a3-0ae45df21086")
+		)
+		(instances
+			(project "carte_servo"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4bdf100d-7e35-4013-89a2-8f86fd135421"
+					(reference "C26")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f86a3d70-fa31-4725-b330-81e2f5dad2cc"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")

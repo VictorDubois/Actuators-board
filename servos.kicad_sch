@@ -1888,7 +1888,7 @@
 			)
 		)
 	)
-	(global_label "ENABLE_SERVO_POWER_2"
+	(global_label "ENABLE_SERVO_POWER_1"
 		(shape input)
 		(at 69.85 176.53 180)
 		(fields_autoplaced yes)
@@ -1900,7 +1900,7 @@
 		)
 		(uuid "269589a1-ca92-4085-b296-97c227575426")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.7907 176.4506 0)
+			(at 43.2188 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
