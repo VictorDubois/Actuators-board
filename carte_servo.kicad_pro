@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
+          "45_degree_only": true,
           "min_clearance": 0.0
         }
       },
@@ -185,10 +185,8 @@
       ],
       "track_widths": [
         0.0,
-        0.4,
-        0.5,
-        0.8,
-        2.0
+        0.3,
+        0.8
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -508,15 +506,11 @@
       },
       {
         "netclass": "POWER",
+        "pattern": "5V"
+      },
+      {
+        "netclass": "POWER",
         "pattern": "BATT_12V"
-      },
-      {
-        "netclass": "POWER",
-        "pattern": "SERVO_12V_1"
-      },
-      {
-        "netclass": "POWER",
-        "pattern": "SERVO_12V_2"
       },
       {
         "netclass": "POWER",
@@ -541,6 +535,10 @@
       {
         "netclass": "POWER",
         "pattern": "TRANSISTOR_OUT_4"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "sense_12V"
       }
     ]
   },
@@ -670,7 +668,7 @@
   "sheets": [
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      "Root"
+      "Racine"
     ],
     [
       "0c74f7ab-c5ff-45ed-b8c2-3c7ab63bdd9d",
