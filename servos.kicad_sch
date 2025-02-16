@@ -1356,16 +1356,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 72.39) (xy 156.21 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21bea573-7b99-450a-8db7-9f556434cbb1")
-	)
-	(wire
-		(pts
 			(xy 99.06 171.45) (xy 96.52 171.45)
 		)
 		(stroke
@@ -1443,16 +1433,6 @@
 			(type default)
 		)
 		(uuid "4b175c48-071c-4242-b670-ccf4b9d03a6d")
-	)
-	(wire
-		(pts
-			(xy 129.54 72.39) (xy 135.89 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b9f31b8-7c30-45f6-b816-2d0d91a2c93c")
 	)
 	(wire
 		(pts
@@ -1736,16 +1716,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 72.39) (xy 146.05 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5a2a24f-a34b-4d1d-9a79-0d1e1fb14ea3")
-	)
-	(wire
-		(pts
 			(xy 101.6 171.45) (xy 116.84 171.45)
 		)
 		(stroke
@@ -1837,6 +1807,17 @@
 		(uuid "764442bc-4400-4d46-91aa-63dd0c09dc93")
 	)
 	(label "GND_SERVO_2"
+		(at 130.81 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ac5cf2a-bb37-4e85-ad06-8f26b938875c")
+	)
+	(label "GND_SERVO_2"
 		(at 227.33 148.59 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1860,28 +1841,6 @@
 		(uuid "112c2851-489f-4ec3-b042-a6dc8322ecd1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 191.2921 135.8106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 129.54 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1ef5b32e-dc15-4791-a39d-2fccd9d3dbcc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.2564 72.3106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1970,28 +1929,6 @@
 		(uuid "634f14a5-9a71-4081-8282-515c1f801ac0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 191.2921 109.1406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 129.54 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "81d8d7cb-1cbf-4261-84b8-67300f5a4017")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.2564 81.2006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2100,18 +2037,6 @@
 			(justify left)
 		)
 		(uuid "5dd11fbe-6c01-450d-90d5-05cc23c29ba5")
-	)
-	(hierarchical_label "SERVO_POWER_1"
-		(shape input)
-		(at 156.21 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bc22b11b-6b39-4449-8275-15bb9f772ea1")
 	)
 	(hierarchical_label "SERVO_POWER_2"
 		(shape input)
@@ -2355,74 +2280,6 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c74f7ab-c5ff-45ed-b8c2-3c7ab63bdd9d"
 					(reference "J19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 138.43 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21fd46ed-ea80-4a52-b75b-46295dbc17b9")
-		(property "Reference" "D28"
-			(at 138.4935 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_Small"
-			(at 138.4935 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 138.43 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc2eb1a9-f95f-473f-bed7-ae574bf67d2f")
-		)
-		(pin "2"
-			(uuid "8382964f-6d41-4131-ae24-10d9e90368a7")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c74f7ab-c5ff-45ed-b8c2-3c7ab63bdd9d"
-					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -3124,74 +2981,6 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c74f7ab-c5ff-45ed-b8c2-3c7ab63bdd9d"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 148.59 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "edff4d09-4e30-400a-8f38-68495126a4ec")
-		(property "Reference" "R4"
-			(at 148.59 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220R"
-			(at 148.59 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 148.59 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f54ec276-ee98-4303-8f86-84147684767e")
-		)
-		(pin "2"
-			(uuid "d6b6caed-7465-4183-b841-a174fd9e17b5")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c74f7ab-c5ff-45ed-b8c2-3c7ab63bdd9d"
-					(reference "R4")
 					(unit 1)
 				)
 			)
