@@ -1789,6 +1789,12 @@
 		(uuid "a46bffa2-67e8-43d7-a7e8-9240b40d904b")
 	)
 	(junction
+		(at 226.06 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8511c8b-61bb-4066-b601-d8e7e58e8d2e")
+	)
+	(junction
 		(at 121.92 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1817,6 +1823,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d736bd37-b311-44a4-96f4-f66e0da1afb7")
+	)
+	(junction
+		(at 214.63 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f555d217-6a72-46ac-beb1-266e99b49307")
 	)
 	(junction
 		(at 161.29 93.98)
@@ -1966,7 +1978,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 82.55) (xy 227.33 82.55)
+			(xy 214.63 82.55) (xy 226.06 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2146,6 +2158,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 93.98) (xy 214.63 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ca98189-ee15-41b8-a371-64017583c826")
+	)
+	(wire
+		(pts
 			(xy 196.85 90.17) (xy 196.85 93.98)
 		)
 		(stroke
@@ -2236,6 +2258,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 90.17) (xy 226.06 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c811b5ff-cdc9-401c-9f36-657cbd2af1d6")
+	)
+	(wire
+		(pts
 			(xy 173.99 93.98) (xy 161.29 93.98)
 		)
 		(stroke
@@ -2293,6 +2325,16 @@
 			(type default)
 		)
 		(uuid "dc4adceb-97b5-45ff-a63f-74c908553a5e")
+	)
+	(wire
+		(pts
+			(xy 226.06 82.55) (xy 227.33 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b9f892-398f-41fe-b005-7188fde7a815")
 	)
 	(wire
 		(pts
@@ -3506,6 +3548,76 @@
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b1050287-31e3-44fe-9bba-b0376ddc40c3"
 					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 226.06 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7114313-983f-49b8-afba-69c05fe4b820")
+		(property "Reference" "C30"
+			(at 229.87 84.2009 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 229.87 86.7409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 227.0252 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 226.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0ccf2bc-3413-4ffb-8878-d68fa1b0f907")
+		)
+		(pin "1"
+			(uuid "822dc709-8cf5-4545-8098-c2134ae47c0f")
+		)
+		(instances
+			(project "carte_servo"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b1050287-31e3-44fe-9bba-b0376ddc40c3"
+					(reference "C30")
 					(unit 1)
 				)
 			)

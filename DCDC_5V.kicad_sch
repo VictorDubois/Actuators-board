@@ -1285,7 +1285,7 @@
 		)
 		(uuid "8f69b591-c600-4740-8aee-d76a6f699766")
 	)
-	(hierarchical_label "Vin"
+	(hierarchical_label "Vin_for_DCDC_logic"
 		(shape input)
 		(at 85.09 74.93 180)
 		(fields_autoplaced yes)
@@ -1309,7 +1309,7 @@
 		)
 		(uuid "b7c65780-28f1-4873-9597-75f7494a494b")
 	)
-	(hierarchical_label "enable"
+	(hierarchical_label "Enable_for_DCDC_logic"
 		(shape input)
 		(at 97.79 88.9 180)
 		(fields_autoplaced yes)
