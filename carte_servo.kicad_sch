@@ -10875,7 +10875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/USB-Connectors_G-Switch-GT-USB-7047A_C963216.html"
 			(at 581.66 39.37 0)
 			(effects
 				(font
@@ -11480,7 +11480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Tactile-Switches_BZCN-TSA007A1518B03_C2888419.html"
 			(at 471.17 -16.51 0)
 			(effects
 				(font
