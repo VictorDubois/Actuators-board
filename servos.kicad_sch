@@ -5,7 +5,7 @@
 	(uuid "5db6ceb3-b2b0-4358-8808-39aa5f878e0b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x03_Male"
+		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -19,7 +19,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x03_Male"
+			(property "Value" "Conn_01x03_Pin"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -45,13 +45,21 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x03, script generated"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "connector"
@@ -72,7 +80,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_Male_1_1"
+			(symbol "Conn_01x03_Pin_1_1"
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 0.8636 -2.54)
@@ -240,6 +248,24 @@
 				)
 			)
 			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2120,7 +2146,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 116.84 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 116.84 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 116.84 176.53 0)
 			(effects
 				(font
@@ -2145,7 +2189,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Male")
+		(lib_id "Connector:Conn_01x03_Pin")
 		(at 210.82 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2188,7 +2232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated"
 			(at 210.82 74.93 0)
 			(effects
 				(font
@@ -2216,7 +2260,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Male")
+		(lib_id "Connector:Conn_01x03_Pin")
 		(at 210.82 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2258,7 +2302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated"
 			(at 210.82 104.14 0)
 			(effects
 				(font
@@ -2354,7 +2398,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Male")
+		(lib_id "Connector:Conn_01x03_Pin")
 		(at 210.82 52.07 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2397,7 +2441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated"
 			(at 210.82 52.07 0)
 			(effects
 				(font
@@ -2470,7 +2514,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 215.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 215.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 215.9 152.4 0)
 			(effects
 				(font
@@ -2495,7 +2557,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Male")
+		(lib_id "Connector:Conn_01x03_Pin")
 		(at 210.82 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2538,7 +2600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated"
 			(at 210.82 63.5 0)
 			(effects
 				(font
@@ -2611,7 +2673,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 220.98 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 220.98 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 220.98 52.07 0)
 			(effects
 				(font
@@ -2704,7 +2784,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Male")
+		(lib_id "Connector:Conn_01x03_Pin")
 		(at 210.82 142.24 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2747,7 +2827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated"
 			(at 210.82 142.24 0)
 			(effects
 				(font
@@ -2775,7 +2855,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Male")
+		(lib_id "Connector:Conn_01x03_Pin")
 		(at 210.82 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2818,7 +2898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated"
 			(at 210.82 88.9 0)
 			(effects
 				(font
@@ -2846,7 +2926,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Male")
+		(lib_id "Connector:Conn_01x03_Pin")
 		(at 210.82 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2889,7 +2969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated"
 			(at 210.82 130.81 0)
 			(effects
 				(font
@@ -2917,7 +2997,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Male")
+		(lib_id "Connector:Conn_01x03_Pin")
 		(at 210.82 119.38 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2959,7 +3039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated"
 			(at 210.82 119.38 0)
 			(effects
 				(font

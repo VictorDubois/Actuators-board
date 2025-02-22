@@ -5,15 +5,12 @@
 	(uuid "88f8bc0c-106c-494d-938a-c7bd5e684836")
 	(paper "A4")
 	(lib_symbols
-		(symbol "74xGxx:74LVC2G241"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "74LVC2G241_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -2.54 3.81 0)
+				(at 2.54 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21,7 +18,7 @@
 				)
 			)
 			(property "Value" "74LVC2G241"
-				(at 0 -3.81 0)
+				(at 2.54 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -38,7 +35,7 @@
 				)
 			)
 			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -73,170 +70,448 @@
 					(hide yes)
 				)
 			)
-			(symbol "74LVC2G241_0_1"
+			(symbol "74LVC2G241_1_1_1"
 				(polyline
 					(pts
-						(xy -3.81 2.54) (xy -3.81 -2.54) (xy 2.54 0) (xy -3.81 2.54)
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
 					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(pin power_in line
-					(at 1.27 -1.27 270)
-					(length 0) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 1.27 1.27 90)
-					(length 0) hide
-					(name "VCC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LVC2G241_1_1"
 				(pin input inverted
-					(at 0 5.08 270)
-					(length 3.81)
+					(at 0 7.62 270)
+					(length 5.08)
 					(name "~"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
+					(at -12.7 0 0)
+					(length 5.08)
 					(name "~"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin tri_state line
-					(at 6.35 0 180)
-					(length 3.81)
+					(at 10.16 0 180)
+					(length 5.08)
 					(name "~"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 			)
-			(symbol "74LVC2G241_2_1"
+			(symbol "74LVC2G241_1_2_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin tri_state line
-					(at 6.35 0 180)
-					(length 3.81)
+					(at 10.16 0 180)
+					(length 5.08)
 					(name "~"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
+					(at -12.7 0 0)
+					(length 5.08)
 					(name "~"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at 0 5.08 270)
-					(length 3.81)
+					(at 0 7.62 270)
+					(length 5.08)
 					(name "~"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "7"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LVC2G241_1_3_0"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74LVC2G241_1_3_1"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x03_Male"
+		(symbol "74xGxx:74LVC2G241"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LVC2G241"
+				(at 2.54 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Buffer Tri-State, Low-Voltage CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Dual Buff Tri-State LVC CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "VSSOP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74LVC2G241_1_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input inverted
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LVC2G241_2_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LVC2G241_3_0"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74LVC2G241_3_1"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -250,7 +525,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x03_Male"
+			(property "Value" "Conn_01x03_Pin"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -276,13 +551,21 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x03, script generated"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "connector"
@@ -303,7 +586,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_Male_1_1"
+			(symbol "Conn_01x03_Pin_1_1"
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 0.8636 -2.54)
@@ -688,19 +971,25 @@
 		)
 	)
 	(junction
-		(at 80.01 95.25)
+		(at 78.74 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "007ff675-2d0a-4303-ab5c-0c83ab6f6f74")
 	)
 	(junction
-		(at 120.65 102.87)
+		(at 115.57 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1340ad0f-b62d-4a60-805f-662f233ea9ae")
+		(uuid "0d9529be-4aa8-4cd1-b958-4c1e758e6379")
 	)
 	(junction
-		(at 116.84 102.87)
+		(at 138.43 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fa15eb1-af63-4764-8b47-b8be7dbf664e")
+	)
+	(junction
+		(at 107.95 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38987bfa-14a3-41f9-be15-6327ab6dae68")
@@ -713,7 +1002,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 86.36) (xy 80.01 86.36)
+			(xy 76.2 74.93) (xy 78.74 74.93)
 		)
 		(stroke
 			(width 0)
@@ -723,7 +1012,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 91.44) (xy 120.65 95.25)
+			(xy 115.57 93.98) (xy 115.57 95.25)
 		)
 		(stroke
 			(width 0)
@@ -733,13 +1022,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 102.87) (xy 123.19 102.87)
+			(xy 128.27 133.35) (xy 149.86 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "199092e9-c865-4751-93c4-fcb084b32228")
+		(uuid "1ff2a504-4ede-4111-8048-ac7c39905291")
 	)
 	(wire
 		(pts
@@ -763,7 +1052,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 102.87) (xy 120.65 102.87)
+			(xy 115.57 102.87) (xy 124.46 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45212a6e-3957-4539-8c0a-d0f3246154bb")
+	)
+	(wire
+		(pts
+			(xy 107.95 102.87) (xy 115.57 102.87)
 		)
 		(stroke
 			(width 0)
@@ -773,17 +1072,17 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 105.41) (xy 91.44 102.87)
+			(xy 149.86 118.11) (xy 138.43 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f11a0ac-5399-4625-8a52-b745f1949fb4")
+		(uuid "5a9b9357-5bad-479e-9a30-66dc348ff394")
 	)
 	(wire
 		(pts
-			(xy 80.01 95.25) (xy 85.09 95.25)
+			(xy 78.74 83.82) (xy 85.09 83.82)
 		)
 		(stroke
 			(width 0)
@@ -803,7 +1102,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 86.36) (xy 80.01 87.63)
+			(xy 78.74 74.93) (xy 78.74 76.2)
 		)
 		(stroke
 			(width 0)
@@ -823,7 +1122,27 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 110.49) (xy 83.82 110.49)
+			(xy 114.3 93.98) (xy 114.3 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8467df9d-f433-4043-95e8-820a33bea57c")
+	)
+	(wire
+		(pts
+			(xy 114.3 93.98) (xy 115.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c3f744-41b2-47e1-9e19-aef203cdaa9f")
+	)
+	(wire
+		(pts
+			(xy 62.23 123.19) (xy 74.93 123.19)
 		)
 		(stroke
 			(width 0)
@@ -833,37 +1152,37 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 106.68) (xy 92.71 109.22)
+			(xy 138.43 118.11) (xy 138.43 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90a0b764-04b3-4c0f-a123-c00842ea7062")
+		(uuid "8f0ef931-d98d-42bf-a0a2-ccafe65650dd")
 	)
 	(wire
 		(pts
-			(xy 113.03 114.3) (xy 113.03 116.84)
+			(xy 95.25 102.87) (xy 91.44 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97ab02af-3cb6-4ad1-a4c4-9297304e1e66")
+		(uuid "90207e3b-3d98-4fe4-8618-cd4736dd40ed")
 	)
 	(wire
 		(pts
-			(xy 91.44 102.87) (xy 91.44 100.33)
+			(xy 87.63 115.57) (xy 91.44 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a3329d2-d03b-4036-b4f4-d74860fc641b")
+		(uuid "978c57e6-36ae-433b-a2d0-da37c5b07615")
 	)
 	(wire
 		(pts
-			(xy 71.12 95.25) (xy 80.01 95.25)
+			(xy 69.85 83.82) (xy 78.74 83.82)
 		)
 		(stroke
 			(width 0)
@@ -873,43 +1192,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 102.87) (xy 116.84 95.25)
+			(xy 95.25 91.44) (xy 95.25 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9bcf67eb-d771-4448-95f1-33432dc0efc1")
+		(uuid "9c1b827f-1bd4-4bf7-b6f7-7aebf96d959f")
 	)
 	(wire
 		(pts
-			(xy 92.71 123.19) (xy 92.71 111.76)
+			(xy 97.79 110.49) (xy 97.79 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9be85e0b-5d34-4aa8-8b1b-f8d193027b95")
-	)
-	(wire
-		(pts
-			(xy 116.84 95.25) (xy 99.06 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8a0aeae-a56d-4fc6-b63f-3b2f057ba97c")
-	)
-	(wire
-		(pts
-			(xy 113.03 127) (xy 113.03 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab4b9cb0-3fd3-41e2-b04c-dcf7a5f64bd7")
+		(uuid "afd00bc8-6e00-4c1e-a332-0b5bb9fe30d8")
 	)
 	(wire
 		(pts
@@ -933,13 +1232,53 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 110.49) (xy 116.84 110.49)
+			(xy 97.79 110.49) (xy 107.95 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d278c961-4606-40ce-99e9-71dbbe36135e")
+	)
+	(wire
+		(pts
+			(xy 107.95 83.82) (xy 107.95 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d33b3dfe-7ffe-48f2-afeb-812b42c0ce5f")
+	)
+	(wire
+		(pts
+			(xy 91.44 102.87) (xy 91.44 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ef20a6-f86b-4834-9c87-5edde5c1a9c7")
+	)
+	(wire
+		(pts
+			(xy 138.43 113.03) (xy 142.24 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5e0aa38-abf7-4099-9234-1efa3476c315")
+	)
+	(wire
+		(pts
+			(xy 149.86 133.35) (xy 149.86 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05ceba9-85bc-4ae9-8b12-e5dda10aa0be")
 	)
 	(wire
 		(pts
@@ -953,6 +1292,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 113.03) (xy 138.43 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5603270-86ee-4365-8d8e-83644f0a2fc1")
+	)
+	(wire
+		(pts
 			(xy 102.87 102.87) (xy 99.06 102.87)
 		)
 		(stroke
@@ -963,7 +1312,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 110.49) (xy 116.84 102.87)
+			(xy 107.95 110.49) (xy 107.95 102.87)
 		)
 		(stroke
 			(width 0)
@@ -983,7 +1332,7 @@
 		(uuid "6fc3a3dd-0951-4cad-88e1-b617615836dd")
 	)
 	(label "AX12_DATA"
-		(at 123.19 102.87 0)
+		(at 124.46 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1004,9 +1353,21 @@
 		)
 		(uuid "cf8591e5-ed1b-4dd9-b4f5-928181d29d85")
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 137.16 133.35 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09fbe472-7820-46f1-b35e-d9a143f3a619")
+	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 113.03 114.3 0)
+		(at 142.24 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1018,7 +1379,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 77.47 86.36 180)
+		(at 76.2 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1042,19 +1403,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 92.71 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "42d3554d-72a3-4428-a2bd-39d07a6aa569")
-	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 120.65 91.44 180)
+		(at 114.3 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1076,21 +1425,9 @@
 		)
 		(uuid "68bc2e42-9e92-46c5-8d49-7bc18e020820")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 92.71 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "817158fb-af11-489d-937f-faa8a349fbf2")
-	)
 	(hierarchical_label "master_RX"
 		(shape output)
-		(at 71.12 95.25 180)
+		(at 69.85 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1148,33 +1485,9 @@
 		)
 		(uuid "b374d8e9-c34f-432e-8040-de433e0cc42c")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 113.03 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d5fe2d64-dad4-4a95-b620-d5133365e9e3")
-	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 90.17 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ecee47ed-f000-4729-bb02-508a16921af8")
-	)
 	(hierarchical_label "master_TX"
 		(shape input)
-		(at 71.12 110.49 180)
+		(at 62.23 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1184,30 +1497,18 @@
 		)
 		(uuid "f324dfa1-f7e2-4a84-aeb2-7ec0523a7902")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 90.17 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f8ec1795-594a-498a-83a0-2604a5774a61")
-	)
 	(symbol
-		(lib_id "Device:C")
-		(at 113.03 120.65 0)
-		(unit 1)
+		(lib_id "74xGxx:74LVC2G241")
+		(at 128.27 123.19 0)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "168a0446-64a7-4e23-9fbf-7e3b9f48b1f5")
-		(property "Reference" "C7"
-			(at 116.84 119.3799 0)
+		(uuid "10357429-db49-45d1-856d-c6f46a0598e0")
+		(property "Reference" "U5"
+			(at 134.62 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1215,8 +1516,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 116.84 121.9199 0)
+		(property "Value" "74LVC2G241"
+			(at 134.62 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1224,8 +1525,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 113.9952 124.46 0)
+		(property "Footprint" "Package_SO:VSSOP-8_2.4x2.1mm_P0.5mm"
+			(at 128.27 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1233,8 +1534,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 113.03 120.65 0)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 128.27 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1242,32 +1543,59 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 113.03 120.65 0)
+		(property "Description" "Dual Buffer Tri-State, Low-Voltage CMOS"
+			(at 128.27 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Mouser" "https://www.mouser.fr/ProductDetail/Texas-Instruments/SN74LVC2G241DCUR?qs=JS6RUWRH9DV7W1UO8b3P2w%3D%3D"
+			(at 128.27 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b41bd2a9-281c-418e-9a2d-1822d736c0c3")
+		)
+		(pin "8"
+			(uuid "c93b5e37-4fca-469c-bfec-a6c7657cdd9e")
+		)
+		(pin "3"
+			(uuid "b7a39e8f-f326-4b07-ade8-c73f050065ff")
+		)
+		(pin "5"
+			(uuid "c3174a9a-ce50-41c5-ab7f-a5e94a036cb1")
+		)
+		(pin "7"
+			(uuid "a1fe2a1c-1870-4939-92bf-a8a73650d4b0")
 		)
 		(pin "1"
-			(uuid "382dcc79-63ae-42a4-ae37-ba7ec8d46c63")
+			(uuid "df61684e-1fa4-45af-a539-c485902c555f")
+		)
+		(pin "6"
+			(uuid "316c4d10-6839-4b5a-852a-fcddd903e2f2")
 		)
 		(pin "2"
-			(uuid "96d2b58b-81a2-49c5-b7f1-3cf06beaa841")
+			(uuid "adfb3df9-876f-4e55-b79c-f4b87feb4945")
 		)
 		(instances
-			(project ""
+			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/66026453-9027-4575-bae8-7143b4848e55"
-					(reference "C7")
-					(unit 1)
+					(reference "U5")
+					(unit 3)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Male")
+		(lib_id "Connector:Conn_01x03_Pin")
 		(at 104.14 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1310,7 +1638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated"
 			(at 104.14 68.58 0)
 			(effects
 				(font
@@ -1338,7 +1666,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Male")
+		(lib_id "Connector:Conn_01x03_Pin")
 		(at 142.24 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1381,7 +1709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated"
 			(at 142.24 68.58 0)
 			(effects
 				(font
@@ -1410,7 +1738,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 80.01 91.44 0)
+		(at 78.74 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1419,7 +1747,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a42a86f-a446-472c-99fd-8d94fda159cf")
 		(property "Reference" "R22"
-			(at 82.55 90.1699 0)
+			(at 81.28 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1428,7 +1756,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 82.55 92.7099 0)
+			(at 81.28 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1437,7 +1765,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 78.232 91.44 90)
+			(at 76.962 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1446,7 +1774,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 91.44 0)
+			(at 78.74 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1455,7 +1783,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 91.44 0)
+			(at 78.74 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1548,7 +1876,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC2G241")
-		(at 91.44 110.49 0)
+		(at 87.63 123.19 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1557,7 +1885,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d47c35d-3202-4572-ab53-4200a5e41dc3")
 		(property "Reference" "U5"
-			(at 90.805 115.57 0)
+			(at 86.995 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1565,7 +1893,7 @@
 			)
 		)
 		(property "Value" "74LVC2G241"
-			(at 90.805 118.11 0)
+			(at 86.995 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1573,7 +1901,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:VSSOP-8_2.4x2.1mm_P0.5mm"
-			(at 91.44 110.49 0)
+			(at 87.63 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1582,7 +1910,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 91.44 110.49 0)
+			(at 87.63 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1590,8 +1918,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 91.44 110.49 0)
+		(property "Description" "Dual Buffer Tri-State, Low-Voltage CMOS"
+			(at 87.63 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1600,7 +1928,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.fr/ProductDetail/Texas-Instruments/SN74LVC2G241DCUR?qs=JS6RUWRH9DV7W1UO8b3P2w%3D%3D"
-			(at 91.44 110.49 0)
+			(at 87.63 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1642,33 +1970,35 @@
 		)
 	)
 	(symbol
-		(lib_id "74xGxx:74LVC2G241")
-		(at 91.44 95.25 180)
+		(lib_id "Device:C")
+		(at 149.86 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "af9c5eff-f1a9-4ec0-b0d2-97a3f08eedca")
-		(property "Reference" "U5"
-			(at 92.075 87.63 0)
+		(uuid "ac9e11fb-1194-4054-81a9-fdbaf8b96427")
+		(property "Reference" "C7"
+			(at 153.67 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "74LVC2G241"
-			(at 92.075 90.17 0)
+		(property "Value" "100nF"
+			(at 153.67 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_2.4x2.1mm_P0.5mm"
-			(at 91.44 95.25 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 150.8252 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1676,8 +2006,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 91.44 95.25 0)
+		(property "Datasheet" "~"
+			(at 149.86 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,7 +2016,76 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 95.25 0)
+			(at 149.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1eecbbbf-80de-453b-907f-03d5f04c8de8")
+		)
+		(pin "2"
+			(uuid "dceda5b9-d763-4697-a3b8-efcb7120b53e")
+		)
+		(instances
+			(project "carte_servo"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/66026453-9027-4575-bae8-7143b4848e55"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "74LVC2G241_1")
+		(lib_id "74xGxx:74LVC2G241")
+		(at 95.25 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af9c5eff-f1a9-4ec0-b0d2-97a3f08eedca")
+		(property "Reference" "U5"
+			(at 96.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC2G241"
+			(at 96.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:VSSOP-8_2.4x2.1mm_P0.5mm"
+			(at 95.25 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 95.25 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Buffer Tri-State, Low-Voltage CMOS"
+			(at 95.25 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1729,7 +2128,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 120.65 99.06 0)
+		(at 115.57 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1738,7 +2137,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1370bbf-b9e5-4d96-800f-ae6c0f52c8af")
 		(property "Reference" "R24"
-			(at 123.19 97.7899 0)
+			(at 118.11 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1747,7 +2146,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 123.19 100.3299 0)
+			(at 118.11 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,7 +2155,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 118.872 99.06 90)
+			(at 113.792 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +2164,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 99.06 0)
+			(at 115.57 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1774,7 +2173,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 99.06 0)
+			(at 115.57 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
