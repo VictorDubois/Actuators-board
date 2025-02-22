@@ -206,29 +206,27 @@
 				)
 			)
 		)
-		(symbol "Connector:USB_C_Plug_USB2.0"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "P"
-				(at -10.16 19.05 0)
+			(property "Reference" "J"
+				(at 0 22.225 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Plug_USB2.0"
-				(at 12.7 19.05 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
+				(at 0 19.685 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -249,7 +247,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only Type-C Plug connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -267,7 +265,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "USB*C*Plug*"
+			(property "ki_fp_filters" "USB*C*Receptacle*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -276,7 +274,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Plug_USB2.0_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -289,8 +287,52 @@
 					)
 				)
 				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
 					(start 10.16 -2.286)
 					(end 9.144 -2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 0.254)
+					(end 9.144 -0.254)
 					(stroke
 						(width 0)
 						(type default)
@@ -344,7 +386,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Plug_USB2.0_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -545,7 +587,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Plug_USB2.0_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -603,7 +645,7 @@
 				(pin bidirectional line
 					(at 15.24 10.16 180)
 					(length 5.08)
-					(name "CC"
+					(name "CC1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -647,6 +689,24 @@
 						)
 					)
 					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -729,7 +789,7 @@
 				(pin bidirectional line
 					(at 15.24 7.62 180)
 					(length 5.08)
-					(name "VCONN"
+					(name "CC2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -737,6 +797,60 @@
 						)
 					)
 					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3897,14 +4011,15 @@
 				)
 			)
 		)
-		(symbol "Switch:CK_KMS2xxG"
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 4.318 2.032 0)
+				(at 1.27 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3912,15 +4027,15 @@
 					(justify left)
 				)
 			)
-			(property "Value" "CK_KMS2xxG"
-				(at 0 4.572 0)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_KMS2xxGP"
+			(property "Footprint" ""
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -3929,7 +4044,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ckswitches.com/media/1482/kms.pdf"
+			(property "Datasheet" "~"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -3938,7 +4053,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm, without pegs, with shield pin"
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3956,16 +4071,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*SW*KMS2*G*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CK_KMS2xxG_0_1"
+			(symbol "SW_Push_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -3995,30 +4101,6 @@
 					)
 					(stroke
 						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width -0.0254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -4065,37 +4147,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CK_KMS2xxG_1_1"
-				(rectangle
-					(start -3.048 2.54)
-					(end 3.048 -1.27)
-					(stroke
-						(width -0.0254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4281,6 +4332,18 @@
 		(uuid "483d5671-dfa8-4373-b05c-3e5ca071b103")
 	)
 	(junction
+		(at 593.09 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4eb691e8-ca4c-4562-b565-111739a21cc3")
+	)
+	(junction
+		(at 593.09 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5aafcf67-93fe-403d-9bb0-ad121c66c30e")
+	)
+	(junction
 		(at 323.85 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4383,12 +4446,6 @@
 		(uuid "b3433af0-c432-4466-81b7-32c5e68d06b9")
 	)
 	(junction
-		(at 491.49 0)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3afa69a-ebf4-4686-aaee-2dbd6ee665a4")
-	)
-	(junction
 		(at 342.9 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4461,12 +4518,20 @@
 		(uuid "4d3f383a-6acf-4145-abf0-88e06018fe2c")
 	)
 	(no_connect
+		(at 593.09 52.07)
+		(uuid "50d07fb6-34d0-427f-a344-ac01aeb1eb02")
+	)
+	(no_connect
 		(at 107.95 127)
 		(uuid "5f15964e-b5f4-48ff-8d9a-e7b8b80d4b94")
 	)
 	(no_connect
 		(at 331.47 12.7)
 		(uuid "60853576-f8c5-4fd8-9c34-65cd023563f2")
+	)
+	(no_connect
+		(at 593.09 54.61)
+		(uuid "77db9162-1cab-4f3e-949c-cd81f94d860a")
 	)
 	(no_connect
 		(at 312.42 101.6)
@@ -5012,16 +5077,6 @@
 	)
 	(wire
 		(pts
-			(xy 491.49 3.81) (xy 491.49 0)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "430c0150-1756-4848-aa36-46227c3adcb9")
-	)
-	(wire
-		(pts
 			(xy 593.09 41.91) (xy 598.17 41.91)
 		)
 		(stroke
@@ -5139,16 +5194,6 @@
 			(type default)
 		)
 		(uuid "52efbf6a-4af2-44fa-a3ca-88abadf9b543")
-	)
-	(wire
-		(pts
-			(xy 494.03 0) (xy 491.49 0)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54618a99-bac2-461a-b23a-15e7ae3d0341")
 	)
 	(wire
 		(pts
@@ -5392,6 +5437,16 @@
 	)
 	(wire
 		(pts
+			(xy 593.09 41.91) (xy 593.09 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e809f54-7b2c-4a11-8ea7-34c9f897f12f")
+	)
+	(wire
+		(pts
 			(xy 93.98 86.36) (xy 85.09 86.36)
 		)
 		(stroke
@@ -5462,16 +5517,6 @@
 	)
 	(wire
 		(pts
-			(xy 473.71 0) (xy 480.06 0)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "772f5e80-50e4-45ac-b4d3-dc0d5d476521")
-	)
-	(wire
-		(pts
 			(xy 335.28 60.96) (xy 344.17 60.96)
 		)
 		(stroke
@@ -5479,6 +5524,16 @@
 			(type default)
 		)
 		(uuid "778f216b-e9e4-45c9-ae84-0be8c7dff66a")
+	)
+	(wire
+		(pts
+			(xy 478.79 -11.43) (xy 476.25 -11.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c11edc-6d17-482a-9555-7a9cbad07bb9")
 	)
 	(wire
 		(pts
@@ -5812,16 +5867,6 @@
 	)
 	(wire
 		(pts
-			(xy 485.14 3.81) (xy 491.49 3.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af435ef7-881e-4259-b3c2-0d0c1419bc03")
-	)
-	(wire
-		(pts
 			(xy 187.96 110.49) (xy 189.23 110.49)
 		)
 		(stroke
@@ -5859,16 +5904,6 @@
 			(type default)
 		)
 		(uuid "b119a905-8917-427f-91fa-d3d10a0b4b20")
-	)
-	(wire
-		(pts
-			(xy 491.49 0) (xy 490.22 0)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2e9655d-dd92-45bf-80a0-b8be7249f7fc")
 	)
 	(wire
 		(pts
@@ -5949,6 +5984,16 @@
 			(type default)
 		)
 		(uuid "b79741b5-143f-4099-b0b0-ec983ea326db")
+	)
+	(wire
+		(pts
+			(xy 593.09 36.83) (xy 593.09 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8aa52ab-5b21-45f0-a84e-ca96643a12b9")
 	)
 	(wire
 		(pts
@@ -6289,6 +6334,16 @@
 			(type default)
 		)
 		(uuid "e0d72aeb-c62b-460d-96d9-b0d979a5b897")
+	)
+	(wire
+		(pts
+			(xy 463.55 -11.43) (xy 466.09 -11.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e192c0d5-ba7c-4651-9078-d4c23834f5ca")
 	)
 	(wire
 		(pts
@@ -8194,28 +8249,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 494.03 0 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "89c04ddd-4b41-4951-a591-bfaa63fc0281")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 500.8857 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SERVO_7"
 		(shape output)
 		(at 391.16 36.83 180)
@@ -8876,6 +8909,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 478.79 -11.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c968180b-f722-475e-bd65-e7c2f64b3874")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 485.6457 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN+"
 		(shape bidirectional)
 		(at 355.6 10.16 0)
@@ -9026,28 +9081,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BOOT"
-		(shape input)
-		(at 473.71 0 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d8b9d5d0-975d-44b5-b39a-48a2180589d2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 465.8262 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -9378,6 +9411,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BOOT"
+		(shape input)
+		(at 463.55 -11.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0386136-1756-4338-9ace-7453d8c82563")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 455.6662 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10786,7 +10841,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Plug_USB2.0")
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 577.85 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10796,7 +10851,7 @@
 		(fields_autoplaced yes)
 		(uuid "67dc8544-76ee-4b06-bd89-8d361a2d49cd")
 		(property "Reference" "P1"
-			(at 577.85 17.78 0)
+			(at 577.85 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10804,14 +10859,14 @@
 			)
 		)
 		(property "Value" "USB_C_Plug_USB2.0"
-			(at 577.85 20.32 0)
+			(at 577.85 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
+		(property "Footprint" "USBC:G-Switch GT-USB-7047A"
 			(at 581.66 39.37 0)
 			(effects
 				(font
@@ -10829,7 +10884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB 2.0-only Type-C Plug connector"
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 577.85 39.37 0)
 			(effects
 				(font
@@ -10876,6 +10931,18 @@
 		)
 		(pin "B1"
 			(uuid "7809afc5-3dba-498e-a425-fba93d1c3b04")
+		)
+		(pin "B7"
+			(uuid "8f092e8e-bb62-48a7-a4ec-b8a85a721750")
+		)
+		(pin "A8"
+			(uuid "d1ca5790-91db-4a60-83ad-aad356481747")
+		)
+		(pin "B8"
+			(uuid "55556f98-169c-4aed-910c-1b7350a89f57")
+		)
+		(pin "B6"
+			(uuid "a51fa425-b7e3-4918-b619-3c45063e6be2")
 		)
 		(instances
 			(project ""
@@ -11379,42 +11446,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:CK_KMS2xxG")
-		(at 485.14 0 0)
+		(lib_id "Switch:SW_Push")
+		(at 471.17 -11.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8cd71660-40e6-43cc-83b9-b2c628849d7f")
-		(property "Reference" "SW1"
-			(at 485.14 -6.35 0)
+		(uuid "8b2218b1-3853-4b0b-9e2f-abc26cea0c2f")
+		(property "Reference" "SW2"
+			(at 471.17 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CK_KMS2xxG"
-			(at 485.14 -3.81 0)
+		(property "Value" "SW_Push"
+			(at 471.17 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_KMS2xxGP"
-			(at 485.14 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ckswitches.com/media/1482/kms.pdf"
-			(at 485.14 -5.08 0)
+		(property "Footprint" "button:BZCN TSA007A1518B03"
+			(at 471.17 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11422,8 +11480,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm, without pegs, with shield pin"
-			(at 485.14 0 0)
+		(property "Datasheet" "~"
+			(at 471.17 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11431,19 +11489,25 @@
 				(hide yes)
 			)
 		)
-		(pin "SH"
-			(uuid "299e4a11-ec54-4c2b-b95f-e3a632242f40")
-		)
-		(pin "2"
-			(uuid "d084c80f-38ef-497b-9afe-b9695c955752")
+		(property "Description" "Push button switch, generic, two pins"
+			(at 471.17 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "fe857b92-9db7-4c54-b312-c0b21a3ae1a0")
+			(uuid "4037aa05-84bc-4ef8-be64-a1bbd6e8dd49")
+		)
+		(pin "2"
+			(uuid "3fd44b70-263a-418c-a23c-4b34e08618ad")
 		)
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
