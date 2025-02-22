@@ -10009,7 +10009,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10µF"
 			(at 374.65 144.7799 0)
 			(effects
 				(font
@@ -11607,7 +11607,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "500R"
 			(at 147.32 129.54 90)
 			(effects
 				(font
@@ -13229,7 +13229,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10µF"
 			(at 363.22 144.7799 0)
 			(effects
 				(font
@@ -13369,7 +13369,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10µF"
 			(at 246.38 156.2099 0)
 			(effects
 				(font

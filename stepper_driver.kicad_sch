@@ -1700,7 +1700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\nTMC2208 Motor Controller/Driver, Stepper Power Management Evaluation Board\n"
+		(property "Description" "TMC2208 Motor Controller/Driver, Stepper Power Management Evaluation Board"
 			(at 110.49 74.93 0)
 			(effects
 				(font

@@ -6451,7 +6451,7 @@
 				)
 			)
 		)
-		(property "Description" "\nTMC2208 Motor Controller/Driver, Stepper Power Management Evaluation Board\n"
+		(property "Description" "TMC2208 Motor Controller/Driver, Stepper Power Management Evaluation Board"
 			(at 269.113 30.861 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8603,7 +8603,7 @@
 				)
 			)
 		)
-		(property "Description" "\nTMC2208 Motor Controller/Driver, Stepper Power Management Evaluation Board\n"
+		(property "Description" "TMC2208 Motor Controller/Driver, Stepper Power Management Evaluation Board"
 			(at 245.8735 53.9735 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29508,7 +29508,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10µF"
 			(at 0 -1.68 0)
 			(layer "B.Fab")
 			(uuid "b0e14dbb-f603-404f-9957-0b0a7e679e0e")
@@ -31109,7 +31109,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10µF"
 			(at 0 -1.68 0)
 			(layer "B.Fab")
 			(uuid "cd4f4c00-0491-4a28-a1bc-7cf7b6516559")
@@ -37946,7 +37946,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "500R"
 			(at 0 -1.65 90)
 			(layer "B.Fab")
 			(uuid "58616d1e-f835-4960-95f6-3ea84f873a46")
@@ -38597,7 +38597,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10µF"
 			(at 0 -1.68 0)
 			(layer "B.Fab")
 			(uuid "02331527-ed77-4e99-beb0-2cc9749d7f3f")
