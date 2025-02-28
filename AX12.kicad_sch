@@ -1952,13 +1952,13 @@
 			(uuid "4bb2d306-cc11-48c2-8b25-7e03baf2fd4f")
 		)
 		(pin "1"
-			(uuid "df61684e-1fa4-45af-a539-c485902c555f")
+			(uuid "df61684e-1fa4-45af-a539-c485902c5560")
 		)
 		(pin "6"
-			(uuid "316c4d10-6839-4b5a-852a-fcddd903e2f2")
+			(uuid "316c4d10-6839-4b5a-852a-fcddd903e2f3")
 		)
 		(pin "2"
-			(uuid "adfb3df9-876f-4e55-b79c-f4b87feb4945")
+			(uuid "adfb3df9-876f-4e55-b79c-f4b87feb4946")
 		)
 		(instances
 			(project ""
