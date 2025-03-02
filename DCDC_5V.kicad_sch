@@ -835,10 +835,10 @@
 		(uuid "3a537008-1741-4e21-b920-8509c00da2a4")
 	)
 	(junction
-		(at 157.48 74.93)
+		(at 184.15 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "71df9853-94f7-4363-8609-5b9de7a0c3f4")
+		(uuid "50c2aa09-56a3-4ace-a694-6f5354ab5a99")
 	)
 	(junction
 		(at 187.96 74.93)
@@ -924,7 +924,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 74.93) (xy 157.48 74.93)
+			(xy 143.51 74.93) (xy 162.56 74.93)
 		)
 		(stroke
 			(width 0)
@@ -961,16 +961,6 @@
 			(type default)
 		)
 		(uuid "562d1150-c4b9-41c3-858a-73a5518fb713")
-	)
-	(wire
-		(pts
-			(xy 157.48 76.2) (xy 157.48 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e907f73-7652-4a71-a22c-787a4d343772")
 	)
 	(wire
 		(pts
@@ -1034,13 +1024,23 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 74.93) (xy 187.96 74.93)
+			(xy 182.88 74.93) (xy 184.15 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "93ff3fd3-be8e-476f-8870-a78105db460b")
+	)
+	(wire
+		(pts
+			(xy 184.15 74.93) (xy 187.96 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "984a44db-bf36-4727-a162-260ffe82eb55")
 	)
 	(wire
 		(pts
@@ -1104,16 +1104,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 74.93) (xy 157.48 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf322592-6774-4cfe-b728-ec5cc493efb7")
-	)
-	(wire
-		(pts
 			(xy 129.54 77.47) (xy 138.43 77.47)
 		)
 		(stroke
@@ -1124,7 +1114,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 81.28) (xy 157.48 83.82)
+			(xy 184.15 80.01) (xy 184.15 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1201,6 +1191,16 @@
 			(type default)
 		)
 		(uuid "f7a396ef-4bae-4b57-8cdb-9776bb230c02")
+	)
+	(wire
+		(pts
+			(xy 184.15 83.82) (xy 157.48 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f03c39-843d-4f8c-9724-0332d2ae1d6c")
 	)
 	(label "SW_DCDC5V"
 		(at 134.62 74.93 0)
@@ -1323,16 +1323,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 157.48 78.74 0)
+		(at 184.15 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "08fc219f-ab98-4f89-b552-2477ef2ffcc2")
 		(property "Reference" "R34"
-			(at 160.02 77.4699 0)
+			(at 179.07 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1341,7 +1340,7 @@
 			)
 		)
 		(property "Value" "56.2k"
-			(at 160.02 80.0099 0)
+			(at 177.546 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1350,7 +1349,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 157.48 78.74 0)
+			(at 184.15 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1359,7 +1358,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 78.74 0)
+			(at 184.15 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1368,7 +1367,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 157.48 78.74 0)
+			(at 184.15 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
