@@ -140,7 +140,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "Gerber/14/")
+			(outputdirectory "Gerber/15/")
 		)
 	)
 	(net 0 "")
@@ -5864,6 +5864,7 @@
 		(property "Reference" "H8"
 			(at 0 -6 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "af9df384-4868-48dd-ad7e-db4ca6d9affd")
 			(effects
 				(font
@@ -5964,7 +5965,7 @@
 			(at 0 0)
 			(size 5 5)
 			(drill 5)
-			(layers "*.Cu" "*.Mask")
+			(layers "F&B.Cu" "*.Paste" "*.Mask")
 			(uuid "061c9bb9-1840-4dd7-a66e-d3029b2a9458")
 		)
 	)
@@ -14538,7 +14539,7 @@
 			(at 0 0)
 			(size 3 3)
 			(drill 3)
-			(layers "*.Cu" "*.Mask")
+			(layers "F&B.Cu" "*.Paste" "*.Mask")
 			(uuid "8791f306-c262-4548-96be-226232c0b0e8")
 		)
 	)
@@ -23588,6 +23589,7 @@
 		(property "Reference" "H9"
 			(at 0 -6 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "02e7eb84-dd6c-449a-9b75-5e825bd07bab")
 			(effects
 				(font
@@ -23688,7 +23690,7 @@
 			(at 0 0)
 			(size 5 5)
 			(drill 5)
-			(layers "*.Cu" "*.Mask")
+			(layers "F&B.Cu" "*.Paste" "*.Mask")
 			(uuid "415960f4-44d7-4720-8b8b-e335cce030b3")
 		)
 	)
@@ -25035,7 +25037,7 @@
 			(at 0 0)
 			(size 3 3)
 			(drill 3)
-			(layers "*.Cu" "*.Mask")
+			(layers "F&B.Cu" "*.Paste" "*.Mask")
 			(uuid "e21c0b9b-90d9-4893-8ecc-42a990652263")
 		)
 	)
