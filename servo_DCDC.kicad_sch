@@ -3110,7 +3110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.fr/ProductDetail/Coilcraft/XAL6030-122MEC?qs=zCSbvcPd3pa9JIn1HYfyrA%3D%3D"
 			(at 144.78 82.55 0)
 			(effects
 				(font
