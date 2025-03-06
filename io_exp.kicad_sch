@@ -875,28 +875,28 @@
 		)
 	)
 	(junction
-		(at 134.62 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d3082c6-9d89-46ec-92ae-45115d003b31")
-	)
-	(junction
-		(at 133.35 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b46f3ef-5c95-461a-82ff-9f73f1907f7c")
-	)
-	(junction
 		(at 133.35 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8576c574-12c2-474e-b3e0-1ec13fc81084")
+		(uuid "0361f2f6-24e9-4c07-9690-ab0647e4abda")
 	)
 	(junction
 		(at 134.62 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ea206b20-bfc9-483c-9b3d-e0a512cbd3ca")
+		(uuid "365814ec-4297-4a4d-b823-900c965801e2")
+	)
+	(junction
+		(at 134.62 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b271e39b-4781-4a06-a37c-8efc5c559578")
+	)
+	(junction
+		(at 133.35 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e72e92b6-42c5-492f-9183-070a5beacbee")
 	)
 	(no_connect
 		(at 80.01 88.9)
@@ -914,6 +914,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 80.01) (xy 137.16 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "383e75e6-e673-488b-9460-52e62dbf2439")
+	)
+	(wire
+		(pts
 			(xy 127 82.55) (xy 137.16 82.55)
 		)
 		(stroke
@@ -921,16 +931,6 @@
 			(type default)
 		)
 		(uuid "4654634f-ba3e-40a1-b4c8-3ed408af9324")
-	)
-	(wire
-		(pts
-			(xy 134.62 93.98) (xy 138.43 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "479e74c6-2ac7-4411-a120-0da8d2a20dd9")
 	)
 	(wire
 		(pts
@@ -954,16 +954,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 66.04) (xy 137.16 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7069a4bc-438e-4a96-b2b7-25a17bd6bb6e")
-	)
-	(wire
-		(pts
 			(xy 124.46 63.5) (xy 137.16 63.5)
 		)
 		(stroke
@@ -975,6 +965,16 @@
 	(wire
 		(pts
 			(xy 134.62 107.95) (xy 138.43 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77bb77c2-7487-4a42-81bd-8389dedc768a")
+	)
+	(wire
+		(pts
+			(xy 128.27 107.95) (xy 134.62 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1014,6 +1014,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 93.98) (xy 138.43 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c22fa3c7-8fe9-4f5e-8a59-3e2070507a77")
+	)
+	(wire
+		(pts
 			(xy 127 66.04) (xy 133.35 66.04)
 		)
 		(stroke
@@ -1024,7 +1034,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 80.01) (xy 137.16 80.01)
+			(xy 133.35 66.04) (xy 137.16 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5005934-63f4-474a-a375-ffc9c570f724")
+	)
+	(wire
+		(pts
+			(xy 127 80.01) (xy 133.35 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1041,26 +1061,6 @@
 			(type default)
 		)
 		(uuid "fb4aac49-2f33-4636-8c61-f56a5accad27")
-	)
-	(wire
-		(pts
-			(xy 127 80.01) (xy 133.35 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcf255b6-fd2a-4171-91cf-8c06f49fb478")
-	)
-	(wire
-		(pts
-			(xy 128.27 107.95) (xy 134.62 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe1387cb-31f1-4260-832a-2e6117fa41d2")
 	)
 	(label "SIG_1"
 		(at 127 82.55 180)
@@ -1419,76 +1419,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 128.27 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "15dc1f06-7f0e-4300-90f5-2a576a74e9fe")
-		(property "Reference" "R46"
-			(at 129.286 104.394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Small"
-			(at 130.81 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 128.27 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9d96f534-9593-42ed-a7b0-a64ad1fa72d3")
-		)
-		(pin "1"
-			(uuid "f38f2470-027b-4fc8-a0b8-8c5a15795034")
-		)
-		(instances
-			(project "carte_servo"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b45a520f-1905-47db-bbc3-05cad8f90896"
-					(reference "R46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
 		(at 127 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1515,7 +1445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127 63.5 0)
 			(effects
 				(font
@@ -1552,6 +1482,76 @@
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b45a520f-1905-47db-bbc3-05cad8f90896"
 					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 128.27 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3606ec41-14b5-4018-bb29-93be08848f86")
+		(property "Reference" "R46"
+			(at 129.286 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 130.81 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 128.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 128.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9e4d47af-562c-44fe-97f0-66b82767135c")
+		)
+		(pin "1"
+			(uuid "10a4a835-67c4-4606-bd0e-86180311e463")
+		)
+		(instances
+			(project "carte_servo"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b45a520f-1905-47db-bbc3-05cad8f90896"
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -1632,15 +1632,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 128.27 91.44 0)
+		(at 133.35 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5493a97a-87b9-4f64-94c0-295e2b1413b5")
-		(property "Reference" "R44"
-			(at 129.286 90.424 0)
+		(uuid "441c7084-b0fc-4b38-b8bb-ea2f11484a43")
+		(property "Reference" "R40"
+			(at 134.366 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1649,7 +1649,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 130.81 92.7099 0)
+			(at 135.89 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1658,8 +1658,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 128.27 91.44 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 133.35 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,7 +1668,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 91.44 0)
+			(at 133.35 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,7 +1677,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 128.27 91.44 0)
+			(at 133.35 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,15 +1686,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "9a1b4e93-f039-4a64-bd06-951a13c61faa")
+			(uuid "914ba957-4e09-4086-a75d-8f2c31a709ce")
 		)
 		(pin "1"
-			(uuid "994c8973-57d8-41a1-a3f8-9bc336c6c297")
+			(uuid "d1078f58-164c-4dac-9d2e-ad521d7f189e")
 		)
 		(instances
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b45a520f-1905-47db-bbc3-05cad8f90896"
-					(reference "R44")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -1772,15 +1772,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 133.35 63.5 0)
+		(at 134.62 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "796560ad-e436-432f-bfea-96db27568153")
-		(property "Reference" "R40"
-			(at 134.366 62.484 0)
+		(uuid "78dde214-44ee-4330-827a-e6210b174932")
+		(property "Reference" "R45"
+			(at 135.636 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1789,7 +1789,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 135.89 64.7699 0)
+			(at 137.16 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1798,8 +1798,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 133.35 63.5 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 134.62 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1808,7 +1808,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 63.5 0)
+			(at 134.62 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1817,7 +1817,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 133.35 63.5 0)
+			(at 134.62 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1826,15 +1826,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "9f0c9d17-cd56-4d1f-863c-adddf8ab2800")
+			(uuid "3c0cde3e-178d-4cb4-8679-627cf8f35a06")
 		)
 		(pin "1"
-			(uuid "c967b3c8-d729-4736-9d64-a415c4c4bf5a")
+			(uuid "2722f435-7124-4328-8c64-b5151f007044")
 		)
 		(instances
-			(project ""
+			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b45a520f-1905-47db-bbc3-05cad8f90896"
-					(reference "R40")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -1842,15 +1842,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 127 77.47 0)
+		(at 134.62 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8131a246-25da-4c90-8fc2-3c6f5ac0dbe4")
-		(property "Reference" "R42"
-			(at 128.016 76.454 0)
+		(uuid "814d9c8b-03d3-4864-93e6-0a45ad7f100a")
+		(property "Reference" "R47"
+			(at 135.636 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,7 +1859,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 129.54 78.7399 0)
+			(at 137.16 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1868,8 +1868,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 127 77.47 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 134.62 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1878,7 +1878,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 77.47 0)
+			(at 134.62 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1887,7 +1887,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 127 77.47 0)
+			(at 134.62 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1896,15 +1896,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "7fcdb663-816f-4706-bbc3-7ccabafa3af4")
+			(uuid "fa1f1121-a4cf-43dc-bca5-3ebc28c78703")
 		)
 		(pin "1"
-			(uuid "2db87fa4-1ca7-480f-adc5-e92509bdfe04")
+			(uuid "b739ba95-da21-41b8-8b1d-b79317bf8655")
 		)
 		(instances
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b45a520f-1905-47db-bbc3-05cad8f90896"
-					(reference "R42")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -2109,13 +2109,83 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 128.27 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3895ee9-49a5-4739-9ef3-fa9277d37290")
+		(property "Reference" "R44"
+			(at 129.286 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 130.81 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20c9c87e-a1e1-41e1-b38c-67933be5ac9e")
+		)
+		(pin "1"
+			(uuid "fac8b747-507e-473d-9d5c-867cef7be1a9")
+		)
+		(instances
+			(project "carte_servo"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b45a520f-1905-47db-bbc3-05cad8f90896"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 133.35 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9f907d5a-ee28-44a7-8223-3810c7169640")
+		(uuid "ca0afa59-7c84-4757-bcb2-955c10c769bb")
 		(property "Reference" "R43"
 			(at 134.366 76.454 0)
 			(effects
@@ -2135,7 +2205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 133.35 77.47 0)
 			(effects
 				(font
@@ -2163,15 +2233,85 @@
 			)
 		)
 		(pin "2"
-			(uuid "f4fe2568-b161-449f-a858-5f823f9c858a")
+			(uuid "f5cf1764-0249-4ae9-a28b-662bec3d2c76")
 		)
 		(pin "1"
-			(uuid "cfa5ced0-6640-4145-8055-393e4e08b39b")
+			(uuid "4bdbc19f-808e-40c8-9eaf-b487039fa9a5")
 		)
 		(instances
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b45a520f-1905-47db-bbc3-05cad8f90896"
 					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 127 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d09858c8-55d0-49c3-b868-a73c4ba40797")
+		(property "Reference" "R42"
+			(at 128.016 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 129.54 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 127 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 127 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b31f00bc-7607-45b0-8f52-b4ae5ab1fc3b")
+		)
+		(pin "1"
+			(uuid "e7c309bf-d7de-47e8-bb40-097b122d44c8")
+		)
+		(instances
+			(project "carte_servo"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b45a520f-1905-47db-bbc3-05cad8f90896"
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -2245,146 +2385,6 @@
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b45a520f-1905-47db-bbc3-05cad8f90896"
 					(reference "J27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 134.62 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1f9afb4-d99b-4e5e-b97f-87f506f4da25")
-		(property "Reference" "R47"
-			(at 135.636 104.394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Small"
-			(at 137.16 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 134.62 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "98018628-6a70-44ea-b5a1-312b0b96dc0b")
-		)
-		(pin "1"
-			(uuid "2949efee-a64b-4e14-b368-e58a3ab16448")
-		)
-		(instances
-			(project "carte_servo"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b45a520f-1905-47db-bbc3-05cad8f90896"
-					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 134.62 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f395bde0-540f-495d-a582-8c7cf01e9322")
-		(property "Reference" "R45"
-			(at 135.636 90.424 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Small"
-			(at 137.16 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 134.62 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d9fccd6b-ce5c-40e5-91f5-00d241cd2087")
-		)
-		(pin "1"
-			(uuid "b39645ed-ac4a-4f4c-bf25-91aea020b74c")
-		)
-		(instances
-			(project "carte_servo"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b45a520f-1905-47db-bbc3-05cad8f90896"
-					(reference "R45")
 					(unit 1)
 				)
 			)
