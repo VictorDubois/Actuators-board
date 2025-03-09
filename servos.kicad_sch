@@ -2022,7 +2022,6 @@
 	)
 	(label "GND_SERVO_2"
 		(at 120.65 171.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2033,7 +2032,6 @@
 	)
 	(label "GND_SERVO_2"
 		(at 233.68 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2044,7 +2042,6 @@
 	)
 	(label "GND_SERVO_2"
 		(at 130.81 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2055,7 +2052,6 @@
 	)
 	(label "GND_SERVO_2"
 		(at 227.33 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2265,7 +2261,6 @@
 	(hierarchical_label "SERVO_POWER_1"
 		(shape input)
 		(at 231.14 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2277,7 +2272,6 @@
 	(hierarchical_label "SERVO_POWER_2"
 		(shape input)
 		(at 229.87 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2289,7 +2283,6 @@
 	(hierarchical_label "SERVO_POWER_2"
 		(shape input)
 		(at 156.21 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2301,7 +2294,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 93.98 185.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2329,7 +2321,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "D_Zener_Small"
 			(at 119.38 177.7999 90)
 			(effects
 				(font
@@ -2338,7 +2330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 116.84 176.53 0)
 			(effects
 				(font
@@ -2365,16 +2357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 116.84 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "LCSC#" "C908230"
 			(at 116.84 176.53 0)
 			(effects
 				(font
@@ -2443,6 +2426,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 210.82 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2937625"
 			(at 210.82 74.93 0)
 			(effects
 				(font
@@ -2521,6 +2513,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C2937625"
+			(at 210.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c39c253a-2dc2-47a2-b9e6-75124f06e18a")
 		)
@@ -2557,7 +2558,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_Small"
+		(property "Value" "LED_R"
 			(at 138.4935 77.47 0)
 			(effects
 				(font
@@ -2584,6 +2585,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 138.43 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C965812"
 			(at 138.43 81.28 0)
 			(effects
 				(font
@@ -2652,6 +2662,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 210.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2937625"
 			(at 210.82 52.07 0)
 			(effects
 				(font
@@ -2733,6 +2752,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C106619"
+			(at 229.87 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "79a08b85-66a4-4196-915b-9bffbe856c09")
 		)
@@ -2767,7 +2795,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "D_Zener_Small"
 			(at 218.44 153.6699 90)
 			(effects
 				(font
@@ -2776,7 +2804,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 215.9 152.4 0)
 			(effects
 				(font
@@ -2803,16 +2831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 215.9 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "LCSC#" "C908230"
 			(at 215.9 152.4 0)
 			(effects
 				(font
@@ -2889,6 +2908,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C2937625"
+			(at 210.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "17bc72f1-a629-422c-b433-491d4c5806f1")
 		)
@@ -2926,7 +2954,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "D_Zener_Small"
 			(at 223.52 53.3399 90)
 			(effects
 				(font
@@ -2935,7 +2963,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 220.98 52.07 0)
 			(effects
 				(font
@@ -2962,16 +2990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 220.98 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "LCSC#" "C908230"
 			(at 220.98 52.07 0)
 			(effects
 				(font
@@ -3013,7 +3032,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "5.11kR"
 			(at 148.59 77.47 90)
 			(effects
 				(font
@@ -3040,6 +3059,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 148.59 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2933233"
 			(at 148.59 81.28 0)
 			(effects
 				(font
@@ -3108,6 +3136,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 210.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2937625"
 			(at 210.82 142.24 0)
 			(effects
 				(font
@@ -3187,6 +3224,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C2937625"
+			(at 210.82 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "abd00e64-120d-410d-98df-628c61808524")
 		)
@@ -3250,6 +3296,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 210.82 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2937625"
 			(at 210.82 130.81 0)
 			(effects
 				(font
@@ -3328,6 +3383,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C2937625"
+			(at 210.82 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ebb66ff-ac97-4372-a173-a92b0c074b0b")
 		)
@@ -3393,6 +3457,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 91.44 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C5245271"
 			(at 91.44 176.53 0)
 			(effects
 				(font
@@ -3479,6 +3552,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 78.74 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2907127"
 			(at 78.74 176.53 0)
 			(effects
 				(font

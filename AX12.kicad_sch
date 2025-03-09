@@ -1322,7 +1322,6 @@
 	)
 	(label "AX12_DATA"
 		(at 115.57 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1333,7 +1332,6 @@
 	)
 	(label "AX12_DATA"
 		(at 124.46 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1344,7 +1342,6 @@
 	)
 	(label "AX12_DATA"
 		(at 153.67 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1356,7 +1353,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 137.16 133.35 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1368,7 +1364,6 @@
 	(hierarchical_label "5V"
 		(shape input)
 		(at 142.24 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1380,7 +1375,6 @@
 	(hierarchical_label "5V"
 		(shape input)
 		(at 76.2 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1392,7 +1386,6 @@
 	(hierarchical_label "12V"
 		(shape input)
 		(at 153.67 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1404,7 +1397,6 @@
 	(hierarchical_label "5V"
 		(shape input)
 		(at 114.3 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1416,7 +1408,6 @@
 	(hierarchical_label "12V"
 		(shape input)
 		(at 115.57 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1428,7 +1419,6 @@
 	(hierarchical_label "master_RX"
 		(shape output)
 		(at 69.85 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1440,7 +1430,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 115.57 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1452,7 +1441,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 102.87 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1464,7 +1452,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 153.67 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1476,7 +1463,6 @@
 	(hierarchical_label "TX_en"
 		(shape input)
 		(at 78.74 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1488,7 +1474,6 @@
 	(hierarchical_label "master_TX"
 		(shape input)
 		(at 62.23 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1552,7 +1537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.fr/ProductDetail/Texas-Instruments/SN74LVC2G241DCUR?qs=JS6RUWRH9DV7W1UO8b3P2w%3D%3D"
+		(property "LCSC#" "C10430"
 			(at 128.27 123.19 0)
 			(effects
 				(font
@@ -1647,6 +1632,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C144394"
+			(at 104.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27aca94b-f64b-4bc8-85c7-b2b9d4a4d88b")
 		)
@@ -1718,6 +1712,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C144394"
+			(at 142.24 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bdd7b934-f99d-4f66-b970-60ece6fc51a8")
 		)
@@ -1755,7 +1758,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kR"
 			(at 81.28 81.2799 0)
 			(effects
 				(font
@@ -1783,6 +1786,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 78.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2930027"
 			(at 78.74 80.01 0)
 			(effects
 				(font
@@ -1824,7 +1836,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kR"
 			(at 95.25 99.06 90)
 			(effects
 				(font
@@ -1851,6 +1863,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 95.25 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2930027"
 			(at 95.25 102.87 0)
 			(effects
 				(font
@@ -1927,7 +1948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.fr/ProductDetail/Texas-Instruments/SN74LVC2G241DCUR?qs=JS6RUWRH9DV7W1UO8b3P2w%3D%3D"
+		(property "LCSC#" "C10430"
 			(at 87.63 123.19 0)
 			(effects
 				(font
@@ -1997,7 +2018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 150.8252 125.73 0)
 			(effects
 				(font
@@ -2016,6 +2037,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 149.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C14663"
 			(at 149.86 121.92 0)
 			(effects
 				(font
@@ -2093,6 +2123,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C10430"
+			(at 95.25 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "f5eb118a-28d8-4935-97ff-ffd4d759d82f")
 		)
@@ -2145,7 +2184,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10kR"
 			(at 118.11 100.3299 0)
 			(effects
 				(font
@@ -2173,6 +2212,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 115.57 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2930027"
 			(at 115.57 99.06 0)
 			(effects
 				(font

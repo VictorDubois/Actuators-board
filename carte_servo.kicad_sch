@@ -10194,7 +10194,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "D_Zener_Small"
 			(at 598.17 20.32 0)
 			(effects
 				(font
@@ -10202,7 +10202,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 598.17 24.13 0)
 			(effects
 				(font
@@ -10229,16 +10229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 598.17 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "LCSC#" "C908230"
 			(at 598.17 24.13 0)
 			(effects
 				(font
@@ -10317,6 +10308,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 405.13 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -10373,6 +10373,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 110.49 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C21189"
 			(at 110.49 158.75 0)
 			(effects
 				(font
@@ -10449,6 +10458,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C2907128"
+			(at 322.58 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "137a9958-4ee8-49a0-b2c0-024b4f031e34")
 		)
@@ -10511,6 +10529,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 46.99 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C495550"
 			(at 46.99 151.13 0)
 			(effects
 				(font
@@ -10598,6 +10625,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 110.49 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56b72e61-e360-4a08-942f-3f4582981b6b")
 		)
@@ -10631,7 +10667,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_Small"
+		(property "Value" "LED_G"
 			(at 179.1335 81.28 0)
 			(effects
 				(font
@@ -10658,6 +10694,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C965815"
 			(at 179.07 85.09 0)
 			(effects
 				(font
@@ -10736,6 +10781,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C1705"
+			(at 344.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ccf33d4-a265-461d-890f-a82928a1411c")
 		)
@@ -10798,6 +10852,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 46.99 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C495550"
 			(at 46.99 181.61 0)
 			(effects
 				(font
@@ -10885,6 +10948,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 405.13 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -10913,7 +10985,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "10uF"
 			(at 374.65 144.7799 0)
 			(effects
 				(font
@@ -10941,6 +11013,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 370.84 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C1713"
 			(at 370.84 143.51 0)
 			(effects
 				(font
@@ -10982,7 +11063,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "Fuse 4A"
 			(at 204.47 147.32 90)
 			(effects
 				(font
@@ -11009,6 +11090,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 204.47 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C27515"
 			(at 204.47 151.13 0)
 			(effects
 				(font
@@ -11079,6 +11169,15 @@
 			)
 		)
 		(property "Description" "2.4 GHz WiFi (802.11 b/g/n) and Bluetooth ® 5 (LE) module Built around ESP32S3 series of SoCs, Xtensa ® dualcore 32bit LX7 microprocessor Flash up to 16 MB, PSRAM up to 8 MB 36 GPIOs, rich set of peripherals Onboard PCB antenna"
+			(at 441.96 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2913198"
 			(at 441.96 49.53 0)
 			(effects
 				(font
@@ -11274,6 +11373,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 405.13 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -11330,6 +11438,15 @@
 			)
 		)
 		(property "Description" "Zener diode"
+			(at 607.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C3008120"
 			(at 607.06 50.8 0)
 			(effects
 				(font
@@ -11408,7 +11525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Champ5" ""
+		(property "LCSC#" "C14663"
 			(at 510.54 27.94 0)
 			(effects
 				(font
@@ -11479,6 +11596,15 @@
 			)
 		)
 		(property "Description" "CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8"
+			(at 341.63 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C12084"
 			(at 341.63 10.16 0)
 			(effects
 				(font
@@ -11565,6 +11691,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 577.85 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C963216"
 			(at 577.85 39.37 0)
 			(effects
 				(font
@@ -11688,6 +11823,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C3008120"
+			(at 619.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6e048f32-9825-4b94-bba3-638fb02b849c")
 		)
@@ -11748,6 +11892,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 46.99 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C277661"
 			(at 46.99 66.04 0)
 			(effects
 				(font
@@ -11834,6 +11987,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 574.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C22935"
 			(at 574.04 63.5 0)
 			(effects
 				(font
@@ -11976,6 +12138,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C2933233"
+			(at 612.14 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef709480-ce36-4a7e-a607-a230a85d01f8")
 		)
@@ -12017,7 +12188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 93.98 113.9952 0)
 			(effects
 				(font
@@ -12036,6 +12207,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 97.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C14663"
 			(at 97.79 113.03 0)
 			(effects
 				(font
@@ -12178,6 +12358,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C2888419"
+			(at 471.17 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4037aa05-84bc-4ef8-be64-a1bbd6e8dd49")
 		)
@@ -12221,7 +12410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 24.4348 153.67 0)
 			(effects
 				(font
@@ -12240,6 +12429,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 25.4 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C14663"
 			(at 25.4 149.86 0)
 			(effects
 				(font
@@ -12291,7 +12489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 24.4348 168.91 0)
 			(effects
 				(font
@@ -12310,6 +12508,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 25.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C14663"
 			(at 25.4 165.1 0)
 			(effects
 				(font
@@ -12361,7 +12568,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 342.9 143.51 0)
 			(effects
 				(font
@@ -12380,6 +12587,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 342.9 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C173428"
 			(at 342.9 143.51 0)
 			(effects
 				(font
@@ -12421,7 +12637,7 @@
 				)
 			)
 		)
-		(property "Value" "500R"
+		(property "Value" "510R"
 			(at 147.32 129.54 90)
 			(effects
 				(font
@@ -12448,6 +12664,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 147.32 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2907179"
 			(at 147.32 133.35 0)
 			(effects
 				(font
@@ -12563,7 +12788,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 93.98 87.3252 0)
 			(effects
 				(font
@@ -12582,6 +12807,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 97.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C14663"
 			(at 97.79 86.36 0)
 			(effects
 				(font
@@ -12660,6 +12894,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 361.95 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -12724,6 +12967,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 361.95 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -12751,7 +13003,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "2kR"
 			(at 189.23 81.28 90)
 			(effects
 				(font
@@ -12778,6 +13030,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 189.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2907137"
 			(at 189.23 85.09 0)
 			(effects
 				(font
@@ -12819,7 +13080,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "Fuse 4A"
 			(at 332.74 135.89 90)
 			(effects
 				(font
@@ -12846,6 +13107,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 332.74 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C27515"
 			(at 332.74 139.7 0)
 			(effects
 				(font
@@ -12990,6 +13260,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 361.95 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -13027,7 +13306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 214.63 154.94 0)
 			(effects
 				(font
@@ -13046,6 +13325,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 214.63 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C173428"
 			(at 214.63 154.94 0)
 			(effects
 				(font
@@ -13124,7 +13412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Champ5" ""
+		(property "LCSC#" "C14663"
 			(at 524.51 35.56 0)
 			(effects
 				(font
@@ -13267,6 +13555,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C2933233"
+			(at 612.14 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "341b4feb-1f03-4b98-bded-d1bf7b1b7d7e")
 		)
@@ -13327,6 +13624,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 191.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2907113"
 			(at 191.77 110.49 0)
 			(effects
 				(font
@@ -13403,6 +13709,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 100.33 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "891e7ab2-a91e-4180-a921-c0d16d92baf4")
 		)
@@ -13455,7 +13770,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500R"
+		(property "Value" "22kR"
 			(at 109.22 177.7999 0)
 			(effects
 				(font
@@ -13483,6 +13798,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 106.68 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2907128"
 			(at 106.68 176.53 0)
 			(effects
 				(font
@@ -13627,6 +13951,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 361.95 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -13691,6 +14024,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C495550"
+			(at 46.99 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dca0627a-e1ac-421a-8174-1de5f7dd1de1")
 		)
@@ -13734,7 +14076,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "10kR"
 			(at 109.22 189.2299 0)
 			(effects
 				(font
@@ -13762,6 +14104,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 106.68 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2930027"
 			(at 106.68 187.96 0)
 			(effects
 				(font
@@ -13830,6 +14181,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 100.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
 			(at 100.33 92.71 0)
 			(effects
 				(font
@@ -13926,6 +14286,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 363.22 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -13988,6 +14357,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C20538890"
+			(at 335.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e4edfd25-19fa-48ca-9e9b-464dc61a084b")
 		)
@@ -14025,7 +14403,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "10uF"
 			(at 363.22 144.7799 0)
 			(effects
 				(font
@@ -14053,6 +14431,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 359.41 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C1713"
 			(at 359.41 143.51 0)
 			(effects
 				(font
@@ -14095,7 +14482,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "10kR"
 			(at 86.36 171.4499 0)
 			(effects
 				(font
@@ -14123,6 +14510,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 83.82 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2930027"
 			(at 83.82 170.18 0)
 			(effects
 				(font
@@ -14199,6 +14595,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C2907113"
+			(at 200.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "970f05b0-16ab-4346-a68b-7b094ba21399")
 		)
@@ -14233,7 +14638,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "10uF"
 			(at 246.38 156.2099 0)
 			(effects
 				(font
@@ -14261,6 +14666,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 242.57 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C1713"
 			(at 242.57 154.94 0)
 			(effects
 				(font
@@ -14312,7 +14726,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 24.4348 184.15 0)
 			(effects
 				(font
@@ -14331,6 +14745,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 25.4 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C14663"
 			(at 25.4 180.34 0)
 			(effects
 				(font
@@ -14409,6 +14832,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C15849"
+			(at 323.85 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cdd28e8c-d861-4b49-a683-b29f3d9e7b6e")
 		)
@@ -14479,6 +14911,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C1705"
+			(at 331.47 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bcbcfc27-0086-4478-bd5c-be4e8ea7f8bb")
 		)
@@ -14513,7 +14954,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "10uF"
 			(at 431.8 1.2699 0)
 			(effects
 				(font
@@ -14541,6 +14982,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 427.99 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C1713"
 			(at 427.99 0 0)
 			(effects
 				(font
@@ -14609,6 +15059,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 135.89 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C144394"
 			(at 135.89 130.81 0)
 			(effects
 				(font
@@ -14688,6 +15147,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C277661"
+			(at 46.99 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "48500f1f-e7e2-45c4-bd70-4a5b5d4ba1c4")
 		)
@@ -14740,7 +15208,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500R"
+		(property "Value" "52.3kR"
 			(at 86.36 160.0199 0)
 			(effects
 				(font
@@ -14768,6 +15236,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 83.82 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C23198"
 			(at 83.82 158.75 0)
 			(effects
 				(font
@@ -14846,6 +15323,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 405.13 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -14908,7 +15394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Champ5" ""
+		(property "LCSC#" "C14663"
 			(at 502.92 38.1 0)
 			(effects
 				(font
@@ -14979,6 +15465,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 226.06 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C398835"
 			(at 226.06 154.94 0)
 			(effects
 				(font

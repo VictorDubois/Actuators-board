@@ -1472,6 +1472,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 127 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2960ad21-1b92-4bc6-b9e8-fbfe6a0c7a53")
 		)
@@ -1542,6 +1551,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 128.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9e4d47af-562c-44fe-97f0-66b82767135c")
 		)
@@ -1604,6 +1622,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 142.24 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C144394"
 			(at 142.24 80.01 0)
 			(effects
 				(font
@@ -1685,6 +1712,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 133.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "914ba957-4e09-4086-a75d-8f2c31a709ce")
 		)
@@ -1747,6 +1783,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 74.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "?"
 			(at 74.93 55.88 0)
 			(effects
 				(font
@@ -1825,6 +1870,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 134.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3c0cde3e-178d-4cb4-8679-627cf8f35a06")
 		)
@@ -1887,6 +1941,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 134.62 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
 			(at 134.62 105.41 0)
 			(effects
 				(font
@@ -1965,6 +2028,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C144394"
+			(at 142.24 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "278b8839-48a0-49ce-9b04-6f4454ac4ba2")
 		)
@@ -2030,6 +2102,15 @@
 			)
 		)
 		(property "Description" "8 Bit Port/Expander to I2C Bus, SSOP-20"
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2803277"
 			(at 92.71 78.74 0)
 			(effects
 				(font
@@ -2162,6 +2243,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "20c9c87e-a1e1-41e1-b38c-67933be5ac9e")
 		)
@@ -2224,6 +2314,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 133.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
 			(at 133.35 77.47 0)
 			(effects
 				(font
@@ -2302,6 +2401,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 127 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b31f00bc-7607-45b0-8f52-b4ae5ab1fc3b")
 		)
@@ -2364,6 +2472,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 143.51 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C144394"
 			(at 143.51 93.98 0)
 			(effects
 				(font
@@ -2437,6 +2554,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 143.51 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C144394"
 			(at 143.51 107.95 0)
 			(effects
 				(font

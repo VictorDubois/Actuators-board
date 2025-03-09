@@ -1274,7 +1274,6 @@
 	)
 	(label "OB2"
 		(at 130.8735 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1285,7 +1284,6 @@
 	)
 	(label "OA1"
 		(at 130.81 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1296,7 +1294,6 @@
 	)
 	(label "OA2"
 		(at 130.81 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1307,7 +1304,6 @@
 	)
 	(label "OB1"
 		(at 130.81 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1319,7 +1315,6 @@
 	(hierarchical_label "PDN{slash}UART"
 		(shape input)
 		(at 92.71 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1331,7 +1326,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 157.48 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1343,7 +1337,6 @@
 	(hierarchical_label "Enable"
 		(shape input)
 		(at 92.71 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1355,7 +1348,6 @@
 	(hierarchical_label "VIO"
 		(shape input)
 		(at 140.97 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1367,7 +1359,6 @@
 	(hierarchical_label "STEP"
 		(shape input)
 		(at 92.71 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1379,7 +1370,6 @@
 	(hierarchical_label "VIO"
 		(shape input)
 		(at 58.42 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1391,7 +1381,6 @@
 	(hierarchical_label "DIR"
 		(shape input)
 		(at 92.71 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1403,7 +1392,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 69.85 87.63 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1415,7 +1403,6 @@
 	(hierarchical_label "VMotors"
 		(shape input)
 		(at 167.64 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1427,7 +1414,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 137.16 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1483,6 +1469,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 157.48 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C398835"
 			(at 157.48 66.04 0)
 			(effects
 				(font
@@ -1554,6 +1549,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 62.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
 			(at 62.23 80.01 0)
 			(effects
 				(font
@@ -1636,6 +1640,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C21189"
+			(at 71.12 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75854f3d-7e32-471f-9837-e73018cf73c9")
 		)
@@ -1710,83 +1723,12 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Trinamic Motion"
+		(property "LCSC#" ""
 			(at 110.49 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 110.49 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 110.49 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TMC2208%20SILENTSTEPSTICK/Trinamic+Motion+Control+GmbH/view-part/?ref=eda"
-			(at 110.49 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TMC2208%20SILENTSTEPSTICK/Trinamic+Motion+Control+GmbH/view-part/?ref=snap"
-			(at 110.49 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TMC2208 SILENTSTEPSTICK"
-			(at 110.49 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 110.49 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Trinamic Motion"
-			(at 110.49 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -1911,6 +1853,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C21189"
+			(at 68.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e932ed14-1c43-4db6-b038-32331a85d718")
 		)
@@ -1982,6 +1933,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 62.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc2aa250-7c9a-43ca-9c83-3d52670fa366")
 		)
@@ -2044,6 +2004,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 149.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C595709"
 			(at 149.86 77.47 0)
 			(effects
 				(font

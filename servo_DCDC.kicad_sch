@@ -2418,7 +2418,6 @@
 	)
 	(label "SW"
 		(at 124.46 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2430,7 +2429,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 173.99 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2442,7 +2440,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 97.79 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2454,7 +2451,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 64.77 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2466,7 +2462,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 54.61 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2478,7 +2473,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 81.28 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2490,7 +2484,6 @@
 	(hierarchical_label "VIN"
 		(shape input)
 		(at 43.18 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2502,7 +2495,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 205.74 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2514,7 +2506,6 @@
 	(hierarchical_label "VOUT"
 		(shape output)
 		(at 227.33 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2526,7 +2517,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 130.81 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2538,7 +2528,6 @@
 	(hierarchical_label "Enable"
 		(shape input)
 		(at 80.01 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2594,6 +2583,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 173.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2999456"
 			(at 173.99 86.36 0)
 			(effects
 				(font
@@ -2672,6 +2670,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C5440143"
+			(at 214.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0b7ddfda-4534-4cd0-b23f-f2c56c2a600b")
 		)
@@ -2742,6 +2749,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C2933269"
+			(at 173.99 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e0092250-6678-44ed-9ba6-ca29c03ee721")
 		)
@@ -2776,7 +2792,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "52.3k"
+		(property "Value" "52.3kR"
 			(at 71.12 78.7399 0)
 			(effects
 				(font
@@ -2785,7 +2801,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.58 77.47 0)
 			(effects
 				(font
@@ -2804,6 +2820,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 68.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C23198"
 			(at 68.58 77.47 0)
 			(effects
 				(font
@@ -2873,6 +2898,15 @@
 			)
 		)
 		(property "Description" "42V Wide Vin synchronous Buck controller, HTSSOP-14"
+			(at 97.79 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C1519420"
 			(at 97.79 81.28 0)
 			(effects
 				(font
@@ -2990,6 +3024,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C1713"
+			(at 58.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e46b1e66-2f8a-4a00-afa7-85ee646aa39c")
 		)
@@ -3052,6 +3095,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 64.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C19110"
 			(at 64.77 90.17 0)
 			(effects
 				(font
@@ -3128,123 +3180,12 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Coilcraft"
+		(property "LCSC#" "C19191689"
 			(at 144.78 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.1mm"
-			(at 144.78 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 144.78 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 144.78 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/XAL6030-122MEC/Coilcraft/view-part/?ref=eda"
-			(at 144.78 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 144.78 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "11/02/18"
-			(at 144.78 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XAL6030-122MEC/Coilcraft/view-part/?ref=snap"
-			(at 144.78 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "XAL6030-122MEC"
-			(at 144.78 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            1.2 µH Shielded Molded Inductor 16 A 7.5mOhm Max Nonstandard\n                        \n"
-			(at 144.78 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 144.78 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Coilcraft"
-			(at 144.78 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -3308,6 +3249,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 116.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2930053"
 			(at 116.84 83.82 0)
 			(effects
 				(font
@@ -3386,6 +3336,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C57112"
+			(at 81.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8fdf2c9a-fc23-4fd5-b6af-fddc9092033b")
 		)
@@ -3448,6 +3407,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 196.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C5440143"
 			(at 196.85 86.36 0)
 			(effects
 				(font
@@ -3521,6 +3489,15 @@
 			)
 		)
 		(property "Description" "25A Id, 30V Vds, NexFET N-Channel Power MOSFET, 9.7mOhm Ron, Qg (typ) 5.4nC, SON8 5x6mm"
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2760461"
 			(at 128.27 100.33 0)
 			(effects
 				(font
@@ -3608,6 +3585,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C5440143"
+			(at 226.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e0ccf2bc-3413-4ffb-8878-d68fa1b0f907")
 		)
@@ -3678,6 +3664,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C1713"
+			(at 49.53 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d0dbe5c8-542d-4957-8078-8366b0d9b7c0")
 		)
@@ -3738,6 +3733,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 118.11 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C7503496"
 			(at 118.11 73.66 0)
 			(effects
 				(font
@@ -3816,6 +3820,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C62782"
+			(at 161.29 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "78b822dc-1225-46bd-b570-8964696c8014")
 		)
@@ -3881,6 +3894,15 @@
 			)
 		)
 		(property "Description" "100A Id, 30V Vds, NexFET N-Channel Power MOSFET, 12.1mOhm Ron, 4nC Qg(typ), SON8 5x6mm"
+			(at 128.27 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C22367097"
 			(at 128.27 71.12 0)
 			(effects
 				(font
