@@ -995,6 +995,12 @@
 		(uuid "38987bfa-14a3-41f9-be15-6327ab6dae68")
 	)
 	(junction
+		(at 69.85 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4704063c-db79-4837-8feb-6c19940fadca")
+	)
+	(junction
 		(at 91.44 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1262,6 +1268,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 91.44) (xy 69.85 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5a4bc33-4c56-4e83-9567-f8d8b7f5ca4d")
+	)
+	(wire
+		(pts
 			(xy 138.43 113.03) (xy 142.24 113.03)
 		)
 		(stroke
@@ -1319,6 +1335,16 @@
 			(type default)
 		)
 		(uuid "fff62356-9f1e-4bae-9bcc-5f4048fa273a")
+	)
+	(text "5V => 3.3V"
+		(exclude_from_sim no)
+		(at 77.216 91.694 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1fc2a0cf-652c-4401-8d54-c8605e6c63eb")
 	)
 	(label "AX12_DATA"
 		(at 115.57 71.12 0)
@@ -1394,6 +1420,17 @@
 		)
 		(uuid "1fe83a82-4aa9-40a1-bcd4-57e61c068a7f")
 	)
+	(hierarchical_label "master_RX"
+		(shape output)
+		(at 59.69 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4056db82-a9f7-4438-be6c-82404a11521d")
+	)
 	(hierarchical_label "5V"
 		(shape input)
 		(at 114.3 91.44 180)
@@ -1416,16 +1453,16 @@
 		)
 		(uuid "68bc2e42-9e92-46c5-8d49-7bc18e020820")
 	)
-	(hierarchical_label "master_RX"
-		(shape output)
-		(at 69.85 83.82 180)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 69.85 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "875fd028-5627-4c1f-9f5f-e85c3dc1711a")
+		(uuid "77617652-96e2-4387-a6e7-6d3c928d7e6f")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -1575,6 +1612,85 @@
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/66026453-9027-4575-bae8-7143b4848e55"
 					(reference "U5")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 69.85 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16e9b3d6-61d0-438d-a643-83de5cbf3c95")
+		(property "Reference" "R49"
+			(at 72.39 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kR"
+			(at 72.39 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 68.072 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2930027"
+			(at 69.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8736fec-ec1a-49da-8ca2-64a1b0aefb8b")
+		)
+		(pin "2"
+			(uuid "545922d6-7b67-4028-8698-aff1e48be125")
+		)
+		(instances
+			(project "carte_servo"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/66026453-9027-4575-bae8-7143b4848e55"
+					(reference "R49")
+					(unit 1)
 				)
 			)
 		)
@@ -1734,6 +1850,85 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/66026453-9027-4575-bae8-7143b4848e55"
 					(reference "J29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 69.85 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b5b1b4a-3dce-4a77-b46d-4b7f3c705de8")
+		(property "Reference" "R50"
+			(at 72.39 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22kR"
+			(at 72.39 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 68.072 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2930027"
+			(at 69.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e5e72b7-8552-46d2-ad1e-2a21c40d18e7")
+		)
+		(pin "2"
+			(uuid "cbbcf241-531e-4d45-99e7-48732dc40b5b")
+		)
+		(instances
+			(project "carte_servo"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/66026453-9027-4575-bae8-7143b4848e55"
+					(reference "R50")
 					(unit 1)
 				)
 			)
