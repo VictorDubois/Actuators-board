@@ -1519,7 +1519,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "12V"
 			(at 156.21 59.6899 0)
 			(effects
 				(font
@@ -1598,7 +1598,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "12V"
 			(at 157.48 101.5999 0)
 			(effects
 				(font
@@ -1759,7 +1759,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "3.3V"
 			(at 162.56 59.6899 0)
 			(effects
 				(font
@@ -2075,7 +2075,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "3.3V"
 			(at 163.83 87.6299 0)
 			(effects
 				(font
@@ -2154,7 +2154,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "3.3V"
 			(at 163.83 101.5999 0)
 			(effects
 				(font
@@ -2764,7 +2764,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "12V"
 			(at 157.48 87.6299 0)
 			(effects
 				(font
@@ -2843,7 +2843,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "3.3V"
 			(at 162.56 73.6599 0)
 			(effects
 				(font
@@ -2922,7 +2922,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "12V"
 			(at 156.21 73.6599 0)
 			(effects
 				(font
