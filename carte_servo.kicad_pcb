@@ -10108,9 +10108,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/74c6b329-7431-416c-9648-033e562ea02c")
-		(sheetname "Racine")
-		(sheetfile "carte_servo.kicad_sch")
+		(path "/1ad64a30-be76-46f8-8378-763e862d1340/d776771a-66d1-47d7-8d9f-04e8fea273f2")
+		(sheetname "USB_conn")
+		(sheetfile "USB_conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -10560,9 +10560,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/7bdd8fcc-6263-4111-96be-866fefd2734f")
-		(sheetname "Racine")
-		(sheetfile "carte_servo.kicad_sch")
+		(path "/1ad64a30-be76-46f8-8378-763e862d1340/71bc3238-e158-4fb7-b4b7-f1f9f7e209aa")
+		(sheetname "USB_conn")
+		(sheetfile "USB_conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -11556,9 +11556,9 @@
 			)
 		)
 		(property ki_fp_filters "USB*C*Receptacle*")
-		(path "/67dc8544-76ee-4b06-bd89-8d361a2d49cd")
-		(sheetname "Racine")
-		(sheetfile "carte_servo.kicad_sch")
+		(path "/1ad64a30-be76-46f8-8378-763e862d1340/bf4923ee-a458-4495-8e81-9f6bbce4cc7d")
+		(sheetname "USB_conn")
+		(sheetfile "USB_conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.96 -4.515)
@@ -15507,9 +15507,9 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/6a540081-aeb7-4243-852f-08fc8354fbaa")
-		(sheetname "Racine")
-		(sheetfile "carte_servo.kicad_sch")
+		(path "/1ad64a30-be76-46f8-8378-763e862d1340/cfbab7ff-214c-4f9e-9a38-3155f17d7875")
+		(sheetname "USB_conn")
+		(sheetfile "USB_conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.7 -0.6)
@@ -18731,9 +18731,9 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/00b498cb-757d-4bb5-a336-09964ccddf54")
-		(sheetname "Racine")
-		(sheetfile "carte_servo.kicad_sch")
+		(path "/1ad64a30-be76-46f8-8378-763e862d1340/131c08d5-9cb2-4e04-b26a-d544afdaf22f")
+		(sheetname "USB_conn")
+		(sheetfile "USB_conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 -1)
@@ -20878,9 +20878,9 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/44b6cef1-b565-460d-beb1-af226ed1ddbf")
-		(sheetname "Racine")
-		(sheetfile "carte_servo.kicad_sch")
+		(path "/1ad64a30-be76-46f8-8378-763e862d1340/78b7e7ec-5521-4b5d-b749-13ffb02d751d")
+		(sheetname "USB_conn")
+		(sheetfile "USB_conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.7 -0.6)
@@ -22168,7 +22168,7 @@
 		(property "Reference" "L2"
 			(at 0 0 90)
 			(layer "F.SilkS")
-			(uuid "667a542e-086d-4d37-bd24-47eb316ddc2a")
+			(uuid "4907e64d-1191-4e8f-9677-94efa4c5cf32")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22180,7 +22180,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b3cb3e96-dba8-43e9-8281-a862c2dd4d11")
+			(uuid "8f265c80-951d-4212-b21d-fbd977947929")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22192,7 +22192,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7058b9cd-fa97-4787-ac2d-8d1d9679d85c")
+			(uuid "fd6c382e-a57e-43d9-b2d0-302a0ac8ee4f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22204,7 +22204,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e53010bb-7b25-4ddd-b1a0-9ec8296826a5")
+			(uuid "034c31c2-ddc7-49b5-a30d-aff0e67f7210")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22216,7 +22216,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7b0e238b-e8a7-4e56-8753-bb870d189d96")
+			(uuid "d4578469-5741-4cf6-9e4f-556e029a4d3d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22229,7 +22229,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "705d371d-9dc0-48c8-b86b-bdbe25584692")
+			(uuid "8b7cd432-0bb9-41cc-a0b9-3423d4503b2c")
 			(effects
 				(font
 					(size 1 1)
@@ -22249,7 +22249,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e9800079-c3f3-4472-bcd2-cc3b565311b4")
+			(uuid "6a510d06-0a9f-432d-afe6-31a553237dc8")
 		)
 		(fp_line
 			(start -3.43 3.235)
@@ -22259,7 +22259,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6ea45d00-4053-481c-8efd-4e9a2b4e3381")
+			(uuid "6022e0c2-af5e-46e8-b321-5eff50f09ff4")
 		)
 		(fp_line
 			(start 4.35 -3.612)
@@ -22269,7 +22269,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "84f1ff21-728c-4cff-b486-7884195fa037")
+			(uuid "acb6de49-4482-4318-9340-971f0246ee84")
 		)
 		(fp_line
 			(start -4.35 -3.612)
@@ -22279,7 +22279,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "bef4a547-d4e5-4768-a16c-a62994853bc1")
+			(uuid "448afc64-8cdb-4d32-8ccc-cc66fa2925d1")
 		)
 		(fp_line
 			(start 4.35 3.612)
@@ -22289,7 +22289,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9e89a330-0d36-4b89-9bfc-72c68778e184")
+			(uuid "53b6fede-cfa1-428a-a63c-d39c597a42b7")
 		)
 		(fp_line
 			(start -4.35 3.612)
@@ -22299,7 +22299,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "fdf5c095-085a-4ec9-91c6-f167d149b66c")
+			(uuid "758a80b1-2115-40f0-809d-16f51b34c20b")
 		)
 		(fp_line
 			(start 3.43 -3.235)
@@ -22309,7 +22309,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a6a89cab-7d4a-4826-bd37-3a0cbe2d78fb")
+			(uuid "8e0878ba-cd64-43a0-a7ed-9613ff9300e7")
 		)
 		(fp_line
 			(start -3.43 -3.235)
@@ -22319,7 +22319,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ff8386be-22b0-4fbf-bc65-ed91f940395a")
+			(uuid "82df09be-5177-4c5f-9cb9-0ce06f54db2f")
 		)
 		(fp_line
 			(start 3.43 3.235)
@@ -22329,7 +22329,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a613f574-b190-4c9c-a562-bfffb40fa00f")
+			(uuid "51fb8009-6500-4330-b6d4-998fbf96183f")
 		)
 		(fp_line
 			(start -3.43 3.235)
@@ -22339,12 +22339,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e0692646-91c7-43e2-b21b-d91616b158a0")
+			(uuid "01405cd3-6c51-4e8a-a61c-ce1621edd90a")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "6b9262e8-eb29-4d7a-9394-8ec89ff0606b")
+			(uuid "162ab98b-a712-4f4e-b476-86cf4a50280a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22359,7 +22359,7 @@
 			(net 104 "/DCDC_5V/SW_DCDC5V")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "7631a16b-9c00-4fae-978d-e2111f02270b")
+			(uuid "810bb0b4-0921-4240-80c5-a140ba42fa69")
 		)
 		(pad "2" smd rect
 			(at 2.9 0 90)
@@ -22368,7 +22368,7 @@
 			(net 78 "5V")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "e6dcc205-db64-4dfe-a63f-88d53606ebf2")
+			(uuid "f21a6dba-c566-4122-86f1-6ea084f3be0f")
 		)
 		(model "IHLP2525CZER3R3M11.stp"
 			(offset
@@ -24065,9 +24065,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/c182c341-5d3e-4000-b92f-6a6be527c3a4")
-		(sheetname "Racine")
-		(sheetfile "carte_servo.kicad_sch")
+		(path "/1ad64a30-be76-46f8-8378-763e862d1340/21dd12e7-3e92-430a-94eb-7a732a306185")
+		(sheetname "USB_conn")
+		(sheetfile "USB_conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -32386,9 +32386,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/7ead9c3d-f3b5-4038-9769-41893d3ff631")
-		(sheetname "Racine")
-		(sheetfile "carte_servo.kicad_sch")
+		(path "/f22c9129-97b0-4483-bff0-ce11500b75d7/530eca29-a4a2-4bc0-8181-e9e52fa6ea0a")
+		(sheetname "IMU")
+		(sheetfile "IMU.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)
@@ -38866,9 +38866,9 @@
 			)
 		)
 		(property ki_fp_filters "*QFN*4x4mm*P0.5mm*")
-		(path "/cb4fcd81-25cf-4ec5-bb6b-f626075d8d9c")
-		(sheetname "Racine")
-		(sheetfile "carte_servo.kicad_sch")
+		(path "/f22c9129-97b0-4483-bff0-ce11500b75d7/51ab434a-5f84-4aec-b8b8-8ba4acbeff50")
+		(sheetname "IMU")
+		(sheetfile "IMU.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.15 -1.625)
@@ -45777,9 +45777,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/7d329fa8-1a6d-4e38-910f-9a72a01aab93")
-		(sheetname "Racine")
-		(sheetfile "carte_servo.kicad_sch")
+		(path "/f22c9129-97b0-4483-bff0-ce11500b75d7/699f9bf1-6700-4570-9a02-8b25522cefff")
+		(sheetname "IMU")
+		(sheetfile "IMU.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)
@@ -48977,9 +48977,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/c7b7e1c0-58ff-449f-870f-a08bb43d8bbb")
-		(sheetname "Racine")
-		(sheetfile "carte_servo.kicad_sch")
+		(path "/f22c9129-97b0-4483-bff0-ce11500b75d7/c396fad3-8124-4307-bdc0-acef0461d114")
+		(sheetname "IMU")
+		(sheetfile "IMU.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)
@@ -56611,9 +56611,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/b5468677-3978-46de-bfa6-430fe44376a5")
-		(sheetname "Racine")
-		(sheetfile "carte_servo.kicad_sch")
+		(path "/f22c9129-97b0-4483-bff0-ce11500b75d7/f3cf927f-68fa-4720-b8e4-4f7a4364bfdf")
+		(sheetname "IMU")
+		(sheetfile "IMU.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)

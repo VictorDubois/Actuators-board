@@ -725,6 +725,14 @@
     [
       "b45a520f-1905-47db-bbc3-05cad8f90896",
       "IO_expander"
+    ],
+    [
+      "1ad64a30-be76-46f8-8378-763e862d1340",
+      "USB_conn"
+    ],
+    [
+      "f22c9129-97b0-4483-bff0-ce11500b75d7",
+      "IMU"
     ]
   ],
   "text_variables": {}
