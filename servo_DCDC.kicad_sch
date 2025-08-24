@@ -2416,6 +2416,16 @@
 		)
 		(uuid "fa5bf141-5686-4196-afaf-098a31db1886")
 	)
+	(text "24V input:\n	\nXAL6030-182MEB (même empreinte)\n\n	\nCSD18504Q5A (même empreinte)\n	\nCSD18563Q5A (même empreinte)"
+		(exclude_from_sim no)
+		(at 192.786 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4e858a55-828d-4f77-a81d-280b560f2177")
+	)
 	(label "SW"
 		(at 124.46 78.74 0)
 		(effects
@@ -2781,7 +2791,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "35d307a1-9e95-4a7c-a419-6c542551017b")
 		(property "Reference" "R31"
 			(at 71.12 76.1999 0)
@@ -2792,8 +2801,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "52.3kR"
-			(at 71.12 78.7399 0)
+		(property "Value" "52.3kR (12V) - 42.2kR (24V)"
+			(at 36.576 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3289,7 +3298,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7eae3949-3a52-43a0-892d-549b1815c5a0")
 		(property "Reference" "C18"
 			(at 85.09 91.4399 0)
@@ -3300,8 +3308,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
-			(at 85.09 93.9799 0)
+		(property "Value" "10nF (12V) - 15nF (24V)"
+			(at 68.58 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)

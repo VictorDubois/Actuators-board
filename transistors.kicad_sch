@@ -1596,28 +1596,6 @@
 		)
 		(uuid "fd0daedd-24a5-44af-871b-812f2e90b524")
 	)
-	(global_label "GND_POWER"
-		(shape input)
-		(at 189.23 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0ab66369-821b-44ab-be42-70e56b347b09")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.9521 123.1106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TRANSISTOR_OUT_1"
 		(shape output)
 		(at 213.36 109.22 0)
@@ -1640,160 +1618,6 @@
 			)
 		)
 	)
-	(global_label "GND_POWER"
-		(shape input)
-		(at 189.23 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2c6fd9a5-dd87-48e5-825b-33a660249a0e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.9521 90.0906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BATT_12V"
-		(shape input)
-		(at 191.77 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "38f4899a-f7c6-4184-8f77-ca75a2f5d8c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.9521 100.2506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TRANSISTOR_4"
-		(shape input)
-		(at 165.1 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4341e3d5-1062-4e8f-8b9b-ace20674bc23")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.2612 82.4706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TRANSISTOR_1"
-		(shape input)
-		(at 163.83 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "50b9ebb0-8707-4a9a-a94a-0ca9d6d5c205")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.9912 114.2206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TRANSISTOR_2"
-		(shape input)
-		(at 162.56 147.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7e68b1a8-8d9a-4f1e-9fd3-725e2d727f15")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.7212 147.2406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND_POWER"
-		(shape input)
-		(at 189.23 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "89403439-61f6-43ff-b09c-0a452a160e06")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.9521 64.6906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BATT_12V"
-		(shape input)
-		(at 193.04 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "99dbf0ad-d28c-445e-be62-2b89574fc333")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.2221 40.5606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TRANSISTOR_OUT_2"
 		(shape output)
 		(at 210.82 142.24 0)
@@ -1807,28 +1631,6 @@
 		(uuid "b794a553-43ad-4048-8c76-4f5b03c90de6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 231.255 142.1606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BATT_12V"
-		(shape input)
-		(at 193.04 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c6ff06cd-2c60-486a-8681-b36fcf64c835")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.2221 74.8506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1882,71 +1684,137 @@
 			)
 		)
 	)
-	(global_label "TRANSISTOR_3"
+	(hierarchical_label "GND_POWER"
 		(shape input)
-		(at 165.1 55.88 180)
-		(fields_autoplaced yes)
+		(at 189.23 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01900cac-1298-4544-92b4-2d9a0e946be2")
+	)
+	(hierarchical_label "GND_POWER"
+		(shape input)
+		(at 189.23 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "06f5a3f1-efc6-4827-87ca-057ac9979b3f")
+	)
+	(hierarchical_label "BATT_12V"
+		(shape input)
+		(at 191.77 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "138bc602-7e58-4b4a-a73d-0a7b58d2a688")
+	)
+	(hierarchical_label "TRANSISTOR_4"
+		(shape input)
+		(at 165.1 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "e82d4ef6-1aa1-4f3c-9785-23ef08204960")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.2612 55.8006 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "1ea80117-3984-426a-8615-0ffa6e42b081")
 	)
-	(global_label "GND_POWER"
+	(hierarchical_label "BATT_12V"
+		(shape input)
+		(at 193.04 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1fc4ea9a-614e-42cb-80f4-4afd6a7689d1")
+	)
+	(hierarchical_label "GND_POWER"
 		(shape input)
 		(at 191.77 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "f33b5f9e-cf67-4b36-9e8c-3502113199b8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.4921 154.8606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "39b82013-b2d6-49cc-adc9-2f68c5560f94")
 	)
-	(global_label "BATT_12V"
+	(hierarchical_label "TRANSISTOR_3"
 		(shape input)
-		(at 191.77 138.43 0)
-		(fields_autoplaced yes)
+		(at 165.1 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78ebabb6-74a7-41ef-ad18-8dc43cb8d6f9")
+	)
+	(hierarchical_label "GND_POWER"
+		(shape input)
+		(at 189.23 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "fbede6cd-88da-4231-9174-38fde4c169bf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.9521 138.3506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
+		(uuid "9459d3fc-c903-49f2-ad1e-902be89e499d")
+	)
+	(hierarchical_label "TRANSISTOR_2"
+		(shape input)
+		(at 162.56 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "a2512153-179f-4a03-81b0-555372af9a54")
+	)
+	(hierarchical_label "BATT_12V"
+		(shape input)
+		(at 191.77 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0718da8-9d1b-4f34-b362-7bc30cc38991")
+	)
+	(hierarchical_label "TRANSISTOR_1"
+		(shape input)
+		(at 163.83 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc73a629-bd07-474c-a47a-c7e494fae329")
+	)
+	(hierarchical_label "BATT_12V"
+		(shape input)
+		(at 193.04 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6e04b43-ee87-40b2-9cb3-0a0d7c06c33d")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
