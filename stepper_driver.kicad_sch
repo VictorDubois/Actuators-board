@@ -1334,7 +1334,7 @@
 		)
 		(uuid "58c437f6-3cbe-49b8-b558-e333235f22a4")
 	)
-	(hierarchical_label "Enable"
+	(hierarchical_label "EnableStepper"
 		(shape input)
 		(at 92.71 64.77 180)
 		(effects
