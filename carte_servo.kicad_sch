@@ -3756,12 +3756,6 @@
 		(uuid "43d6d3c0-8153-42e6-aa0e-50cacdce7b4c")
 	)
 	(junction
-		(at 476.25 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "483d5671-dfa8-4373-b05c-3e5ca071b103")
-	)
-	(junction
 		(at 163.83 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3862,6 +3856,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a618c15f-64ca-47a3-9491-b042319be7b3")
+	)
+	(junction
+		(at 400.05 328.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac00aa1f-c644-484d-8b94-ac42e1f1a508")
 	)
 	(junction
 		(at 111.76 358.14)
@@ -4039,7 +4039,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 328.93) (xy 401.32 328.93)
+			(xy 394.97 328.93) (xy 400.05 328.93)
 		)
 		(stroke
 			(width 0)
@@ -4466,6 +4466,16 @@
 			(type default)
 		)
 		(uuid "369bccb0-734e-47cb-afbd-00770f57234e")
+	)
+	(wire
+		(pts
+			(xy 400.05 328.93) (xy 401.32 328.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c418e5-5218-4428-bc20-933097db9bc3")
 	)
 	(wire
 		(pts
@@ -5309,7 +5319,7 @@
 	)
 	(wire
 		(pts
-			(xy 476.25 153.67) (xy 478.79 153.67)
+			(xy 473.71 153.67) (xy 478.79 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5456,16 +5466,6 @@
 			(type default)
 		)
 		(uuid "a6f00b86-9fa3-478e-9323-82f071a91b7b")
-	)
-	(wire
-		(pts
-			(xy 473.71 153.67) (xy 476.25 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a73501e5-5c76-4fe3-a62b-ece0d284bf7e")
 	)
 	(wire
 		(pts
@@ -7273,28 +7273,6 @@
 			)
 		)
 	)
-	(global_label "BATT_12V"
-		(shape input)
-		(at 473.71 153.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1db45b3b-d9e1-4a64-92ea-f8c70dd39a9c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 462.5279 153.5906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "24V_POW_P"
 		(shape input)
 		(at 346.71 346.71 180)
@@ -7858,28 +7836,6 @@
 		(uuid "43f5217a-8040-435d-bb98-0fe214e29c1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 33.2401 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BATT_12V"
-		(shape input)
-		(at 473.71 173.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "443dcb9f-1e64-41b5-80ec-91b8d29b2d08")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 462.5279 173.9106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8782,6 +8738,28 @@
 		(uuid "890b5d7b-6f30-4602-a9a6-84e160c52468")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 296.4324 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BATT_24V_power"
+		(shape input)
+		(at 473.71 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8aed85b2-e4e3-446b-b4cf-4b784f8f41e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 455.4849 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10221,6 +10199,28 @@
 			)
 		)
 	)
+	(global_label "BATT_24V_power"
+		(shape input)
+		(at 473.71 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5032941-e57e-4785-8d3a-5392056bf6bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 455.4849 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND_ELEC"
 		(shape input)
 		(at 346.71 354.33 180)
@@ -11285,6 +11285,72 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 400.05 328.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f5606e0-c516-4db2-8966-ebcd430da6e4")
+		(property "Reference" "#FLG10"
+			(at 400.05 327.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 400.05 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 400.05 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 400.05 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 400.05 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95f6c6f2-4f1a-4ee1-9c47-8a2fb00c58d4")
+		)
+		(instances
+			(project "carte_servo"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#FLG10")
 					(unit 1)
 				)
 			)
@@ -12807,72 +12873,6 @@
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 476.25 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "765b058f-d72d-4c53-8a04-f30780eadd0f")
-		(property "Reference" "#FLG04"
-			(at 476.25 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 476.25 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 476.25 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 476.25 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 476.25 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61e9eeb5-5cff-4297-8890-ae375e83711c")
-		)
-		(instances
-			(project "carte_servo"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#FLG04")
 					(unit 1)
 				)
 			)
