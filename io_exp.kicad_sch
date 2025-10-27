@@ -898,9 +898,25 @@
 		(color 0 0 0 0)
 		(uuid "e72e92b6-42c5-492f-9183-070a5beacbee")
 	)
-	(no_connect
-		(at 80.01 88.9)
-		(uuid "87d9a84f-fa1a-417a-8ed1-10b2246e48ce")
+	(wire
+		(pts
+			(xy 76.2 88.9) (xy 80.01 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "034a966d-731d-430d-96a4-bdb6efbcfdbe")
+	)
+	(wire
+		(pts
+			(xy 71.12 88.9) (xy 67.31 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc3253c-dc3a-4ca6-810d-476fbc3db147")
 	)
 	(wire
 		(pts
@@ -1324,6 +1340,17 @@
 			(justify right)
 		)
 		(uuid "6f354568-6886-4bb5-a09a-2e396a52709a")
+	)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 67.31 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b456aae-922b-4803-adc2-1f85d47d6a69")
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
@@ -2289,6 +2316,85 @@
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b45a520f-1905-47db-bbc3-05cad8f90896"
 					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 73.66 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90ef0f4f-b15d-4a0d-8cf6-2b678af0ea90")
+		(property "Reference" "R50"
+			(at 72.644 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 74.9299 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c56097f8-3d5b-4dd9-b07f-f56627576b4b")
+		)
+		(pin "1"
+			(uuid "0607a6fb-4931-4c1b-93b1-10b33b72c106")
+		)
+		(instances
+			(project "carte_servo"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b45a520f-1905-47db-bbc3-05cad8f90896"
+					(reference "R50")
 					(unit 1)
 				)
 			)
