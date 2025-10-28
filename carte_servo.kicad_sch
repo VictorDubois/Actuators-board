@@ -3930,6 +3930,12 @@
 		(uuid "c416f1c2-ec03-4cee-9857-c66b285a3faa")
 	)
 	(junction
+		(at 78.74 356.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4ca4d08-b4e7-4b99-9acf-b1169db6442e")
+	)
+	(junction
 		(at 394.97 354.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3952,6 +3958,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dad4f486-b4d8-425c-8602-5eceed923909")
+	)
+	(junction
+		(at 194.31 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db07d0a6-5340-4c73-804f-62815ddc3429")
 	)
 	(junction
 		(at 401.32 336.55)
@@ -4024,6 +4036,10 @@
 	(no_connect
 		(at 328.93 234.95)
 		(uuid "cad3397d-fca2-42df-9cb6-bcb4d69a92cc")
+	)
+	(no_connect
+		(at 327.66 67.31)
+		(uuid "f38c74a1-dd8f-41f2-b863-a4d117df71e1")
 	)
 	(no_connect
 		(at 140.97 118.11)
@@ -4321,6 +4337,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 356.87) (xy 78.74 359.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2222b897-d1b3-4b78-b8d6-4fc6f8efc1dc")
+	)
+	(wire
+		(pts
 			(xy 44.45 123.19) (xy 49.53 123.19)
 		)
 		(stroke
@@ -4378,6 +4404,16 @@
 			(type default)
 		)
 		(uuid "2a2f6256-1cd3-452a-8d78-b2666132890f")
+	)
+	(wire
+		(pts
+			(xy 78.74 339.09) (xy 78.74 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c68dc89-0930-4b9f-a824-c7f748802a54")
 	)
 	(wire
 		(pts
@@ -5061,6 +5097,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 364.49) (xy 78.74 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7285d8b1-e820-41b6-bb09-cc0e40a26318")
+	)
+	(wire
+		(pts
 			(xy 36.83 171.45) (xy 53.34 171.45)
 		)
 		(stroke
@@ -5068,6 +5114,16 @@
 			(type default)
 		)
 		(uuid "72b2de2c-7ac3-44da-a313-20023e85d9e5")
+	)
+	(wire
+		(pts
+			(xy 194.31 81.28) (xy 194.31 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "732903dc-8be1-405c-9dbe-15450fd4c1f7")
 	)
 	(wire
 		(pts
@@ -5291,7 +5347,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 85.09) (xy 140.97 85.09)
+			(xy 140.97 85.09) (xy 180.34 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5641,6 +5697,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 77.47) (xy 195.58 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b50d2a5f-2e01-4a5a-9fab-7f717a0b5238")
+	)
+	(wire
+		(pts
 			(xy 152.4 72.39) (xy 140.97 72.39)
 		)
 		(stroke
@@ -5941,6 +6007,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 353.06) (xy 78.74 356.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a374d2-2453-4046-a74c-14811f851c64")
+	)
+	(wire
+		(pts
 			(xy 147.32 87.63) (xy 140.97 87.63)
 		)
 		(stroke
@@ -6031,7 +6107,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 77.47) (xy 195.58 77.47)
+			(xy 177.8 77.47) (xy 194.31 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6311,6 +6387,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 356.87) (xy 78.74 356.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe82e829-b3d8-45bb-9002-f7fc2cd00311")
+	)
+	(wire
+		(pts
 			(xy 511.81 157.48) (xy 515.62 157.48)
 		)
 		(stroke
@@ -6438,7 +6524,7 @@
 		(uuid 97e80e4a-192b-431f-822c-d0aa8de83723)
 	)
 	(rectangle
-		(start 88.9 331.47)
+		(start 53.34 331.47)
 		(end 232.41 383.54)
 		(stroke
 			(width 0)
@@ -6750,6 +6836,28 @@
 			(justify right bottom)
 		)
 		(uuid "c8201b92-f7d6-4745-b2a9-32335da49ab6")
+	)
+	(global_label "sense_24V"
+		(shape input)
+		(at 77.47 356.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "001538e3-1238-4016-9aea-6c04d1702eaa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.6272 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "BOOT"
 		(shape input)
@@ -7125,6 +7233,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 78.74 367.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "130ccf00-891b-4c66-8d42-691292653164")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.4564 366.9506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3.3V"
 		(shape input)
 		(at 53.34 156.21 0)
@@ -7248,28 +7378,6 @@
 		(uuid "18ec3202-2dd8-4e6e-b460-6090068038d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 72.3236 250.1106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C_extra_2"
-		(shape output)
-		(at 334.01 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1a791f4f-d93b-4e02-a0ce-c674e90cacbf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 348.0018 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7455,6 +7563,28 @@
 			)
 		)
 	)
+	(global_label "sense_24V"
+		(shape input)
+		(at 180.34 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25bbd69a-ee2c-47c2-b264-ba759d2f48bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.1828 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "5V"
 		(shape input)
 		(at 494.03 114.3 180)
@@ -7578,6 +7708,28 @@
 		(uuid "2ddbf080-f81a-4ef5-a024-78104c73f198")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 222.0467 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 180.34 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2fc8f1ee-ac22-48a7-a7ba-c0d8bd95736d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.4843 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8291,28 +8443,6 @@
 			)
 		)
 	)
-	(global_label "TRANSISTOR_4"
-		(shape output)
-		(at 147.32 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5f9fbd97-170b-4658-b945-e54e127e3d20")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.7309 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SERVO_6"
 		(shape output)
 		(at 44.45 72.39 180)
@@ -8480,6 +8610,28 @@
 		(uuid "6de4d81c-24a2-4159-af85-6fe6329c86ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 450.6021 328.8506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TRANSISTOR_4"
+		(shape output)
+		(at 334.01 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70b2ce49-43d8-4c9c-93a8-a2c04e8de334")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 350.4209 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8700,28 +8852,6 @@
 		(uuid "7b09d048-c6a7-4c56-84a4-83497d694124")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 291.8967 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C_extra_1"
-		(shape input)
-		(at 327.66 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7db44d49-fa42-4e65-9560-d0be72d4f231")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.6682 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9371,22 +9501,22 @@
 	)
 	(global_label "sense_12V_elec"
 		(shape input)
-		(at 194.31 77.47 270)
+		(at 194.31 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "ac83bcde-12ef-40ec-936c-0e97c8da1034")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.31 95.2114 90)
+			(at 212.0514 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9963,6 +10093,28 @@
 			)
 		)
 	)
+	(global_label "BATT_24V_power"
+		(shape input)
+		(at 78.74 339.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9deb1ae-c34d-41a4-91e4-1da2960bfba4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.5149 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN+"
 		(shape bidirectional)
 		(at 77.47 173.99 0)
@@ -9976,28 +10128,6 @@
 		(uuid "cac7cbad-3775-4eca-b6ea-9adb45654991")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 86.828 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C_extra_1"
-		(shape output)
-		(at 334.01 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cacddbd5-8eb8-480b-9f38-34e88d4e22b5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 348.0018 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10108,28 +10238,6 @@
 		(uuid "d35c31f2-0104-4a19-9af0-f7a74d3d0e8e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 457.2991 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C_extra_2"
-		(shape input)
-		(at 327.66 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d80fe07b-9448-49e6-8450-5b9efd391435")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.6682 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10733,6 +10841,50 @@
 			)
 		)
 	)
+	(global_label "I2C_extra_2"
+		(shape output)
+		(at 334.01 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1dfc733-a849-4c93-be62-1a241013ed48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 348.0018 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_extra_2"
+		(shape input)
+		(at 327.66 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2267a6b-0519-486e-8883-c1a0953dcbba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 313.6682 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BATT_12V_elec"
 		(shape output)
 		(at 436.88 308.61 0)
@@ -11067,6 +11219,85 @@
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 78.74 361.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a2b21e4-8272-4cd5-a1b9-61d26166dee8")
+		(property "Reference" "R75"
+			(at 81.28 360.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kR"
+			(at 81.28 363.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 78.74 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2930027"
+			(at 78.74 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16aed200-4608-4d35-917e-11f188202ba3")
+		)
+		(pin "2"
+			(uuid "4e8f71bf-c3f7-41fd-a8df-3bd62de00cb4")
+		)
+		(instances
+			(project "carte_servo"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -12413,6 +12644,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 78.74 345.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45501b94-4bea-465c-9fc3-528d1b800113")
+		(property "Reference" "R74"
+			(at 81.28 344.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "52.3kR"
+			(at 81.28 346.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 78.74 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C23198"
+			(at 78.74 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c061fe0-a835-4028-962e-f65cc4e3754c")
+		)
+		(pin "2"
+			(uuid "8d315123-3e0a-4dd2-bfb7-89adebdf3be8")
+		)
+		(instances
+			(project "carte_servo"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse")
 		(at 356.87 346.71 270)
 		(unit 1)
@@ -13132,6 +13442,85 @@
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 78.74 350.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78922a50-833f-4961-bcb3-467f831161a6")
+		(property "Reference" "R76"
+			(at 81.28 349.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "52.3kR"
+			(at 81.28 351.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 78.74 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C23198"
+			(at 78.74 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7814c3bd-228a-4dc2-a374-9da9ba44bcfb")
+		)
+		(pin "2"
+			(uuid "76c43a56-62bf-46de-8a27-6913c61f01f5")
+		)
+		(instances
+			(project "carte_servo"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -16842,6 +17231,85 @@
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 180.34 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4f881d1-2dc4-4165-8dc7-3949f8327026")
+		(property "Reference" "C42"
+			(at 176.53 90.1701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 176.53 87.6301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 179.3748 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "helps ADC"
+			(at 180.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 180.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C14663"
+			(at 180.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13664124-a5ed-4dee-9937-fa33f2a9f5a5")
+		)
+		(pin "2"
+			(uuid "2310135d-c013-49d6-9728-2c8ba65ef883")
+		)
+		(instances
+			(project "carte_servo"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C42")
 					(unit 1)
 				)
 			)
