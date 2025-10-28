@@ -449,6 +449,128 @@
 				)
 			)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "New_Library_Victor:DMN2011UTS"
 			(pin_names
 				(offset 0) hide)
@@ -891,6 +1013,12 @@
 		(uuid "3ba6a8dd-c0d1-4a78-b42a-06643c87d819")
 	)
 	(junction
+		(at 227.33 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dcaf232-58b5-474b-b9b3-be73ef82dce5")
+	)
+	(junction
 		(at 190.5 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1028,6 +1156,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 33.02) (xy 223.52 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dde18ed-0f9a-4c7a-a988-4a818fb25b8e")
+	)
+	(wire
+		(pts
 			(xy 189.23 87.63) (xy 191.77 87.63)
 		)
 		(stroke
@@ -1078,6 +1216,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 34.29) (xy 231.14 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "398a8bf5-1e19-4963-819c-636009add1e9")
+	)
+	(wire
+		(pts
 			(xy 190.5 50.8) (xy 191.77 50.8)
 		)
 		(stroke
@@ -1115,6 +1263,16 @@
 			(type default)
 		)
 		(uuid "4a68c763-4b5c-4eef-9d8d-ffed2555367c")
+	)
+	(wire
+		(pts
+			(xy 231.14 25.4) (xy 231.14 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "503ac71b-1d8d-400e-9d12-7a7b0da65f70")
 	)
 	(wire
 		(pts
@@ -1205,6 +1363,16 @@
 			(type default)
 		)
 		(uuid "66853304-7d03-40e5-bf6e-8b824ae42eba")
+	)
+	(wire
+		(pts
+			(xy 223.52 34.29) (xy 227.33 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b0886a-bf82-4fb7-a142-d6279eb11e4a")
 	)
 	(wire
 		(pts
@@ -1528,6 +1696,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 25.4) (xy 223.52 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e574b78e-1713-4a5e-8330-1b97d7bcc567")
+	)
+	(wire
+		(pts
 			(xy 189.23 60.96) (xy 189.23 64.77)
 		)
 		(stroke
@@ -1555,6 +1733,26 @@
 			(type default)
 		)
 		(uuid "e9e74424-4026-4ba6-92c5-61ff8ba947ad")
+	)
+	(wire
+		(pts
+			(xy 231.14 34.29) (xy 227.33 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea92bc1a-791b-48ef-9701-e00bf72a633c")
+	)
+	(wire
+		(pts
+			(xy 227.33 34.29) (xy 227.33 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed9bbedd-0e49-458d-a22a-d921e4699639")
 	)
 	(wire
 		(pts
@@ -1595,6 +1793,36 @@
 			(type default)
 		)
 		(uuid "fd0daedd-24a5-44af-871b-812f2e90b524")
+	)
+	(label "transistor_power"
+		(at 191.77 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96815137-452f-4665-8cc1-5a33930bb1aa")
+	)
+	(label "transistor_power"
+		(at 193.04 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad68e1f6-a934-4f45-9568-699cd1beb4dd")
+	)
+	(label "transistor_power"
+		(at 227.33 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d20e072e-b8b7-4dbf-be52-b169192210cd")
 	)
 	(global_label "TRANSISTOR_OUT_1"
 		(shape output)
@@ -1728,17 +1956,6 @@
 		)
 		(uuid "1ea80117-3984-426a-8615-0ffa6e42b081")
 	)
-	(hierarchical_label "BATT_12V"
-		(shape input)
-		(at 193.04 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1fc4ea9a-614e-42cb-80f4-4afd6a7689d1")
-	)
 	(hierarchical_label "GND_POWER"
 		(shape input)
 		(at 191.77 154.94 0)
@@ -1760,6 +1977,17 @@
 			(justify right)
 		)
 		(uuid "78ebabb6-74a7-41ef-ad18-8dc43cb8d6f9")
+	)
+	(hierarchical_label "BATT_12V"
+		(shape input)
+		(at 193.04 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "87677e3b-443f-4ddd-97e4-401a49011f6d")
 	)
 	(hierarchical_label "GND_POWER"
 		(shape input)
@@ -1783,17 +2011,6 @@
 		)
 		(uuid "a2512153-179f-4a03-81b0-555372af9a54")
 	)
-	(hierarchical_label "BATT_12V"
-		(shape input)
-		(at 191.77 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b0718da8-9d1b-4f34-b362-7bc30cc38991")
-	)
 	(hierarchical_label "TRANSISTOR_1"
 		(shape input)
 		(at 163.83 114.3 180)
@@ -1805,16 +2022,27 @@
 		)
 		(uuid "bc73a629-bd07-474c-a47a-c7e494fae329")
 	)
-	(hierarchical_label "BATT_12V"
+	(hierarchical_label "BATT_24V"
 		(shape input)
-		(at 193.04 74.93 0)
+		(at 223.52 25.4 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "f6e04b43-ee87-40b2-9cb3-0a0d7c06c33d")
+		(uuid "f53922a6-3ca7-4654-a528-ccc87b368e6f")
+	)
+	(hierarchical_label "BATT_12V"
+		(shape input)
+		(at 231.14 25.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd00ff53-cd7d-45e3-9973-9dde3aef488a")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
@@ -2534,6 +2762,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 223.52 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "705abe81-f25c-4a44-a3f8-bdc58f15c0b5")
+		(property "Reference" "R73"
+			(at 226.06 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Select_24V_transistor_in"
+			(at 196.85 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 223.52 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 223.52 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f38bce3-50f6-4cb1-a27b-e0a1e3e6149c")
+		)
+		(pin "1"
+			(uuid "62cc3757-1c95-4632-b669-7dd72df323df")
+		)
+		(instances
+			(project "carte_servo"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 212.09 55.88 270)
 		(unit 1)
@@ -2781,6 +3078,76 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 231.14 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2340c5d-55e1-4d02-bd5b-3eaa71ba1e8e")
+		(property "Reference" "R72"
+			(at 233.68 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Select_12V_transistor_in"
+			(at 233.68 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 231.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 231.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9adeee19-fb0b-4f3f-90f3-fad2f9295177")
+		)
+		(pin "1"
+			(uuid "046d9402-7a26-4877-a47a-5f71b5b2bc15")
+		)
+		(instances
+			(project "carte_servo"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
+					(reference "R72")
 					(unit 1)
 				)
 			)

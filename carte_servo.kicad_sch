@@ -7807,6 +7807,28 @@
 			)
 		)
 	)
+	(global_label "BATT_24V_power"
+		(shape input)
+		(at 473.71 222.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b32a537-c5bf-4344-ab9c-a7a178c05b00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 455.4849 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BATT_12V"
 		(shape input)
 		(at 473.71 224.79 180)
@@ -17556,6 +17578,16 @@
 				(justify left)
 			)
 			(uuid "98e7626b-0ff3-448e-8b23-68a3cd10414c")
+		)
+		(pin "BATT_24V" input
+			(at 473.71 222.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "265c4582-c60f-4994-9376-6ef4f8877d81")
 		)
 		(instances
 			(project "carte_servo"
