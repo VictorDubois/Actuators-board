@@ -2122,7 +2122,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C2930027"
+		(property "LCSC#" "C2907128"
 			(at 26.67 97.79 0)
 			(effects
 				(font
@@ -2456,6 +2456,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C28871"
+			(at 64.77 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e5154496-bb25-404b-b6a1-2ec0dd8a4da6")
 		)
@@ -2609,6 +2618,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C28871"
+			(at 63.5 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bbaab005-989e-4893-baf8-f00c763f3084")
 		)
@@ -2682,7 +2700,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C2930027"
+		(property "LCSC#" "C2907128"
 			(at 69.85 116.84 0)
 			(effects
 				(font
@@ -2936,6 +2954,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C28871"
+			(at 36.83 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d5b673a4-416b-46ba-a16c-bdfaec2cfdd4")
 		)
@@ -3009,7 +3036,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C2930027"
+		(property "LCSC#" "C2907128"
 			(at 43.18 97.79 0)
 			(effects
 				(font
@@ -3167,7 +3194,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C2930027"
+		(property "LCSC#" "C2907128"
 			(at 53.34 116.84 0)
 			(effects
 				(font

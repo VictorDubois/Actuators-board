@@ -2590,7 +2590,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "88.7k"
+		(property "Value" "88.7kR"
 			(at 176.53 87.6299 0)
 			(effects
 				(font
@@ -2748,7 +2748,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "9.76k"
+		(property "Value" "9.76kR"
 			(at 176.53 101.5999 0)
 			(effects
 				(font
@@ -3256,7 +3256,7 @@
 				)
 			)
 		)
-		(property "Value" "1.74k"
+		(property "Value" "1.74kR"
 			(at 116.84 81.28 90)
 			(effects
 				(font

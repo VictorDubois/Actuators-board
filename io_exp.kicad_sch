@@ -1881,7 +1881,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "22kR"
 			(at 142.24 67.3099 0)
 			(effects
 				(font
@@ -1918,7 +1918,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" ""
+		(property "LCSC#" "C2907128"
 			(at 139.7 66.04 0)
 			(effects
 				(font
@@ -1961,7 +1961,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "2.2uF"
 			(at 77.47 57.1562 0)
 			(effects
 				(font
@@ -1988,7 +1988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Overkill, but I kept the 0805 footprint"
 			(at 74.93 55.88 0)
 			(effects
 				(font
@@ -1997,7 +1997,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "?"
+		(property "LCSC#" "C19110"
 			(at 74.93 55.88 0)
 			(effects
 				(font
@@ -2039,7 +2039,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "56.2k"
+		(property "Value" "56.2kR"
 			(at 144.7801 66.04 0)
 			(effects
 				(font
@@ -2076,7 +2076,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" ""
+		(property "LCSC#" "C2930117"
 			(at 146.05 63.5 0)
 			(effects
 				(font
@@ -2276,7 +2276,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "56.2k"
+		(property "Value" "56.2kR"
 			(at 143.5101 93.98 0)
 			(effects
 				(font
@@ -2313,7 +2313,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" ""
+		(property "LCSC#" "C2930117"
 			(at 144.78 91.44 0)
 			(effects
 				(font
@@ -2355,7 +2355,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kR"
 			(at 74.9299 86.36 0)
 			(effects
 				(font
@@ -2392,7 +2392,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" ""
+		(property "LCSC#" "C2930027"
 			(at 73.66 88.9 0)
 			(effects
 				(font
@@ -2649,7 +2649,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "56.2k"
+		(property "Value" "56.2kR"
 			(at 147.3199 74.93 0)
 			(effects
 				(font
@@ -2686,7 +2686,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" ""
+		(property "LCSC#" "C2930117"
 			(at 146.05 77.47 0)
 			(effects
 				(font
@@ -2728,7 +2728,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "22kR"
 			(at 142.24 95.2499 0)
 			(effects
 				(font
@@ -2765,7 +2765,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" ""
+		(property "LCSC#" "C2907128"
 			(at 139.7 93.98 0)
 			(effects
 				(font
@@ -2807,7 +2807,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "22kR"
 			(at 142.24 81.2799 0)
 			(effects
 				(font
@@ -2844,7 +2844,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" ""
+		(property "LCSC#" "C2907128"
 			(at 139.7 80.01 0)
 			(effects
 				(font
@@ -3123,7 +3123,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "22kR"
 			(at 142.24 109.2199 0)
 			(effects
 				(font
@@ -3160,7 +3160,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" ""
+		(property "LCSC#" "C2907128"
 			(at 139.7 107.95 0)
 			(effects
 				(font
@@ -3284,7 +3284,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "56.2k"
+		(property "Value" "56.2kR"
 			(at 144.7801 107.95 0)
 			(effects
 				(font
@@ -3321,7 +3321,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" ""
+		(property "LCSC#" "C2930117"
 			(at 146.05 105.41 0)
 			(effects
 				(font

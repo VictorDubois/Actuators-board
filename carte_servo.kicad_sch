@@ -11691,7 +11691,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C2907128"
+		(property "LCSC#" "C2907137"
 			(at 163.83 96.52 0)
 			(effects
 				(font
@@ -13107,7 +13107,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C2907128"
+		(property "LCSC#" "C2907137"
 			(at 172.72 99.06 0)
 			(effects
 				(font
@@ -13507,6 +13507,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 185.42 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C595709"
 			(at 185.42 36.83 0)
 			(effects
 				(font
@@ -14345,7 +14354,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C2907128"
+		(property "LCSC#" "C2930027"
 			(at 223.52 27.94 0)
 			(effects
 				(font
@@ -17462,7 +17471,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C23198"
+		(property "LCSC#" ""
 			(at 299.72 72.39 0)
 			(effects
 				(font
