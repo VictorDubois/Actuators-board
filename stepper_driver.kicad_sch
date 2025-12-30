@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "5acb6fdf-8c09-4fed-a8df-6c36291cc7bb")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -81,21 +83,53 @@
 				)
 			)
 			(symbol "Conn_01x04_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+						(xy 1.27 2.54) (xy 0.8636 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -119,7 +153,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -129,48 +163,16 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -246,9 +248,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -404,9 +409,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -525,6 +533,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TMC2208_SILENTSTEPSTICK:TMC2208_SILENTSTEPSTICK"
 			(pin_names
@@ -682,6 +691,24 @@
 					)
 				)
 				(pin input line
+					(at -17.78 10.16 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -17.78 5.08 0)
 					(length 5.08)
 					(name "DIR"
@@ -710,6 +737,42 @@
 						)
 					)
 					(number "JP1_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "MS1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "MS2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_6"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -753,53 +816,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -17.78 -5.08 0)
+				(pin power_in line
+					(at 17.78 15.24 180)
 					(length 5.08)
-					(name "MS2"
+					(name "VIO"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "JP1_6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -2.54 0)
-					(length 5.08)
-					(name "MS1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "JP1_7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 10.16 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "JP1_8"
+					(number "JP2_7"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -825,35 +852,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 17.78 -17.78 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "JP2_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 17.78 0 180)
+					(at 17.78 7.62 180)
 					(length 5.08)
-					(name "OA2"
+					(name "VREF"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "JP2_3"
+					(number "VREF"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -872,6 +881,24 @@
 						)
 					)
 					(number "JP2_4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "OA2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -915,35 +942,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 17.78 15.24 180)
+				(pin output line
+					(at 17.78 -10.16 180)
 					(length 5.08)
-					(name "VIO"
+					(name "INDEX"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "JP2_7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -17.78 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "JP2_8"
+					(number "JP3_2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -969,17 +978,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 17.78 -10.16 180)
+				(pin power_in line
+					(at 17.78 -17.78 180)
 					(length 5.08)
-					(name "INDEX"
+					(name "GND"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "JP3_2"
+					(number "JP2_2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -987,17 +996,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 17.78 7.62 180)
+				(pin power_in line
+					(at 17.78 -17.78 180)
 					(length 5.08)
-					(name "VREF"
+					(name "GND"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "VREF"
+					(number "JP2_8"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1006,7 +1015,28 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "solder jumper towards PDN for uart"
+		(exclude_from_sim no)
+		(at 98.806 97.028 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1d2a78c3-ed15-4a28-8196-d5a36f2534a8")
+	)
+	(text "MS2(-)	MS1(-)	Steps(-)	Interpolation(-)	Mode(-)\nGND	    VIO  	1⁄2     	1⁄256	            stealthChop2\nVIO 	GND 	1⁄4	     	1⁄256				stealthChop2\nGND		GND		1⁄8			1⁄256				stealthChop2\nVIO		VIO		1⁄16		1⁄256				stealthChop2"
+		(exclude_from_sim no)
+		(at 53.34 105.156 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1f619ce0-7939-4b7d-8e79-39612e0a0184")
 	)
 	(junction
 		(at 157.48 62.23)
@@ -1252,26 +1282,6 @@
 		)
 		(uuid "fa3d0b11-a31a-4839-bda5-74883c19294a")
 	)
-	(text "solder jumper towards PDN for uart"
-		(exclude_from_sim no)
-		(at 98.806 97.028 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1d2a78c3-ed15-4a28-8196-d5a36f2534a8")
-	)
-	(text "MS2(-)	MS1(-)	Steps(-)	Interpolation(-)	Mode(-)\nGND	    VIO  	1⁄2     	1⁄256	            stealthChop2\nVIO 	GND 	1⁄4	     	1⁄256				stealthChop2\nGND		GND		1⁄8			1⁄256				stealthChop2\nVIO		VIO		1⁄16		1⁄256				stealthChop2"
-		(exclude_from_sim no)
-		(at 53.34 105.156 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1f619ce0-7939-4b7d-8e79-39612e0a0184")
-	)
 	(label "OB2"
 		(at 130.8735 80.01 0)
 		(effects
@@ -1468,7 +1478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at 157.48 66.04 0)
 			(effects
 				(font
@@ -1548,7 +1558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 62.23 80.01 0)
 			(effects
 				(font
@@ -1631,7 +1641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 71.12 83.82 0)
 			(effects
 				(font
@@ -1844,7 +1854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 68.58 81.28 0)
 			(effects
 				(font
@@ -1924,7 +1934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 62.23 77.47 0)
 			(effects
 				(font
@@ -1995,7 +2005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Stepper"
+		(property "Datasheet" "~"
 			(at 149.86 70.358 0)
 			(effects
 				(font
