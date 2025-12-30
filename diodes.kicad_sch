@@ -157,6 +157,12 @@
 		)
 	)
 	(junction
+		(at 124.46 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28b510c5-bc44-4aca-be63-48a778e9e2c9")
+	)
+	(junction
 		(at 124.46 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -298,6 +304,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 116.84) (xy 124.46 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3974f6e3-fb77-4c8e-a5a5-6b7004475cb9")
+	)
+	(wire
+		(pts
 			(xy 120.65 96.52) (xy 124.46 96.52)
 		)
 		(stroke
@@ -325,16 +341,6 @@
 			(type default)
 		)
 		(uuid "5fbcc57e-729f-4b36-8810-ae742246b127")
-	)
-	(wire
-		(pts
-			(xy 124.46 111.76) (xy 124.46 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60176c61-2d57-451a-9e27-f4d98f9f90a2")
 	)
 	(wire
 		(pts
@@ -438,16 +444,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 114.3) (xy 124.46 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90c90e50-99fc-4269-9012-7951aac6d682")
-	)
-	(wire
-		(pts
 			(xy 111.76 101.6) (xy 115.57 101.6)
 		)
 		(stroke
@@ -488,7 +484,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 111.76) (xy 127 111.76)
+			(xy 124.46 127) (xy 128.27 127)
 		)
 		(stroke
 			(width 0)
@@ -505,6 +501,16 @@
 			(type default)
 		)
 		(uuid "b7ceda75-df21-456e-a1b5-be6324a2f5f5")
+	)
+	(wire
+		(pts
+			(xy 124.46 119.38) (xy 124.46 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba60aa9b-93f0-4be5-bb0e-6c5a321109c2")
 	)
 	(wire
 		(pts
@@ -558,16 +564,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 116.84) (xy 124.46 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d23e3152-a85a-4d98-a5c9-6f22c1822cf6")
-	)
-	(wire
-		(pts
 			(xy 111.76 96.52) (xy 115.57 96.52)
 		)
 		(stroke
@@ -575,6 +571,16 @@
 			(type default)
 		)
 		(uuid "e0018db6-4591-4c8e-99e7-28b7e68a6ddd")
+	)
+	(wire
+		(pts
+			(xy 124.46 114.3) (xy 124.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff453b7b-41d6-4c29-b630-637d2b949fd1")
 	)
 	(global_label "SERVO_8"
 		(shape input)
@@ -798,7 +804,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 127 111.76 0)
+		(at 128.27 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -808,7 +814,7 @@
 		)
 		(uuid "a9bc99d2-7155-4e2e-9c49-905b417e9dd1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.2836 111.6806 0)
+			(at 134.5536 126.9206 0)
 			(effects
 				(font
 					(size 1.27 1.27)

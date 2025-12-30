@@ -1811,6 +1811,26 @@
 		)
 		(uuid "fd0daedd-24a5-44af-871b-812f2e90b524")
 	)
+	(label "TRANSISTOR_OUT_3"
+		(at 212.09 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33814391-2882-46ab-82e5-88a335c19b0d")
+	)
+	(label "TRANSISTOR_OUT_4"
+		(at 212.09 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a474a53-4c78-43e6-834c-4b8f27b68e14")
+	)
 	(label "transistor_power"
 		(at 191.77 100.33 0)
 		(effects
@@ -1841,93 +1861,25 @@
 		)
 		(uuid "d20e072e-b8b7-4dbf-be52-b169192210cd")
 	)
-	(global_label "TRANSISTOR_OUT_1"
-		(shape output)
-		(at 213.36 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0f56e291-52c9-4278-9ea4-5d205ec801ce")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.795 109.1406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TRANSISTOR_OUT_2"
-		(shape output)
+	(label "TRANSISTOR_OUT_2"
 		(at 210.82 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "b794a553-43ad-4048-8c76-4f5b03c90de6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.255 142.1606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "d442141f-6a6e-47b2-9ede-7788c5efa174")
 	)
-	(global_label "TRANSISTOR_OUT_3"
-		(shape output)
-		(at 212.09 50.8 0)
-		(fields_autoplaced yes)
+	(label "TRANSISTOR_OUT_1"
+		(at 213.36 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "ce36cc5d-7316-4b4d-909a-1d9d45231840")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.525 50.7206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TRANSISTOR_OUT_4"
-		(shape output)
-		(at 212.09 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d01773bc-ec10-442e-b78a-74c565fb4ecb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.525 77.3906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "e7f5f8f1-aa6f-4916-abbb-79c7566ad59c")
 	)
 	(hierarchical_label "GND_POWER"
 		(shape input)
