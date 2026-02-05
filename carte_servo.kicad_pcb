@@ -1458,7 +1458,7 @@
 		(path "/0c74f7ab-c5ff-45ed-b8c2-3c7ab63bdd9d/7485c68c-5144-4687-93d7-885a7ba457e3")
 		(sheetname "/Servos/")
 		(sheetfile "servos.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -2193,7 +2193,7 @@
 		(path "/0c74f7ab-c5ff-45ed-b8c2-3c7ab63bdd9d/bb591df0-abce-4ca1-807f-25334301e577")
 		(sheetname "/Servos/")
 		(sheetfile "servos.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -2473,7 +2473,7 @@
 		(path "/ceb232b7-2789-47fd-b4c1-e3079b004cdd")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom dnp)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -2587,7 +2587,7 @@
 		(path "/9f7ff35f-f9b9-4a33-9010-b1eebb98823e")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -3268,7 +3268,7 @@
 		(path "/cd4bec79-fd64-4d2f-bcb3-6573898f17b3")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 3.86 -5)
 			(end 3.86 -4.43)
@@ -4195,7 +4195,7 @@
 		(path "/d57878e8-5df1-4597-9c1d-f8bfbb0f5646")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -4409,7 +4409,7 @@
 		(path "/2367e876-3b6b-44d8-a508-6ac65d22a61e/bf1e3a35-b6dc-43ac-b96e-e69ab01574d1")
 		(sheetname "/diodes/")
 		(sheetfile "diodes.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -2.36 1)
 			(end 1.65 1)
@@ -4705,7 +4705,7 @@
 		(path "/f2f09a9d-2061-4a04-9c2b-beeb215466c3")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -4919,7 +4919,7 @@
 		(path "/2367e876-3b6b-44d8-a508-6ac65d22a61e/64c5b400-7fe6-4ac8-8aa2-dd11b52c947d")
 		(sheetname "/diodes/")
 		(sheetfile "diodes.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -2.36 1)
 			(end 1.65 1)
@@ -5215,7 +5215,7 @@
 		(path "/2367e876-3b6b-44d8-a508-6ac65d22a61e/64c96545-6619-4e36-be29-bdb32c92eb60")
 		(sheetname "/diodes/")
 		(sheetfile "diodes.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -2.36 -1)
 			(end -2.36 1)
@@ -5725,7 +5725,7 @@
 		(path "/aa21c943-be8f-4f59-86c0-b8fbf57c2a51/246d226a-fecd-41cd-9bc7-7404f9110cbe")
 		(sheetname "/DCDC_5V/")
 		(sheetfile "DCDC_5V.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -1.685 -0.96)
 			(end -1.685 0.96)
@@ -6759,7 +6759,7 @@
 		(path "/0c74f7ab-c5ff-45ed-b8c2-3c7ab63bdd9d/c801226e-f52b-46de-a981-772519a7d907")
 		(sheetname "/Servos/")
 		(sheetfile "servos.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -7038,7 +7038,7 @@
 		(path "/aa21c943-be8f-4f59-86c0-b8fbf57c2a51/ba18ddb4-4c32-49b3-bf9f-227148b632f3")
 		(sheetname "/DCDC_5V/")
 		(sheetfile "DCDC_5V.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -7253,7 +7253,7 @@
 		(path "/a1a3197d-9784-410e-9e5c-8a85d812ad2c")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom dnp)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -8475,7 +8475,7 @@
 		(path "/2f2328a2-b5ad-4320-a207-679cc61c8eba")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom dnp)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 5 0)
@@ -8589,7 +8589,7 @@
 		(path "/2947227e-6fba-4b5d-a290-3b569bd42b9a")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -8803,7 +8803,7 @@
 		(path "/aa46de6b-d435-4cd0-9884-b4a2f393a252")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -9018,7 +9018,7 @@
 		(path "/cb256e15-4249-4b1a-9b69-7d03d1f52af8")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom dnp)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -9132,7 +9132,7 @@
 		(path "/9380fb10-6f09-4984-8da8-57e1e4d31cfa")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -9341,7 +9341,7 @@
 		(path "/f86a3d70-fa31-4725-b330-81e2f5dad2cc/72121fac-c808-4e71-8cf0-ab7267b24c8d")
 		(sheetname "/stepper_driver1/")
 		(sheetfile "stepper_driver.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(fp_line
 			(start 7.62 -10.16)
 			(end -7.62 -10.16)
@@ -9782,7 +9782,7 @@
 		(path "/2367e876-3b6b-44d8-a508-6ac65d22a61e/1febece6-e4b4-4e77-a94e-5c33b10fd1df")
 		(sheetname "/diodes/")
 		(sheetfile "diodes.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -2.36 1)
 			(end 1.65 1)
@@ -10535,7 +10535,7 @@
 		(path "/aa21c943-be8f-4f59-86c0-b8fbf57c2a51/9f6c1317-7a9f-4ea6-accc-596d8e9ce6ba")
 		(sheetname "/DCDC_5V/")
 		(sheetfile "DCDC_5V.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -1.685 -0.96)
 			(end -1.685 0.96)
@@ -10769,7 +10769,7 @@
 		(path "/1ad64a30-be76-46f8-8378-763e862d1340/d776771a-66d1-47d7-8d9f-04e8fea273f2")
 		(sheetname "/USB_conn/")
 		(sheetfile "USB_conn.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -10983,7 +10983,7 @@
 		(path "/e12266d5-90b3-4000-a336-37839fc68aac")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -11197,7 +11197,7 @@
 		(path "/1ad64a30-be76-46f8-8378-763e862d1340/71bc3238-e158-4fb7-b4b7-f1f9f7e209aa")
 		(sheetname "/USB_conn/")
 		(sheetfile "USB_conn.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -11406,7 +11406,7 @@
 		(path "/4bdf100d-7e35-4013-89a2-8f86fd135421/72121fac-c808-4e71-8cf0-ab7267b24c8d")
 		(sheetname "/stepper_driver/")
 		(sheetfile "stepper_driver.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(fp_line
 			(start 7.62 -10.16)
 			(end -7.62 -10.16)
@@ -11847,7 +11847,7 @@
 		(path "/e12b3db4-e80a-41c7-b09a-f1432c8ee7cc")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -12688,7 +12688,7 @@
 		(path "/aa21c943-be8f-4f59-86c0-b8fbf57c2a51/08fc219f-ab98-4f89-b552-2477ef2ffcc2")
 		(sheetname "/DCDC_5V/")
 		(sheetfile "DCDC_5V.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -13279,7 +13279,7 @@
 		(path "/0c74f7ab-c5ff-45ed-b8c2-3c7ab63bdd9d/0c6a8362-9e9f-409a-a832-86ffd1759a33")
 		(sheetname "/Servos/")
 		(sheetfile "servos.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -13559,7 +13559,7 @@
 		(path "/b579eb02-4f6d-429d-8fd8-d961df7869af")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom dnp)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -13673,7 +13673,7 @@
 		(path "/2367e876-3b6b-44d8-a508-6ac65d22a61e/576e4869-92f1-4d02-93b0-377a14534ac7")
 		(sheetname "/diodes/")
 		(sheetfile "diodes.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -2.36 -1)
 			(end -2.36 1)
@@ -16525,7 +16525,7 @@
 		(path "/aa21c943-be8f-4f59-86c0-b8fbf57c2a51/b46a8a0a-312f-4d6a-bd4d-aaf25b816e17")
 		(sheetname "/DCDC_5V/")
 		(sheetfile "DCDC_5V.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -16739,7 +16739,7 @@
 		(path "/1ad64a30-be76-46f8-8378-763e862d1340/cfbab7ff-214c-4f9e-9a38-3155f17d7875")
 		(sheetname "/USB_conn/")
 		(sheetfile "USB_conn.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.7 -0.6)
 			(end -1.26 -0.6)
@@ -18035,7 +18035,7 @@
 		(path "/2367e876-3b6b-44d8-a508-6ac65d22a61e/b2c00439-6167-445d-9ccb-f1daba330975")
 		(sheetname "/diodes/")
 		(sheetfile "diodes.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -2.36 1)
 			(end 1.65 1)
@@ -18332,7 +18332,7 @@
 		(path "/442e5f35-5a98-4108-9d9d-f7c30f23ff54")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom dnp)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -19360,7 +19360,7 @@
 		(path "/2367e876-3b6b-44d8-a508-6ac65d22a61e/2f7bb817-1651-4611-ab2e-6ce826896e3b")
 		(sheetname "/diodes/")
 		(sheetfile "diodes.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -2.36 1)
 			(end 1.65 1)
@@ -19656,7 +19656,7 @@
 		(path "/15bcd72a-7766-4e3d-a73d-0d95f3e2bc41")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -19870,7 +19870,7 @@
 		(path "/135d5fc9-3e96-425b-b835-54d30f0de9f2")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -20110,7 +20110,7 @@
 		(path "/1ad64a30-be76-46f8-8378-763e862d1340/131c08d5-9cb2-4e04-b26a-d544afdaf22f")
 		(sheetname "/USB_conn/")
 		(sheetfile "USB_conn.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -2.36 -1)
 			(end -2.36 1)
@@ -20406,7 +20406,7 @@
 		(path "/aa21c943-be8f-4f59-86c0-b8fbf57c2a51/3534de05-f526-46de-aad7-52f853f31623")
 		(sheetname "/DCDC_5V/")
 		(sheetfile "DCDC_5V.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -20633,7 +20633,7 @@
 		(path "/aa21c943-be8f-4f59-86c0-b8fbf57c2a51/ac8f68c5-de8e-48db-8727-dd12a560e9b2")
 		(sheetname "/DCDC_5V/")
 		(sheetfile "DCDC_5V.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -1.685 0.96)
 			(end 1 0.96)
@@ -20869,7 +20869,7 @@
 		(path "/54a5c205-c71f-494c-9f46-2c99e8a1a3d0")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -21084,7 +21084,7 @@
 		(path "/a6db0d6c-37c1-4809-941a-5f61cd655800")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom dnp)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -21363,7 +21363,7 @@
 		(path "/2367e876-3b6b-44d8-a508-6ac65d22a61e/26cee64f-3f17-42b6-a30d-711fa61123dd")
 		(sheetname "/diodes/")
 		(sheetfile "diodes.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -2.36 1)
 			(end 1.65 1)
@@ -21659,7 +21659,7 @@
 		(path "/4bdf100d-7e35-4013-89a2-8f86fd135421/da05a565-e399-4895-8219-bc3c5375fdcd")
 		(sheetname "/stepper_driver/")
 		(sheetfile "stepper_driver.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
 			(end -2.85 -1.5)
@@ -22140,7 +22140,7 @@
 		(path "/1ad64a30-be76-46f8-8378-763e862d1340/78b7e7ec-5521-4b5d-b749-13ffb02d751d")
 		(sheetname "/USB_conn/")
 		(sheetfile "USB_conn.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.7 -0.6)
 			(end -1.26 -0.6)
@@ -22574,7 +22574,7 @@
 		(path "/66026453-9027-4575-bae8-7143b4848e55/1c734321-b331-414f-89e5-dc4e5795e177")
 		(sheetname "/AX12_con/")
 		(sheetfile "AX12.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)
@@ -22785,7 +22785,7 @@
 		(path "/c5ec3f8e-bde6-4701-931d-c45d4819691e")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 3.86 -5)
 			(end 3.86 -4.43)
@@ -23140,7 +23140,7 @@
 		(path "/0c74f7ab-c5ff-45ed-b8c2-3c7ab63bdd9d/0eed90db-3b72-452d-b9e8-f3ea386d9861")
 		(sheetname "/Servos/")
 		(sheetfile "servos.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -23406,7 +23406,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cda3ad10-e8fe-4100-9bce-d6e9e186f575")
+			(uuid "992cb4f1-b5b7-4dff-aee4-da96178186f5")
 			(effects
 				(font
 					(size 1 1)
@@ -23426,7 +23426,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "21de00e4-df4f-4951-bada-8ec9c87d3946")
+			(uuid "f4e7d1eb-eed3-4dee-8b7c-2a7c3b2c082f")
 		)
 		(fp_line
 			(start -3.43 3.235)
@@ -23436,7 +23436,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a3d73a76-41dc-4690-9687-c61b34376b1b")
+			(uuid "089844c4-63a0-459c-abd6-c607efb3a7ae")
 		)
 		(fp_line
 			(start 4.35 -3.612)
@@ -23446,7 +23446,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "79520053-a6fd-454d-ad7d-53af9d2a30f5")
+			(uuid "357127fe-c6d1-47d1-aef0-42953cd3855a")
 		)
 		(fp_line
 			(start -4.35 -3.612)
@@ -23456,7 +23456,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3e333bae-6f46-4690-b28d-bd176645f4cb")
+			(uuid "c595ec3d-2078-404c-b5ac-3353191b5792")
 		)
 		(fp_line
 			(start 4.35 3.612)
@@ -23466,7 +23466,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e956916c-c2ba-4e8c-802f-b375ac6e30aa")
+			(uuid "4dcd17f9-9b8b-4033-bfbd-35853d6207d5")
 		)
 		(fp_line
 			(start -4.35 3.612)
@@ -23476,7 +23476,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8feb871d-53fd-41a9-a397-143555f93d6d")
+			(uuid "5ac33932-617e-4b23-8133-ba41cef99add")
 		)
 		(fp_line
 			(start 3.43 -3.235)
@@ -23486,7 +23486,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "137cf0b3-f7ce-4227-9ab6-70700d613de8")
+			(uuid "065965f1-834d-4e2e-a0e9-0c3d6b97f55e")
 		)
 		(fp_line
 			(start -3.43 -3.235)
@@ -23496,7 +23496,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3acaeaca-3019-4a42-a805-85a820ae4ae9")
+			(uuid "54a8ed79-3c06-4756-8fe2-fe92d4615950")
 		)
 		(fp_line
 			(start 3.43 3.235)
@@ -23506,7 +23506,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a6161c3a-d952-4b86-903c-77a3e5b5c7a0")
+			(uuid "58f46301-a219-4e33-b14e-c6f62e58654e")
 		)
 		(fp_line
 			(start -3.43 3.235)
@@ -23516,7 +23516,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "66cf2531-7ea5-4b34-8a45-42ef920a687c")
+			(uuid "8d0f8f8f-5ed0-4fbd-9291-14cf821b21c7")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -24570,7 +24570,7 @@
 		(path "/0c74f7ab-c5ff-45ed-b8c2-3c7ab63bdd9d/c02ac3a4-4aeb-438e-9507-0dc32cbd3b61")
 		(sheetname "/Servos/")
 		(sheetfile "servos.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -24848,7 +24848,7 @@
 		(path "/0c74f7ab-c5ff-45ed-b8c2-3c7ab63bdd9d/b30db971-7d37-41a9-8b31-0c13faf73666")
 		(sheetname "/Servos/")
 		(sheetfile "servos.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -25127,7 +25127,7 @@
 		(path "/1ad64a30-be76-46f8-8378-763e862d1340/21dd12e7-3e92-430a-94eb-7a732a306185")
 		(sheetname "/USB_conn/")
 		(sheetfile "USB_conn.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -25341,7 +25341,7 @@
 		(path "/0c74f7ab-c5ff-45ed-b8c2-3c7ab63bdd9d/95a15a70-a408-4ccd-beb2-14b9921646a9")
 		(sheetname "/Servos/")
 		(sheetfile "servos.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)
@@ -25833,7 +25833,7 @@
 		(path "/cba49e5e-58fe-4456-8828-89f7be4fa1eb")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(fp_line
 			(start -2.56 3.51)
 			(end 12.56 3.51)
@@ -26325,7 +26325,7 @@
 		(path "/f86a3d70-fa31-4725-b330-81e2f5dad2cc/da05a565-e399-4895-8219-bc3c5375fdcd")
 		(sheetname "/stepper_driver1/")
 		(sheetfile "stepper_driver.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
 			(end -2.85 -1.5)
@@ -26935,7 +26935,7 @@
 		(path "/fd2dc8f8-fd55-4e1e-a74d-91014106cd68")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -27149,7 +27149,7 @@
 		(path "/0c74f7ab-c5ff-45ed-b8c2-3c7ab63bdd9d/5b266667-309e-47bf-b01f-eee509a27e5f")
 		(sheetname "/Servos/")
 		(sheetfile "servos.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(fp_line
 			(start 1.33 -3.83)
 			(end 1.33 3.83)
@@ -28828,7 +28828,7 @@
 		(path "/81dafe46-da98-42cb-a24e-9d102af2f3e8")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -29043,7 +29043,7 @@
 		(path "/f348304a-7dc5-4da6-a4c2-bb060d8cf8ae")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom dnp)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 5 0)
@@ -29157,7 +29157,7 @@
 		(path "/2cbb89c6-3916-404a-964b-713150e27507")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(fp_line
 			(start -2.56 3.51)
 			(end 12.56 3.51)
@@ -29662,7 +29662,7 @@
 		(path "/1c961d7f-1ee0-4312-804a-6942ad420f93")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -1.685 -0.96)
 			(end -1.685 0.96)
@@ -29909,7 +29909,7 @@
 		(path "/0c74f7ab-c5ff-45ed-b8c2-3c7ab63bdd9d/308c9f05-228a-4e84-abe9-cd8f6bc6443b")
 		(sheetname "/Servos/")
 		(sheetfile "servos.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -1.685 -0.96)
 			(end -1.685 0.96)
@@ -30144,7 +30144,7 @@
 		(path "/0c74f7ab-c5ff-45ed-b8c2-3c7ab63bdd9d/335b4b8b-9ab8-4a01-bff4-069e8c646217")
 		(sheetname "/Servos/")
 		(sheetfile "servos.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -30423,7 +30423,7 @@
 		(path "/58869be4-6597-4a1e-9de0-0f5919bc8267")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -30638,7 +30638,7 @@
 		(path "/0127fddc-948d-40ad-be2d-5b8ed6196e37")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom dnp)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -30730,7 +30730,7 @@
 		(path "/15883a0e-b638-4478-9d25-abfc6c695ab5")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(fp_line
 			(start -2.56 3.51)
 			(end 12.56 3.51)
@@ -31222,7 +31222,7 @@
 		(path "/aa21c943-be8f-4f59-86c0-b8fbf57c2a51/bdd60f1e-d8c7-4657-a94c-8ca00f1f3038")
 		(sheetname "/DCDC_5V/")
 		(sheetfile "DCDC_5V.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -32107,7 +32107,7 @@
 		(path "/2367e876-3b6b-44d8-a508-6ac65d22a61e/a6b4a61a-4e14-4629-97c3-f1fe0c52ee6e")
 		(sheetname "/diodes/")
 		(sheetfile "diodes.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -2.36 -1)
 			(end -2.36 1)
@@ -33288,7 +33288,7 @@
 		(path "/4bdf100d-7e35-4013-89a2-8f86fd135421/2b03a52e-480c-469e-885c-94ac4427b2b6")
 		(sheetname "/stepper_driver/")
 		(sheetfile "stepper_driver.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -33508,7 +33508,7 @@
 		(path "/b45a520f-1905-47db-bbc3-05cad8f90896/814d9c8b-03d3-4864-93e6-0a45ad7f100a")
 		(sheetname "/IO_expander/")
 		(sheetfile "io_exp.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
 			(end -0.237258 -0.5225)
@@ -33948,7 +33948,7 @@
 		(path "/f22c9129-97b0-4483-bff0-ce11500b75d7/530eca29-a4a2-4bc0-8181-e9e52fa6ea0a")
 		(sheetname "/IMU/")
 		(sheetfile "IMU.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)
 			(end -0.14058 0.51)
@@ -34869,7 +34869,7 @@
 		(path "/8cf8b4bb-2251-4ebd-baba-4f57c988e66e/fa34b9c5-5a36-426c-a4b6-f5e6ca94395f")
 		(sheetname "/transistors_outputs/")
 		(sheetfile "transistors.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -35085,7 +35085,7 @@
 		(path "/8cf8b4bb-2251-4ebd-baba-4f57c988e66e/90bae9dc-1a3a-4ea3-9c2e-dcce5dc4fff1")
 		(sheetname "/transistors_outputs/")
 		(sheetfile "transistors.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -35525,7 +35525,7 @@
 		(path "/b45a520f-1905-47db-bbc3-05cad8f90896/ac3870f0-922c-4da5-8c56-23d7afe0392c")
 		(sheetname "/IO_expander/")
 		(sheetfile "io_exp.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)
@@ -35745,7 +35745,7 @@
 		(path "/b1050287-31e3-44fe-9bba-b0376ddc40c3/241c8d33-3e1d-4b54-bbad-2cd94af3d494")
 		(sheetname "/ServoDCDC/")
 		(sheetfile "servo_DCDC.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)
 			(end -0.14058 0.51)
@@ -35965,7 +35965,7 @@
 		(path "/b45a520f-1905-47db-bbc3-05cad8f90896/90ef0f4f-b15d-4a0d-8cf6-2b678af0ea90")
 		(sheetname "/IO_expander/")
 		(sheetfile "io_exp.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
 			(end -0.237258 -0.5225)
@@ -36731,7 +36731,7 @@
 		(path "/4bdf100d-7e35-4013-89a2-8f86fd135421/8edbf4cc-e963-400d-b1d7-2f6c266e6060")
 		(sheetname "/stepper_driver/")
 		(sheetfile "stepper_driver.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -36951,7 +36951,7 @@
 		(path "/5c24fa3c-3678-49b3-b481-fc769d961669")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
 			(end -0.237258 -0.5225)
@@ -37171,7 +37171,7 @@
 		(path "/b45a520f-1905-47db-bbc3-05cad8f90896/8e8a599b-61b8-49c4-8e23-9628a3302e88")
 		(sheetname "/IO_expander/")
 		(sheetfile "io_exp.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)
@@ -37391,7 +37391,7 @@
 		(path "/b45a520f-1905-47db-bbc3-05cad8f90896/3606ec41-14b5-4018-bb29-93be08848f86")
 		(sheetname "/IO_expander/")
 		(sheetfile "io_exp.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)
@@ -37611,7 +37611,7 @@
 		(path "/b1050287-31e3-44fe-9bba-b0376ddc40c3/1f884225-251a-4009-808c-c61b8f8003cd")
 		(sheetname "/ServoDCDC/")
 		(sheetfile "servo_DCDC.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.14058 -0.51)
 			(end -0.14058 -0.51)
@@ -37827,7 +37827,7 @@
 		(path "/66026453-9027-4575-bae8-7143b4848e55/3a42a86f-a446-472c-99fd-8d94fda159cf")
 		(sheetname "/AX12_con/")
 		(sheetfile "AX12.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -38896,7 +38896,7 @@
 		(path "/0c74f7ab-c5ff-45ed-b8c2-3c7ab63bdd9d/0bb0af33-a96b-4587-9eb5-e669ee11f0c1")
 		(sheetname "/Servos/")
 		(sheetfile "servos.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -2.36 -1)
 			(end -2.36 1)
@@ -40081,7 +40081,7 @@
 		(path "/b45a520f-1905-47db-bbc3-05cad8f90896/af799739-8aa7-4753-b9d2-909373707de6")
 		(sheetname "/IO_expander/")
 		(sheetfile "io_exp.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)
@@ -40301,7 +40301,7 @@
 		(path "/b1050287-31e3-44fe-9bba-b0376ddc40c3/551f3f17-edc2-4d7a-a241-a42fdff60893")
 		(sheetname "/ServoDCDC/")
 		(sheetfile "servo_DCDC.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
 			(end -0.261252 0.735)
@@ -40521,7 +40521,7 @@
 		(path "/f50226ad-2fa7-4f3f-b34d-e4bae79015fe")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)
@@ -40741,7 +40741,7 @@
 		(path "/0a2b21e4-8272-4cd5-a1b9-61d26166dee8")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)
@@ -40961,7 +40961,7 @@
 		(path "/b45a520f-1905-47db-bbc3-05cad8f90896/272c27b9-b8dd-4fb0-8afe-6fe387c32ab7")
 		(sheetname "/IO_expander/")
 		(sheetfile "io_exp.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)
@@ -41181,7 +41181,7 @@
 		(path "/52682604-07ba-4213-b6db-574cd8891917")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
 			(end -0.237258 -0.5225)
@@ -42647,7 +42647,7 @@
 		(path "/b45a520f-1905-47db-bbc3-05cad8f90896/6e3dd78a-dd5d-4c5e-8fab-4c7a04f0d7dd")
 		(sheetname "/IO_expander/")
 		(sheetfile "io_exp.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
 			(end -0.261252 -0.735)
@@ -43197,7 +43197,7 @@
 		(path "/b1050287-31e3-44fe-9bba-b0376ddc40c3/e875855c-c86f-4de6-8252-47f26cdf5e61")
 		(sheetname "/ServoDCDC/")
 		(sheetfile "servo_DCDC.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.14058 -0.51)
 			(end -0.14058 -0.51)
@@ -43417,7 +43417,7 @@
 		(path "/d9a67139-16a0-4bf6-aec8-2c2b7819b2b3")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.14058 -0.51)
 			(end -0.14058 -0.51)
@@ -43637,7 +43637,7 @@
 		(path "/c539595d-294f-4ca4-a9cf-8dce321f129b")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
 			(end -0.237258 -0.5225)
@@ -43857,7 +43857,7 @@
 		(path "/b45a520f-1905-47db-bbc3-05cad8f90896/ca0afa59-7c84-4757-bcb2-955c10c769bb")
 		(sheetname "/IO_expander/")
 		(sheetfile "io_exp.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)
@@ -44458,7 +44458,7 @@
 		(path "/b45a520f-1905-47db-bbc3-05cad8f90896/78dde214-44ee-4330-827a-e6210b174932")
 		(sheetname "/IO_expander/")
 		(sheetfile "io_exp.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)
@@ -44678,7 +44678,7 @@
 		(path "/45501b94-4bea-465c-9fc3-528d1b800113")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)
@@ -44898,7 +44898,7 @@
 		(path "/c57593e2-700e-44b0-b359-fe45ea5fe1f3")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
 			(end -0.237258 -0.5225)
@@ -45118,7 +45118,7 @@
 		(path "/b45a520f-1905-47db-bbc3-05cad8f90896/71bb8778-9f9f-48ea-939c-a787f513b5f4")
 		(sheetname "/IO_expander/")
 		(sheetfile "io_exp.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
 			(end -0.237258 -0.5225)
@@ -45554,7 +45554,7 @@
 		(path "/4bdf100d-7e35-4013-89a2-8f86fd135421/84c19620-b9ae-483d-9a5b-9fe64a412854")
 		(sheetname "/stepper_driver/")
 		(sheetfile "stepper_driver.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -45772,7 +45772,7 @@
 		(path "/b45a520f-1905-47db-bbc3-05cad8f90896/98dfef8f-5dfc-4801-950e-7f012b1c1e5d")
 		(sheetname "/IO_expander/")
 		(sheetfile "io_exp.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 2.31 -3.385)
 			(end -2.31 -3.385)
@@ -46238,7 +46238,7 @@
 		(path "/b45a520f-1905-47db-bbc3-05cad8f90896/efeee1ba-71ea-4c81-8532-792a0298e546")
 		(sheetname "/IO_expander/")
 		(sheetfile "io_exp.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
 			(end -0.237258 -0.5225)
@@ -46454,7 +46454,7 @@
 		(path "/8cf8b4bb-2251-4ebd-baba-4f57c988e66e/32726e59-a7c6-456d-892b-96e21793cf0a")
 		(sheetname "/transistors_outputs/")
 		(sheetfile "transistors.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -46674,7 +46674,7 @@
 		(path "/d976cd19-252e-4a4e-89d2-1c0e97339ae8")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -2.36 -1)
 			(end -2.36 1)
@@ -46976,7 +46976,7 @@
 		(path "/66026453-9027-4575-bae8-7143b4848e55/ac9e11fb-1194-4054-81a9-fdbaf8b96427")
 		(sheetname "/AX12_con/")
 		(sheetfile "AX12.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.14058 -0.51)
 			(end -0.14058 -0.51)
@@ -47196,7 +47196,7 @@
 		(path "/2367e876-3b6b-44d8-a508-6ac65d22a61e/52efe770-859f-4d4f-ab53-4e06c6f3d3e5")
 		(sheetname "/diodes/")
 		(sheetfile "diodes.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 1.65 -1)
 			(end -2.36 -1)
@@ -47718,7 +47718,7 @@
 		(path "/66026453-9027-4575-bae8-7143b4848e55/a674dac6-e7a6-4481-a8b9-1270c7447b48")
 		(sheetname "/AX12_con/")
 		(sheetfile "AX12.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)
@@ -47938,7 +47938,7 @@
 		(path "/968c90f9-1b86-4e86-80c9-9856c76dede0")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -2.36 -1)
 			(end -2.36 1)
@@ -48460,7 +48460,7 @@
 		(path "/2367e876-3b6b-44d8-a508-6ac65d22a61e/6eada94e-3891-4de3-9c2b-bb2931adfe09")
 		(sheetname "/diodes/")
 		(sheetfile "diodes.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 1.65 1)
 			(end -2.36 1)
@@ -49092,7 +49092,7 @@
 		(path "/b45a520f-1905-47db-bbc3-05cad8f90896/5c41d27f-dac0-40c4-aaef-f52af6355087")
 		(sheetname "/IO_expander/")
 		(sheetfile "io_exp.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
 			(end -0.237258 -0.5225)
@@ -49308,7 +49308,7 @@
 		(path "/4bdf100d-7e35-4013-89a2-8f86fd135421/1f94ab73-248e-419b-9d9a-4eed7084019f")
 		(sheetname "/stepper_driver/")
 		(sheetfile "stepper_driver.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -49528,7 +49528,7 @@
 		(path "/f22c9129-97b0-4483-bff0-ce11500b75d7/699f9bf1-6700-4570-9a02-8b25522cefff")
 		(sheetname "/IMU/")
 		(sheetfile "IMU.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)
 			(end -0.14058 0.51)
@@ -49748,7 +49748,7 @@
 		(path "/66026453-9027-4575-bae8-7143b4848e55/fadf02e3-de41-41a4-95ce-f04606f8db1f")
 		(sheetname "/AX12_con/")
 		(sheetfile "AX12.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
 			(end -0.237258 -0.5225)
@@ -50172,7 +50172,7 @@
 		(path "/f86a3d70-fa31-4725-b330-81e2f5dad2cc/2b03a52e-480c-469e-885c-94ac4427b2b6")
 		(sheetname "/stepper_driver1/")
 		(sheetfile "stepper_driver.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -50993,7 +50993,7 @@
 		(path "/66026453-9027-4575-bae8-7143b4848e55/81de629a-ae28-41ca-a1b8-dde79de87c66")
 		(sheetname "/AX12_con/")
 		(sheetfile "AX12.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)
@@ -51722,7 +51722,7 @@
 		(path "/bb2c48ec-8501-42b7-aa20-7dd014ad3452")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)
 			(end -0.14058 0.51)
@@ -51942,7 +51942,7 @@
 		(path "/b45a520f-1905-47db-bbc3-05cad8f90896/af6c317c-34c0-46e3-b849-71d339f7b94f")
 		(sheetname "/IO_expander/")
 		(sheetfile "io_exp.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
 			(end -0.237258 -0.5225)
@@ -52162,7 +52162,7 @@
 		(path "/b1050287-31e3-44fe-9bba-b0376ddc40c3/673de591-f23d-4492-8fc5-70c792d153a8")
 		(sheetname "/ServoDCDC/")
 		(sheetfile "servo_DCDC.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.14058 -0.51)
 			(end -0.14058 -0.51)
@@ -52380,7 +52380,7 @@
 		(path "/66026453-9027-4575-bae8-7143b4848e55/919348ae-f430-4678-89c9-a8fd6affafd6")
 		(sheetname "/AX12_con/")
 		(sheetfile "AX12.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.76 -1.56)
 			(end -0.76 -1.51)
@@ -52726,7 +52726,7 @@
 		(path "/2367e876-3b6b-44d8-a508-6ac65d22a61e/95b1a943-3f0b-4420-83cd-50ce09c138bc")
 		(sheetname "/diodes/")
 		(sheetfile "diodes.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 1.65 -1)
 			(end -2.36 -1)
@@ -53246,7 +53246,7 @@
 		(path "/66026453-9027-4575-bae8-7143b4848e55/cb3f78d7-e0ed-4737-8430-64db9414ab4c")
 		(sheetname "/AX12_con/")
 		(sheetfile "AX12.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.76 -1.56)
 			(end -0.76 -1.51)
@@ -53592,7 +53592,7 @@
 		(path "/b6ec4569-4a8d-42d7-b9e2-7896393dfa86")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 1.65 1)
 			(end -2.36 1)
@@ -53922,7 +53922,7 @@
 		(path "/0c74f7ab-c5ff-45ed-b8c2-3c7ab63bdd9d/6c0abecf-f361-4699-8ddd-02d1b8372136")
 		(sheetname "/Servos/")
 		(sheetfile "servos.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 1.65 -1)
 			(end -2.36 -1)
@@ -54220,7 +54220,7 @@
 		(path "/f86a3d70-fa31-4725-b330-81e2f5dad2cc/1f94ab73-248e-419b-9d9a-4eed7084019f")
 		(sheetname "/stepper_driver1/")
 		(sheetfile "stepper_driver.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -54436,7 +54436,7 @@
 		(path "/99c367b7-e2b3-4f82-842e-aad412dcddf7")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
 			(end 0.227064 -0.735)
@@ -54656,7 +54656,7 @@
 		(path "/b1050287-31e3-44fe-9bba-b0376ddc40c3/e78eda6b-59c7-4be5-b6c5-ab8041988261")
 		(sheetname "/ServoDCDC/")
 		(sheetfile "servo_DCDC.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)
 			(end -0.14058 0.51)
@@ -55096,7 +55096,7 @@
 		(path "/b45a520f-1905-47db-bbc3-05cad8f90896/441c7084-b0fc-4b38-b8bb-ea2f11484a43")
 		(sheetname "/IO_expander/")
 		(sheetfile "io_exp.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)
@@ -55316,7 +55316,7 @@
 		(path "/b45a520f-1905-47db-bbc3-05cad8f90896/d09858c8-55d0-49c3-b868-a73c4ba40797")
 		(sheetname "/IO_expander/")
 		(sheetfile "io_exp.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)
@@ -55976,7 +55976,7 @@
 		(path "/027b4b20-44e5-499a-9146-ccae15722ab9")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
 			(end -0.237258 -0.5225)
@@ -56196,7 +56196,7 @@
 		(path "/66026453-9027-4575-bae8-7143b4848e55/cfa0a130-3a80-4205-82ca-da1c84dd96d5")
 		(sheetname "/AX12_con/")
 		(sheetfile "AX12.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)
@@ -56412,7 +56412,7 @@
 		(path "/8cf8b4bb-2251-4ebd-baba-4f57c988e66e/56b4be7e-8210-4f35-b9f4-6ba59d377598")
 		(sheetname "/transistors_outputs/")
 		(sheetfile "transistors.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -56844,7 +56844,7 @@
 		(path "/b45a520f-1905-47db-bbc3-05cad8f90896/b3895ee9-49a5-4739-9ef3-fa9277d37290")
 		(sheetname "/IO_expander/")
 		(sheetfile "io_exp.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)
@@ -57064,7 +57064,7 @@
 		(path "/8e84f4f5-6ad7-442f-907a-ca604d72acd7")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.14058 -0.51)
 			(end -0.14058 -0.51)
@@ -57500,7 +57500,7 @@
 		(path "/66026453-9027-4575-bae8-7143b4848e55/f1370bbf-b9e5-4d96-800f-ae6c0f52c8af")
 		(sheetname "/AX12_con/")
 		(sheetfile "AX12.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -58093,7 +58093,7 @@
 		(path "/66026453-9027-4575-bae8-7143b4848e55/7e5f5a4a-516a-4f2b-a8ec-70ab43094cfe")
 		(sheetname "/AX12_con/")
 		(sheetfile "AX12.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.76 1.56)
 			(end 0.76 0.56)
@@ -58439,7 +58439,7 @@
 		(path "/0c74f7ab-c5ff-45ed-b8c2-3c7ab63bdd9d/fa792e5a-fc1a-4329-ac13-1f65e53f3967")
 		(sheetname "/Servos/")
 		(sheetfile "servos.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
 			(end -0.237258 -0.5225)
@@ -59451,7 +59451,7 @@
 		(path "/8e9dff03-fc49-4c9b-986c-46b0a52b8416")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.14058 -0.51)
 			(end -0.14058 -0.51)
@@ -59667,7 +59667,7 @@
 		(path "/66026453-9027-4575-bae8-7143b4848e55/af9c5eff-f1a9-4ec0-b0d2-97a3f08eedca")
 		(sheetname "/AX12_con/")
 		(sheetfile "AX12.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 1.3 1.2)
 			(end -1.3 1.2)
@@ -60023,7 +60023,7 @@
 		(path "/0c74f7ab-c5ff-45ed-b8c2-3c7ab63bdd9d/7c5fce1f-624d-4be3-b2ca-a3b9c751e3ab")
 		(sheetname "/Servos/")
 		(sheetfile "servos.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 1.65 -1)
 			(end -2.36 -1)
@@ -60321,7 +60321,7 @@
 		(path "/f86a3d70-fa31-4725-b330-81e2f5dad2cc/8edbf4cc-e963-400d-b1d7-2f6c266e6060")
 		(sheetname "/stepper_driver1/")
 		(sheetfile "stepper_driver.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -60541,7 +60541,7 @@
 		(path "/f22c9129-97b0-4483-bff0-ce11500b75d7/f3cf927f-68fa-4720-b8e4-4f7a4364bfdf")
 		(sheetname "/IMU/")
 		(sheetfile "IMU.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)
 			(end -0.14058 0.51)
@@ -60761,7 +60761,7 @@
 		(path "/78922a50-833f-4961-bcb3-467f831161a6")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)
@@ -60977,7 +60977,7 @@
 		(path "/f86a3d70-fa31-4725-b330-81e2f5dad2cc/84c19620-b9ae-483d-9a5b-9fe64a412854")
 		(sheetname "/stepper_driver1/")
 		(sheetfile "stepper_driver.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -61959,7 +61959,7 @@
 		(path "/b45a520f-1905-47db-bbc3-05cad8f90896/d3330a42-1f82-41b9-affa-6422af746be1")
 		(sheetname "/IO_expander/")
 		(sheetfile "io_exp.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
 			(end -0.237258 -0.5225)
@@ -62179,7 +62179,7 @@
 		(path "/bad95419-c575-442c-92a3-aee3397cea5c")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
 			(end -0.237258 -0.5225)
@@ -62399,7 +62399,7 @@
 		(path "/d583c8cb-4a5e-4caf-9545-fe88a712ccb5")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
 			(end -0.237258 0.5225)
@@ -62619,7 +62619,7 @@
 		(path "/0b592c41-68cf-4098-ba38-bed0f70480d6")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
 			(end -0.237258 -0.5225)
@@ -62839,7 +62839,7 @@
 		(path "/f4f881d1-2dc4-4165-8dc7-3949f8327026")
 		(sheetname "/")
 		(sheetfile "carte_servo.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.14058 -0.51)
 			(end -0.14058 -0.51)
