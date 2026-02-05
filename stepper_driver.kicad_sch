@@ -1039,10 +1039,16 @@
 		(uuid "1f619ce0-7939-4b7d-8e79-39612e0a0184")
 	)
 	(junction
-		(at 157.48 62.23)
+		(at 166.37 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "37328563-d0e7-4a78-b744-2c8c71eba819")
+		(uuid "0ab82509-c797-46c2-9166-ddd24f579f54")
+	)
+	(junction
+		(at 166.37 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b92b5bd-afc5-4fdb-861c-eef28909f637")
 	)
 	(junction
 		(at 68.58 77.47)
@@ -1055,6 +1061,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8575b979-e578-4e09-b40c-4127377c6e05")
+	)
+	(junction
+		(at 147.32 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2fbb5f5-c845-4783-b656-1aa2507c4a96")
 	)
 	(no_connect
 		(at 128.27 67.31)
@@ -1094,16 +1106,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 62.23) (xy 167.64 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "332e9a34-53f6-4035-9fea-f496785025fc")
-	)
-	(wire
-		(pts
 			(xy 66.04 77.47) (xy 68.58 77.47)
 		)
 		(stroke
@@ -1111,6 +1113,16 @@
 			(type default)
 		)
 		(uuid "4626e6f3-2408-4b79-9eb4-6f8513b24de3")
+	)
+	(wire
+		(pts
+			(xy 172.72 69.85) (xy 166.37 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4793b484-bbe4-4a3e-9c17-d8b788e83fff")
 	)
 	(wire
 		(pts
@@ -1134,6 +1146,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 69.85) (xy 147.32 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65637f65-3130-4afb-a2a3-a8cad8ae92cc")
+	)
+	(wire
+		(pts
 			(xy 128.27 72.39) (xy 130.81 72.39)
 		)
 		(stroke
@@ -1141,6 +1163,16 @@
 			(type default)
 		)
 		(uuid "6731cce7-4288-47df-be63-db071d276563")
+	)
+	(wire
+		(pts
+			(xy 166.37 62.23) (xy 167.64 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879d8548-ff94-422b-b367-e4d0e85148d2")
 	)
 	(wire
 		(pts
@@ -1264,7 +1296,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 62.23) (xy 157.48 62.23)
+			(xy 128.27 62.23) (xy 147.32 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1281,6 +1313,16 @@
 			(type default)
 		)
 		(uuid "fa3d0b11-a31a-4839-bda5-74883c19294a")
+	)
+	(wire
+		(pts
+			(xy 147.32 62.23) (xy 166.37 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe28564d-0681-4cf9-9524-bebf5b17aa99")
 	)
 	(label "OB2"
 		(at 130.8735 80.01 0)
@@ -1335,7 +1377,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 157.48 69.85 0)
+		(at 172.72 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1434,7 +1476,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 157.48 66.04 0)
+		(at 147.32 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1443,7 +1485,7 @@
 		(fields_autoplaced yes)
 		(uuid "02ef8cc7-07ea-4c3a-8411-384360cf1ba4")
 		(property "Reference" "C26"
-			(at 161.29 63.8809 0)
+			(at 151.13 63.8809 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1452,7 +1494,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 161.29 66.4209 0)
+			(at 151.13 66.4209 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1461,7 +1503,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 158.4452 69.85 0)
+			(at 148.2852 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1470,7 +1512,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 66.04 0)
+			(at 147.32 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1479,7 +1521,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 157.48 66.04 0)
+			(at 147.32 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1488,7 +1530,7 @@
 			)
 		)
 		(property "LCSC#" "C398835"
-			(at 157.48 66.04 0)
+			(at 147.32 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,7 +1564,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1f94ab73-248e-419b-9d9a-4eed7084019f")
 		(property "Reference" "R7"
 			(at 61.468 82.804 90)
@@ -1602,7 +1644,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2b03a52e-480c-469e-885c-94ac4427b2b6")
 		(property "Reference" "R11"
@@ -1685,7 +1727,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "72121fac-c808-4e71-8cf0-ab7267b24c8d")
 		(property "Reference" "U3"
@@ -1816,7 +1858,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "84c19620-b9ae-483d-9a5b-9fe64a412854")
 		(property "Reference" "R10"
 			(at 62.992 83.058 0)
@@ -1898,7 +1940,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8edbf4cc-e963-400d-b1d7-2f6c266e6060")
 		(property "Reference" "R6"
 			(at 62.23 72.898 90)
@@ -1972,13 +2014,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 166.37 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2d8f594-093f-4562-8fbe-be5757a8fe58")
+		(property "Reference" "C44"
+			(at 170.18 63.8809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 170.18 66.4209 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
+			(at 167.3352 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 166.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C398835"
+			(at 166.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95751800-6908-4a45-bd2f-714050da4ab9")
+		)
+		(pin "2"
+			(uuid "4691e07a-b56a-4e46-8320-bf05d1027195")
+		)
+		(instances
+			(project "carte_servo"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4bdf100d-7e35-4013-89a2-8f86fd135421"
+					(reference "C44")
+					(unit 1)
+				)
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f86a3d70-fa31-4725-b330-81e2f5dad2cc"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 149.86 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "da05a565-e399-4895-8219-bc3c5375fdcd")
 		(property "Reference" "J1"
 			(at 149.225 85.09 0)

@@ -1747,7 +1747,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "24V input:\n	\nXAL6030-182MEB (même empreinte)\n\n	\nCSD18504Q5A (même empreinte)\n	\nCSD18563Q5A (même empreinte)"
+	(text "24V input:\n	\nL2 XAL6030-182MEB C19191693 (même empreinte)\n\n	\nhaut CSD18504Q5A C78118 (même empreinte)\n	\nbas CSD18563Q5A C2760461 (même empreinte)"
 		(exclude_from_sim no)
 		(at 192.786 38.1 0)
 		(effects
@@ -1756,6 +1756,16 @@
 			)
 		)
 		(uuid "4e858a55-828d-4f77-a81d-280b560f2177")
+	)
+	(text "12V input:\n	\nL2 XAL6030-122MEC C19191689 (même empreinte)\n\n	\nhaut CSD17307Q5A C22367097 (même empreinte)\n	\nbas CSD17579Q5A CSD17579Q5A (même empreinte)"
+		(exclude_from_sim no)
+		(at 140.97 37.846 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e30611ff-a669-4b35-a277-fe785f4954bc")
 	)
 	(junction
 		(at 68.58 73.66)
@@ -2578,7 +2588,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1f884225-251a-4009-808c-c61b8f8003cd")
 		(property "Reference" "R32"
@@ -2736,7 +2746,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "241c8d33-3e1d-4b54-bbad-2cd94af3d494")
 		(property "Reference" "R33"
@@ -2862,7 +2872,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C23198"
+		(property "LCSC#" "C23167"
 			(at 68.58 77.47 0)
 			(effects
 				(font
@@ -3058,7 +3068,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C1713"
+		(property "LCSC#" "C440198"
 			(at 58.42 60.96 0)
 			(effects
 				(font
@@ -3089,7 +3099,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "551f3f17-edc2-4d7a-a241-a42fdff60893")
 		(property "Reference" "C13"
@@ -3178,7 +3188,7 @@
 				)
 			)
 		)
-		(property "Value" "XAL6030-122MEC"
+		(property "Value" "XAL6030-182MEB"
 			(at 144.78 78.74 0)
 			(effects
 				(font
@@ -3214,7 +3224,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C19191689"
+		(property "LCSC#" "C19191693"
 			(at 144.78 82.55 0)
 			(effects
 				(font
@@ -3245,7 +3255,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "673de591-f23d-4492-8fc5-70c792d153a8")
 		(property "Reference" "R1"
@@ -3369,7 +3379,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C57112"
+		(property "LCSC#" "C296713"
 			(at 81.28 92.71 0)
 			(effects
 				(font
@@ -3697,7 +3707,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C1713"
+		(property "LCSC#" "C440198"
 			(at 49.53 60.96 0)
 			(effects
 				(font
@@ -3728,7 +3738,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e78eda6b-59c7-4be5-b6c5-ab8041988261")
 		(property "Reference" "C14"
@@ -3805,7 +3815,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e875855c-c86f-4de6-8252-47f26cdf5e61")
 		(property "Reference" "C15"
@@ -3935,7 +3945,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C22367097"
+		(property "LCSC#" "C78118"
 			(at 128.27 71.12 0)
 			(effects
 				(font

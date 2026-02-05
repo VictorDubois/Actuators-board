@@ -2081,6 +2081,12 @@
 			(uuid "16188460-615f-4895-991a-697c26b09cde")
 		)
 		(instances
+			(project "transistors"
+				(path "/dd7715f7-4665-4e2d-be0e-5eaf3bd7a739"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
 					(reference "J13")
@@ -2108,7 +2114,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener_Small"
+		(property "Value" "D_transistor"
 			(at 215.9 115.5699 90)
 			(effects
 				(font
@@ -2178,6 +2184,12 @@
 			(uuid "123ed4dd-cc9e-4157-ad20-0733ac6c1c7a")
 		)
 		(instances
+			(project "transistors"
+				(path "/dd7715f7-4665-4e2d-be0e-5eaf3bd7a739"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
 					(reference "D26")
@@ -2275,6 +2287,12 @@
 			(uuid "41de0e63-5d2d-4f5c-8dcc-e307b4df3475")
 		)
 		(instances
+			(project "transistors"
+				(path "/dd7715f7-4665-4e2d-be0e-5eaf3bd7a739"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
 					(reference "Q2")
@@ -2302,7 +2320,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener_Small"
+		(property "Value" "D_transistor"
 			(at 213.36 148.5899 90)
 			(effects
 				(font
@@ -2372,6 +2390,12 @@
 			(uuid "e6efe437-168d-4f27-9c00-dd011be7a304")
 		)
 		(instances
+			(project "transistors"
+				(path "/dd7715f7-4665-4e2d-be0e-5eaf3bd7a739"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
 					(reference "D6")
@@ -2387,7 +2411,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "32726e59-a7c6-456d-892b-96e21793cf0a")
 		(property "Reference" "R17"
@@ -2449,6 +2473,12 @@
 			(uuid "2e38a6d1-064b-4af9-b187-56d81c00c4cc")
 		)
 		(instances
+			(project "transistors"
+				(path "/dd7715f7-4665-4e2d-be0e-5eaf3bd7a739"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
 					(reference "R17")
@@ -2476,7 +2506,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener_Small"
+		(property "Value" "D_transistor"
 			(at 214.63 83.8199 90)
 			(effects
 				(font
@@ -2546,6 +2576,12 @@
 			(uuid "4243d8ae-6167-406d-b8b4-ea7bdc6a2461")
 		)
 		(instances
+			(project "transistors"
+				(path "/dd7715f7-4665-4e2d-be0e-5eaf3bd7a739"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
 					(reference "D25")
@@ -2561,7 +2597,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "56b4be7e-8210-4f35-b9f4-6ba59d377598")
 		(property "Reference" "R19"
@@ -2623,6 +2659,12 @@
 			(uuid "22f015d4-f500-4d7c-a903-abdd83fb2e8d")
 		)
 		(instances
+			(project "transistors"
+				(path "/dd7715f7-4665-4e2d-be0e-5eaf3bd7a739"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
 					(reference "R19")
@@ -2699,6 +2741,12 @@
 			(uuid "453249b5-93f1-4116-a53e-b879906ec1a7")
 		)
 		(instances
+			(project "transistors"
+				(path "/dd7715f7-4665-4e2d-be0e-5eaf3bd7a739"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
 					(reference "J11")
@@ -2776,6 +2824,12 @@
 			(uuid "d26afd36-0b89-4494-afe3-668f338ba6e6")
 		)
 		(instances
+			(project "transistors"
+				(path "/dd7715f7-4665-4e2d-be0e-5eaf3bd7a739"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
 					(reference "J14")
@@ -2838,6 +2892,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C2907406"
+			(at 223.52 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9f38bce3-50f6-4cb1-a27b-e0a1e3e6149c")
 		)
@@ -2845,6 +2908,12 @@
 			(uuid "62cc3757-1c95-4632-b669-7dd72df323df")
 		)
 		(instances
+			(project "transistors"
+				(path "/dd7715f7-4665-4e2d-be0e-5eaf3bd7a739"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
 					(reference "R73")
@@ -2872,7 +2941,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener_Small"
+		(property "Value" "D_transistor"
 			(at 214.63 57.1499 90)
 			(effects
 				(font
@@ -2942,6 +3011,12 @@
 			(uuid "5211b7ea-8f73-4e9e-a211-4d76d40027f6")
 		)
 		(instances
+			(project "transistors"
+				(path "/dd7715f7-4665-4e2d-be0e-5eaf3bd7a739"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
 					(reference "D7")
@@ -2957,7 +3032,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "90bae9dc-1a3a-4ea3-9c2e-dcce5dc4fff1")
 		(property "Reference" "R20"
@@ -3019,6 +3094,12 @@
 			(uuid "50415aa9-0ce4-44b1-92ce-1cdedeca7816")
 		)
 		(instances
+			(project "transistors"
+				(path "/dd7715f7-4665-4e2d-be0e-5eaf3bd7a739"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
 					(reference "R20")
@@ -3116,6 +3197,12 @@
 			(uuid "6dda7519-3810-4377-a6ee-343fc00b9e3e")
 		)
 		(instances
+			(project "transistors"
+				(path "/dd7715f7-4665-4e2d-be0e-5eaf3bd7a739"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
 					(reference "Q3")
@@ -3179,6 +3266,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C2907406"
+			(at 231.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9adeee19-fb0b-4f3f-90f3-fad2f9295177")
 		)
@@ -3186,6 +3282,12 @@
 			(uuid "046d9402-7a26-4877-a47a-5f71b5b2bc15")
 		)
 		(instances
+			(project "transistors"
+				(path "/dd7715f7-4665-4e2d-be0e-5eaf3bd7a739"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
 					(reference "R72")
@@ -3283,6 +3385,12 @@
 			(uuid "558b61ae-a870-4284-af7f-df4f5a14c50d")
 		)
 		(instances
+			(project "transistors"
+				(path "/dd7715f7-4665-4e2d-be0e-5eaf3bd7a739"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
 					(reference "Q1")
@@ -3380,6 +3488,12 @@
 			(uuid "50e6cc2e-ebc3-4e60-97f0-9519be22c6f0")
 		)
 		(instances
+			(project "transistors"
+				(path "/dd7715f7-4665-4e2d-be0e-5eaf3bd7a739"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
 					(reference "Q4")
@@ -3457,6 +3571,12 @@
 			(uuid "38cd7ece-4e71-4681-ab70-ec954d588dd9")
 		)
 		(instances
+			(project "transistors"
+				(path "/dd7715f7-4665-4e2d-be0e-5eaf3bd7a739"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
 					(reference "J12")
@@ -3472,7 +3592,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fa34b9c5-5a36-426c-a4b6-f5e6ca94395f")
 		(property "Reference" "R18"
@@ -3534,6 +3654,12 @@
 			(uuid "1b0cc176-7492-45d7-90e4-9d3b960d9705")
 		)
 		(instances
+			(project "transistors"
+				(path "/dd7715f7-4665-4e2d-be0e-5eaf3bd7a739"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
 					(reference "R18")
@@ -3542,4 +3668,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
