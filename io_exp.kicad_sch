@@ -498,7 +498,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -8.89 16.51 0)
+				(at -7.112 14.732 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -509,7 +509,7 @@
 				)
 			)
 			(property "Value" "PCF8574ATS"
-				(at 3.81 16.51 0)
+				(at 3.302 14.732 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -530,7 +530,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/PCF8574_PCF8574A.pdf"
+			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCF8574_PCF8574A.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -541,7 +541,7 @@
 					)
 				)
 			)
-			(property "Description" "8 Bit Port/Expander to I2C Bus, SSOP-20"
+			(property "Description" "8-bit I/O Expander, I2C interface, interrupt output, fixed address bits 0b0111xxx, SSOP-20"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -552,7 +552,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "I2C Expander"
+			(property "ki_keywords" "NXP Port-Expander"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -563,7 +563,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SSOP*4.4x6.5mm*P0.65mm*"
+			(property "ki_fp_filters" "SSOP*4.4x6.5mm?P0.65mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -576,8 +576,8 @@
 			)
 			(symbol "PCF8574ATS_0_1"
 				(rectangle
-					(start -10.16 15.24)
-					(end 10.16 -15.24)
+					(start -7.62 12.7)
+					(end 7.62 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -588,8 +588,8 @@
 				)
 			)
 			(symbol "PCF8574ATS_1_1"
-				(pin open_collector output_low
-					(at -12.7 -10.16 0)
+				(pin open_collector line
+					(at -10.16 2.54 0)
 					(length 2.54)
 					(name "~{INT}"
 						(effects
@@ -607,7 +607,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 10.16 0)
+					(at -10.16 10.16 0)
 					(length 2.54)
 					(name "SCL"
 						(effects
@@ -625,7 +625,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 10.16 -10.16 180)
+					(at -7.62 5.08 0)
 					(length 2.54)
 					(hide yes)
 					(name "NC"
@@ -644,7 +644,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.7 7.62 0)
+					(at -10.16 7.62 0)
 					(length 2.54)
 					(name "SDA"
 						(effects
@@ -662,7 +662,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 17.78 270)
+					(at 0 15.24 270)
 					(length 2.54)
 					(name "VDD"
 						(effects
@@ -680,7 +680,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 2.54 0)
+					(at -10.16 -2.54 0)
 					(length 2.54)
 					(name "A0"
 						(effects
@@ -698,7 +698,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 0 0)
+					(at -10.16 -5.08 0)
 					(length 2.54)
 					(name "A1"
 						(effects
@@ -716,7 +716,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 10.16 -12.7 180)
+					(at -7.62 0 0)
 					(length 2.54)
 					(hide yes)
 					(name "NC"
@@ -735,7 +735,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -2.54 0)
+					(at -10.16 -7.62 0)
 					(length 2.54)
 					(name "A2"
 						(effects
@@ -753,7 +753,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 10.16 180)
+					(at 10.16 10.16 180)
 					(length 2.54)
 					(name "P0"
 						(effects
@@ -771,7 +771,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 7.62 180)
+					(at 10.16 7.62 180)
 					(length 2.54)
 					(name "P1"
 						(effects
@@ -789,7 +789,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 5.08 180)
+					(at 10.16 5.08 180)
 					(length 2.54)
 					(name "P2"
 						(effects
@@ -807,7 +807,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -10.16 -5.08 0)
+					(at -2.54 -10.16 90)
 					(length 2.54)
 					(hide yes)
 					(name "NC"
@@ -826,7 +826,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 2.54 180)
+					(at 10.16 2.54 180)
 					(length 2.54)
 					(name "P3"
 						(effects
@@ -844,7 +844,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -17.78 90)
+					(at 0 -12.7 90)
 					(length 2.54)
 					(name "VSS"
 						(effects
@@ -862,7 +862,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 0 180)
+					(at 10.16 0 180)
 					(length 2.54)
 					(name "P4"
 						(effects
@@ -880,7 +880,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 -2.54 180)
+					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name "P5"
 						(effects
@@ -898,7 +898,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -10.16 -7.62 0)
+					(at 2.54 -10.16 90)
 					(length 2.54)
 					(hide yes)
 					(name "NC"
@@ -917,7 +917,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 -5.08 180)
+					(at 10.16 -5.08 180)
 					(length 2.54)
 					(name "P6"
 						(effects
@@ -935,7 +935,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 -7.62 180)
+					(at 10.16 -7.62 180)
 					(length 2.54)
 					(name "P7"
 						(effects
@@ -982,7 +982,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 88.9) (xy 80.01 88.9)
+			(xy 78.74 76.2) (xy 82.55 76.2)
 		)
 		(stroke
 			(width 0)
@@ -992,7 +992,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 88.9) (xy 67.31 88.9)
+			(xy 73.66 76.2) (xy 69.85 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1029,6 +1029,16 @@
 			(type default)
 		)
 		(uuid "437814b9-7b90-4d9e-8d29-c169ce945aa3")
+	)
+	(wire
+		(pts
+			(xy 92.71 92.71) (xy 92.71 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47587453-a017-44ae-82b0-3adecc324b27")
 	)
 	(wire
 		(pts
@@ -1211,7 +1221,7 @@
 		(uuid "0278d85d-05a4-4d40-8474-8c63dcb75b6e")
 	)
 	(label "SIG_1"
-		(at 105.41 71.12 0)
+		(at 102.87 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1231,7 +1241,7 @@
 		(uuid "592d213f-5dba-4fae-a4b8-200c9db5b7cf")
 	)
 	(label "SIG_3"
-		(at 105.41 76.2 0)
+		(at 102.87 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1261,7 +1271,7 @@
 		(uuid "b353f62b-9e37-4419-85fe-6b553674427a")
 	)
 	(label "SIG_0"
-		(at 105.41 68.58 0)
+		(at 102.87 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1271,7 +1281,7 @@
 		(uuid "bed36330-aca4-498d-b773-3eeb3b764a36")
 	)
 	(label "SIG_2"
-		(at 105.41 73.66 0)
+		(at 102.87 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1282,7 +1292,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 80.01 78.74 180)
+		(at 82.55 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1304,7 +1314,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 80.01 81.28 180)
+		(at 82.55 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1337,7 +1347,7 @@
 	)
 	(hierarchical_label "SIG_7"
 		(shape input)
-		(at 105.41 86.36 0)
+		(at 102.87 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1359,7 +1369,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape input)
-		(at 80.01 68.58 180)
+		(at 82.55 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1370,7 +1380,7 @@
 	)
 	(hierarchical_label "SIG_4"
 		(shape input)
-		(at 105.41 78.74 0)
+		(at 102.87 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1381,7 +1391,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 80.01 76.2 180)
+		(at 82.55 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1403,7 +1413,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape input)
-		(at 80.01 71.12 180)
+		(at 82.55 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1414,7 +1424,7 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
-		(at 92.71 60.96 180)
+		(at 92.71 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1425,7 +1435,7 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
-		(at 67.31 88.9 180)
+		(at 69.85 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1447,7 +1457,7 @@
 	)
 	(hierarchical_label "SIG_6"
 		(shape input)
-		(at 105.41 83.82 0)
+		(at 102.87 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1491,7 +1501,7 @@
 	)
 	(hierarchical_label "SIG_5"
 		(shape input)
-		(at 105.41 81.28 0)
+		(at 102.87 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1513,7 +1523,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 92.71 96.52 180)
+		(at 92.71 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2545,7 +2555,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 73.66 88.9 90)
+		(at 76.2 76.2 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2555,7 +2565,7 @@
 		(dnp no)
 		(uuid "90ef0f4f-b15d-4a0d-8cf6-2b678af0ea90")
 		(property "Reference" "R50"
-			(at 72.644 87.884 0)
+			(at 75.184 75.184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2566,7 +2576,7 @@
 			)
 		)
 		(property "Value" "10kR"
-			(at 74.9299 86.36 0)
+			(at 77.4699 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2578,7 +2588,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 73.66 88.9 0)
+			(at 76.2 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2589,7 +2599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 88.9 0)
+			(at 76.2 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2600,7 +2610,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 73.66 88.9 0)
+			(at 76.2 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2611,7 +2621,7 @@
 			)
 		)
 		(property "LCSC#" "C2930027"
-			(at 73.66 88.9 0)
+			(at 76.2 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2777,7 +2787,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/PCF8574_PCF8574A.pdf"
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCF8574_PCF8574A.pdf"
 			(at 92.71 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2788,7 +2798,7 @@
 				)
 			)
 		)
-		(property "Description" "8 Bit Port/Expander to I2C Bus, SSOP-20"
+		(property "Description" "8-bit I/O Expander, I2C interface, interrupt output, fixed address bits 0b0111xxx, SSOP-20"
 			(at 92.71 78.74 0)
 			(hide yes)
 			(show_name no)

@@ -1080,10 +1080,10 @@
 		(uuid "0a89bee3-98cd-43c0-9a42-4274f8fe1170")
 	)
 	(junction
-		(at 193.04 152.4)
+		(at 190.5 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "133c3545-c00b-45eb-8a1e-3a469980e2e9")
+		(uuid "104e4568-5bd6-4c6d-82e9-44fb2c793c76")
 	)
 	(junction
 		(at 190.5 152.4)
@@ -1092,22 +1092,16 @@
 		(uuid "15bb83da-d91e-4157-8c89-78849cc9e4f9")
 	)
 	(junction
-		(at 212.09 77.47)
+		(at 193.04 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1e5bb2a8-1cc3-4c0f-9921-0bb17331612b")
+		(uuid "21f3b4c6-f130-4144-8c8f-bce593242237")
 	)
 	(junction
-		(at 194.31 109.22)
+		(at 190.5 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2409fcca-8985-4f15-8ccf-bddb62a0ed92")
-	)
-	(junction
-		(at 196.85 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "287a9b45-eb4f-4c4e-8875-6170054ac215")
+		(uuid "316e22f3-ed3c-4313-862c-8c87c22919c8")
 	)
 	(junction
 		(at 189.23 119.38)
@@ -1128,6 +1122,12 @@
 		(uuid "4dcaf232-58b5-474b-b9b3-be73ef82dce5")
 	)
 	(junction
+		(at 193.04 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50094511-1ed8-4601-9cc5-fc33a6ca3f55")
+	)
+	(junction
 		(at 190.5 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1146,22 +1146,22 @@
 		(uuid "5ce2b38e-f132-4fd0-b298-396b1c614248")
 	)
 	(junction
-		(at 196.85 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60d2c57c-0330-4d37-a426-e276ac56d462")
-	)
-	(junction
 		(at 191.77 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63310691-3751-452d-bb0f-db964cfe25ec")
 	)
 	(junction
-		(at 210.82 142.24)
+		(at 194.31 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "68232f75-19fc-42fc-92b7-cb0cad552f7f")
+		(uuid "6749d864-b1a5-4b87-9a28-bf56c4f2420c")
+	)
+	(junction
+		(at 193.04 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b00a74c-0b80-4948-beb6-ba9b13f3f32b")
 	)
 	(junction
 		(at 191.77 77.47)
@@ -1170,16 +1170,10 @@
 		(uuid "712b957b-cc47-4704-8c9b-9f2b0b517e99")
 	)
 	(junction
-		(at 196.85 109.22)
+		(at 187.96 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "975b9b5c-dea2-485e-8807-9b2f2ac26d21")
-	)
-	(junction
-		(at 194.31 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97680b44-ac7d-450f-8365-a82d511ada67")
+		(uuid "93b6306d-8fe8-4f26-985e-1a7f415e9725")
 	)
 	(junction
 		(at 191.77 119.38)
@@ -1194,28 +1188,10 @@
 		(uuid "a3173a56-0a65-4022-8f3a-0e725407e513")
 	)
 	(junction
-		(at 191.77 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5fe7bb0-5311-4b67-ad48-51646337e3c9")
-	)
-	(junction
-		(at 194.31 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab96f456-8cbb-4d48-a60f-47ce44e50d56")
-	)
-	(junction
 		(at 191.77 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1086923-3f0f-4bc7-9bc4-8be3e20f9001")
-	)
-	(junction
-		(at 195.58 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3b98816-3872-4e46-993f-69535434950b")
 	)
 	(junction
 		(at 190.5 50.8)
@@ -1224,16 +1200,10 @@
 		(uuid "c097e9db-1062-431f-8adf-eb9d32539f6b")
 	)
 	(junction
-		(at 190.5 48.26)
+		(at 187.96 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cab37766-9fb9-4173-9f32-2852384b0347")
-	)
-	(junction
-		(at 189.23 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0d6f133-5b26-4b9f-b30d-6794c8646b26")
+		(uuid "c1d12971-0088-4307-9f11-c5c0497936b7")
 	)
 	(junction
 		(at 189.23 109.22)
@@ -1242,10 +1212,16 @@
 		(uuid "d28a87ff-3aa9-4a90-ba57-e326305451ba")
 	)
 	(junction
-		(at 194.31 87.63)
+		(at 189.23 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d96cc3eb-dc32-43c2-ae76-73748b293cda")
+		(uuid "da4ecc47-5bb5-438c-b326-a80e8b6f78ed")
+	)
+	(junction
+		(at 189.23 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc031736-9899-456f-b33e-181b7bd50f62")
 	)
 	(junction
 		(at 194.31 50.8)
@@ -1254,44 +1230,50 @@
 		(uuid "e5ff2f3e-5d5c-43e4-85b0-e2b1f0216b34")
 	)
 	(junction
-		(at 187.96 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7a30bfd-6fe0-4b25-8dd7-a311878e32e7")
-	)
-	(junction
-		(at 190.5 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9708d07-52ac-467b-8ddd-ff66ed3a9f87")
-	)
-	(junction
-		(at 193.04 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef1a77db-619b-498a-bbfb-0da8b44e8738")
-	)
-	(junction
 		(at 187.96 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1a71b4e-3297-4c63-9dc4-05b157a14188")
 	)
-	(junction
-		(at 189.23 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f736a17a-0637-4a92-9c44-4b18e67bee22")
+	(wire
+		(pts
+			(xy 187.96 71.12) (xy 187.96 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "025e5e99-32e8-4b20-8b79-384898d8a3af")
 	)
 	(wire
 		(pts
-			(xy 186.69 77.47) (xy 189.23 77.47)
+			(xy 186.69 71.12) (xy 187.96 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0693e4a8-32df-4e0e-a959-3e8be565e347")
+	)
+	(wire
+		(pts
+			(xy 193.04 68.58) (xy 195.58 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0936a9d2-d4dc-42f8-9ed0-8d8df9eab46d")
+	)
+	(wire
+		(pts
+			(xy 194.31 109.22) (xy 196.85 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d5db81b-ee4b-41e9-ba92-e598a3c41b44")
 	)
 	(wire
 		(pts
@@ -1315,23 +1297,13 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 152.4) (xy 210.82 152.4)
+			(xy 189.23 107.95) (xy 191.77 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e4f4ff6-8e37-42ea-8a12-8d73ff5cfcb1")
-	)
-	(wire
-		(pts
-			(xy 191.77 74.93) (xy 186.69 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2276e2ea-eac6-4290-80e7-fae74192ccdc")
+		(uuid "234c9c8e-1b04-4cca-909b-24df964b55ce")
 	)
 	(wire
 		(pts
@@ -1342,16 +1314,6 @@
 			(type default)
 		)
 		(uuid "240ec06f-6028-4785-b255-6911b61da177")
-	)
-	(wire
-		(pts
-			(xy 189.23 107.95) (xy 191.77 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24b25583-a148-4889-8613-e72fca536850")
 	)
 	(wire
 		(pts
@@ -1395,7 +1357,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 77.47) (xy 194.31 77.47)
+			(xy 191.77 77.47) (xy 193.04 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1405,13 +1367,13 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 87.63) (xy 212.09 87.63)
+			(xy 190.5 133.35) (xy 191.77 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d831a06-405d-46a2-a096-f15ef0e3b930")
+		(uuid "434b2004-0ea1-4a34-8290-01dc846abf24")
 	)
 	(wire
 		(pts
@@ -1422,6 +1384,16 @@
 			(type default)
 		)
 		(uuid "4a68c763-4b5c-4eef-9d8d-ffed2555367c")
+	)
+	(wire
+		(pts
+			(xy 193.04 76.2) (xy 193.04 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c68b3a9-f48d-4aed-a32f-93c0738db70d")
 	)
 	(wire
 		(pts
@@ -1445,26 +1417,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 77.47) (xy 196.85 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "542a7447-6261-4f8d-a24b-e1076b77fbc4")
-	)
-	(wire
-		(pts
-			(xy 210.82 139.7) (xy 210.82 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5666f182-5002-48db-9cba-c81364dfc2e5")
-	)
-	(wire
-		(pts
 			(xy 191.77 119.38) (xy 194.31 119.38)
 		)
 		(stroke
@@ -1485,23 +1437,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 142.24) (xy 193.04 142.24)
+			(xy 190.5 142.24) (xy 195.58 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5c5f5394-2da6-4a61-b9d1-b29a459fce2f")
-	)
-	(wire
-		(pts
-			(xy 190.5 48.26) (xy 193.04 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cef715c-ae9a-4ca5-aad5-049f2613fa32")
 	)
 	(wire
 		(pts
@@ -1525,13 +1467,13 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 119.38) (xy 213.36 118.11)
+			(xy 187.96 140.97) (xy 187.96 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61e1ac6f-c4f5-40cc-a640-1d384ee08dc4")
+		(uuid "64fead9a-b640-4a3e-99b5-abe94abfd97c")
 	)
 	(wire
 		(pts
@@ -1555,26 +1497,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 60.96) (xy 212.09 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d85d4d4-8b40-4793-b44f-8467fc8f942e")
-	)
-	(wire
-		(pts
-			(xy 191.77 71.12) (xy 191.77 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e42c02f-9c82-4aef-9b1e-86591e3beceb")
-	)
-	(wire
-		(pts
 			(xy 189.23 102.87) (xy 189.23 107.95)
 		)
 		(stroke
@@ -1595,16 +1517,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 77.47) (xy 212.09 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "721055c9-9f23-4b5b-b3e7-41ab5436b6dc")
-	)
-	(wire
-		(pts
 			(xy 189.23 109.22) (xy 191.77 109.22)
 		)
 		(stroke
@@ -1615,17 +1527,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 77.47) (xy 212.09 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77938c87-881e-4c04-b959-5fd3ce633a20")
-	)
-	(wire
-		(pts
-			(xy 187.96 140.97) (xy 187.96 142.24)
+			(xy 187.96 135.89) (xy 187.96 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1642,16 +1544,6 @@
 			(type default)
 		)
 		(uuid "7b6ee478-bc27-4a3b-a296-b7b527bed369")
-	)
-	(wire
-		(pts
-			(xy 212.09 50.8) (xy 212.09 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83891370-202f-4191-905d-c6dbd42328cd")
 	)
 	(wire
 		(pts
@@ -1675,63 +1567,13 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 109.22) (xy 213.36 109.22)
+			(xy 187.96 140.97) (xy 190.5 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "851964fd-e04c-4329-aed5-e86c9296bbca")
-	)
-	(wire
-		(pts
-			(xy 189.23 107.95) (xy 189.23 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a6c5304-f9ee-4598-9ae6-44f52f49d597")
-	)
-	(wire
-		(pts
-			(xy 195.58 142.24) (xy 210.82 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c2d2beb-e1d0-48bc-a549-4bc17011076c")
-	)
-	(wire
-		(pts
-			(xy 203.2 139.7) (xy 190.5 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cf05cd9-1835-48c3-97ee-2fb19abddb1c")
-	)
-	(wire
-		(pts
-			(xy 190.5 139.7) (xy 190.5 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a836ab5-a607-4ef9-a22d-39257230214d")
-	)
-	(wire
-		(pts
-			(xy 210.82 142.24) (xy 210.82 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a8b823c-f3f6-482c-b6a7-730e4088bbca")
+		(uuid "8efa49bb-257d-49f8-8457-7f646e4834bc")
 	)
 	(wire
 		(pts
@@ -1755,13 +1597,13 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 142.24) (xy 195.58 142.24)
+			(xy 186.69 68.58) (xy 193.04 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a031d567-8f5b-45bc-a7ac-8948734d1be2")
+		(uuid "a0093962-8c4d-428c-86ca-b0f8a24c643c")
 	)
 	(wire
 		(pts
@@ -1775,23 +1617,13 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 109.22) (xy 196.85 109.22)
+			(xy 187.96 77.47) (xy 189.23 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab47e86f-18b4-43cd-a490-2421d5dd7a51")
-	)
-	(wire
-		(pts
-			(xy 212.09 74.93) (xy 212.09 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af8b5251-5d5f-4dbd-88a7-111bb8a72f39")
+		(uuid "ac0c1ae4-6815-45d6-9d2c-2e0c9cda98eb")
 	)
 	(wire
 		(pts
@@ -1825,16 +1657,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 109.22) (xy 213.36 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1a55aaa-1148-4263-af52-5d4ca4c698af")
-	)
-	(wire
-		(pts
 			(xy 187.96 152.4) (xy 190.5 152.4)
 		)
 		(stroke
@@ -1842,6 +1664,16 @@
 			(type default)
 		)
 		(uuid "c4af06c8-d1f4-476e-8ba3-f2d39c3484b6")
+	)
+	(wire
+		(pts
+			(xy 189.23 107.95) (xy 189.23 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7719642-e6e0-4bf8-9107-a9136abfa816")
 	)
 	(wire
 		(pts
@@ -1865,6 +1697,26 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 48.26) (xy 190.5 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc00de0a-92b8-4cda-b435-58408976e498")
+	)
+	(wire
+		(pts
+			(xy 190.5 48.26) (xy 193.04 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd0e3706-7edf-484d-bbe0-0e4ccbf536ec")
+	)
+	(wire
+		(pts
 			(xy 190.5 50.8) (xy 189.23 50.8)
 		)
 		(stroke
@@ -1875,23 +1727,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 138.43) (xy 191.77 138.43)
+			(xy 194.31 77.47) (xy 196.85 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cfcbeb4e-78af-4e19-8d1a-0f884dc57e0d")
-	)
-	(wire
-		(pts
-			(xy 212.09 60.96) (xy 212.09 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0ee69e3-a34e-4e88-ba97-4b40fc7a27e6")
+		(uuid "d1545a86-7dfb-4627-ad02-e9c7d1a03e28")
 	)
 	(wire
 		(pts
@@ -1915,7 +1757,17 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 138.43) (xy 190.5 138.43)
+			(xy 193.04 77.47) (xy 194.31 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e85288-8a2b-43a6-ab22-c682f8575122")
+	)
+	(wire
+		(pts
+			(xy 187.96 133.35) (xy 190.5 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1945,26 +1797,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 50.8) (xy 212.09 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e994973a-4a38-4bcf-af29-a2e83a859f75")
-	)
-	(wire
-		(pts
-			(xy 210.82 152.4) (xy 210.82 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9e74424-4026-4ba6-92c5-61ff8ba947ad")
-	)
-	(wire
-		(pts
 			(xy 231.14 34.29) (xy 227.33 34.29)
 		)
 		(stroke
@@ -1985,16 +1817,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 48.26) (xy 190.5 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeea0cec-f95b-434c-a80c-f84c1ee0a7c9")
-	)
-	(wire
-		(pts
 			(xy 187.96 154.94) (xy 187.96 152.4)
 		)
 		(stroke
@@ -2002,16 +1824,6 @@
 			(type default)
 		)
 		(uuid "f035adbb-536e-41d0-8d65-1ae24813a670")
-	)
-	(wire
-		(pts
-			(xy 194.31 119.38) (xy 213.36 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9513982-27c1-4bbc-806a-1dc2d4fbc808")
 	)
 	(wire
 		(pts
@@ -2023,28 +1835,8 @@
 		)
 		(uuid "fa620948-92c3-4f1c-8efa-6c185adc5154")
 	)
-	(wire
-		(pts
-			(xy 212.09 87.63) (xy 212.09 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd0daedd-24a5-44af-871b-812f2e90b524")
-	)
-	(wire
-		(pts
-			(xy 191.77 74.93) (xy 204.47 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe1b4f4b-7948-470e-a0e5-f5994c6dd947")
-	)
 	(label "TRANSISTOR_OUT_3"
-		(at 212.09 50.8 0)
+		(at 196.85 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2054,7 +1846,7 @@
 		(uuid "33814391-2882-46ab-82e5-88a335c19b0d")
 	)
 	(label "TRANSISTOR_OUT_4"
-		(at 212.09 77.47 0)
+		(at 196.85 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2062,6 +1854,26 @@
 			(justify left bottom)
 		)
 		(uuid "4a474a53-4c78-43e6-834c-4b8f27b68e14")
+	)
+	(label "TRANSISTOR_OUT_2"
+		(at 195.58 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e35719f-833a-48c1-8ed6-2a07b8db0a39")
+	)
+	(label "TRANSISTOR_OUT_1"
+		(at 193.04 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80e9b118-412f-4439-892d-9277ae3f1798")
 	)
 	(label "transistor_power"
 		(at 191.77 100.33 0)
@@ -2093,26 +1905,6 @@
 		)
 		(uuid "d20e072e-b8b7-4dbf-be52-b169192210cd")
 	)
-	(label "TRANSISTOR_OUT_2"
-		(at 210.82 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d442141f-6a6e-47b2-9ede-7788c5efa174")
-	)
-	(label "TRANSISTOR_OUT_1"
-		(at 213.36 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e7f5f8f1-aa6f-4916-abbb-79c7566ad59c")
-	)
 	(hierarchical_label "GND_POWER"
 		(shape input)
 		(at 189.23 64.77 0)
@@ -2137,7 +1929,7 @@
 	)
 	(hierarchical_label "BATT_12V"
 		(shape input)
-		(at 191.77 138.43 0)
+		(at 191.77 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2181,7 +1973,7 @@
 	)
 	(hierarchical_label "BATT_12V"
 		(shape input)
-		(at 191.77 71.12 0)
+		(at 195.58 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2247,7 +2039,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 181.61 74.93 0)
+		(at 181.61 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2257,7 +2049,7 @@
 		(dnp no)
 		(uuid "010c9b9a-c720-43ed-b1dc-b16d44793e01")
 		(property "Reference" "J13"
-			(at 181.61 71.12 0)
+			(at 181.61 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2267,7 +2059,7 @@
 			)
 		)
 		(property "Value" "Transistor_4"
-			(at 181.61 72.39 0)
+			(at 181.61 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2277,7 +2069,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 181.61 74.93 0)
+			(at 181.61 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2288,7 +2080,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 74.93 0)
+			(at 181.61 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2299,7 +2091,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 181.61 74.93 0)
+			(at 181.61 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2310,7 +2102,7 @@
 			)
 		)
 		(property "LCSC#" "C158012"
-			(at 181.61 74.93 0)
+			(at 181.61 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2343,7 +2135,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 213.36 114.3 270)
+		(at 190.5 137.16 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2352,9 +2144,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "11102e0f-92f3-47ae-8584-1eae5404e7f1")
-		(property "Reference" "D26"
-			(at 215.9 113.0299 90)
+		(uuid "1078cebf-d245-4843-88f3-e01ae1d53286")
+		(property "Reference" "D6"
+			(at 193.04 135.8899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2365,7 +2157,7 @@
 			)
 		)
 		(property "Value" "D_transistor"
-			(at 215.9 115.5699 90)
+			(at 193.04 138.4299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2376,7 +2168,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 213.36 114.3 0)
+			(at 190.5 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2387,7 +2179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 114.3 0)
+			(at 190.5 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2398,7 +2190,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 213.36 114.3 0)
+			(at 190.5 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2409,7 +2201,7 @@
 			)
 		)
 		(property "LCSC#" "C908230"
-			(at 213.36 114.3 0)
+			(at 190.5 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2420,7 +2212,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 213.36 114.3 0)
+			(at 190.5 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2431,7 +2223,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 213.36 114.3 0)
+			(at 190.5 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2442,21 +2234,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "36579c56-c8c0-4caf-a3ec-b45b6d14a40a")
+			(uuid "bb148b28-7cdd-4403-9c86-fd59db887551")
 		)
 		(pin "2"
-			(uuid "123ed4dd-cc9e-4157-ad20-0733ac6c1c7a")
+			(uuid "cf3229d3-7d2a-4720-b2a6-fc24b10721be")
 		)
 		(instances
-			(project "transistors"
-				(path "/dd7715f7-4665-4e2d-be0e-5eaf3bd7a739"
-					(reference "D?")
-					(unit 1)
-				)
-			)
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
-					(reference "D26")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2580,127 +2366,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 210.82 147.32 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d3841a5-95ef-4977-889d-ed881c380043")
-		(property "Reference" "D6"
-			(at 213.36 146.0499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_transistor"
-			(at 213.36 148.5899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 210.82 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 210.82 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC#" "C908230"
-			(at 210.82 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 210.82 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 210.82 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "42c52ae6-9f3b-4c14-b2c8-659d97d7df1e")
-		)
-		(pin "2"
-			(uuid "e6efe437-168d-4f27-9c00-dd011be7a304")
-		)
-		(instances
-			(project "transistors"
-				(path "/dd7715f7-4665-4e2d-be0e-5eaf3bd7a739"
-					(reference "D?")
-					(unit 1)
-				)
-			)
-			(project "carte_servo"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 171.45 147.32 90)
 		(unit 1)
@@ -2792,240 +2457,6 @@
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 207.01 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39dcae32-da66-4b8d-a032-907364d18fa5")
-		(property "Reference" "D11"
-			(at 207.01 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_transistor"
-			(at 207.01 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 207.01 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 207.01 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC#" "C908230"
-			(at 207.01 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 207.01 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 207.01 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3e215389-82c9-44fd-8040-49f9e9258adb")
-		)
-		(pin "2"
-			(uuid "11ef1a06-5e36-4ca2-80af-0f0d690e365c")
-		)
-		(instances
-			(project "carte_servo"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 212.09 82.55 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4bbe3438-2770-4b55-b123-e4cf1f82247c")
-		(property "Reference" "D25"
-			(at 214.63 81.2799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_transistor"
-			(at 214.63 83.8199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 212.09 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 212.09 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC#" "C908230"
-			(at 212.09 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 212.09 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 212.09 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "14d02a65-31ce-4b43-a882-90df8c05e536")
-		)
-		(pin "2"
-			(uuid "4243d8ae-6167-406d-b8b4-ea7bdc6a2461")
-		)
-		(instances
-			(project "transistors"
-				(path "/dd7715f7-4665-4e2d-be0e-5eaf3bd7a739"
-					(reference "D?")
-					(unit 1)
-				)
-			)
-			(project "carte_servo"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
-					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -3130,7 +2561,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 182.88 138.43 0)
+		(at 182.88 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3140,7 +2571,7 @@
 		(dnp no)
 		(uuid "57ca8b50-fa42-403e-8d73-f79d5e093fd0")
 		(property "Reference" "J11"
-			(at 182.88 133.35 0)
+			(at 182.88 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3150,7 +2581,7 @@
 			)
 		)
 		(property "Value" "Transistor_2"
-			(at 183.515 135.89 0)
+			(at 183.515 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3160,7 +2591,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 182.88 138.43 0)
+			(at 182.88 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3171,7 +2602,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 138.43 0)
+			(at 182.88 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3182,7 +2613,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 182.88 138.43 0)
+			(at 182.88 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3193,7 +2624,7 @@
 			)
 		)
 		(property "LCSC#" "C158012"
-			(at 182.88 138.43 0)
+			(at 182.88 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3421,7 +2852,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 212.09 55.88 270)
+		(at 193.04 44.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3430,9 +2861,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "87898bbc-9b2c-4fd1-8f32-9175dc2f07f9")
+		(uuid "79295dcc-ee10-41e2-87e7-8fc14fcaf3bd")
 		(property "Reference" "D7"
-			(at 214.63 54.6099 90)
+			(at 195.58 43.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3443,7 +2874,7 @@
 			)
 		)
 		(property "Value" "D_transistor"
-			(at 214.63 57.1499 90)
+			(at 195.58 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3454,7 +2885,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 212.09 55.88 0)
+			(at 193.04 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3465,7 +2896,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 55.88 0)
+			(at 193.04 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3476,7 +2907,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 212.09 55.88 0)
+			(at 193.04 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3487,7 +2918,7 @@
 			)
 		)
 		(property "LCSC#" "C908230"
-			(at 212.09 55.88 0)
+			(at 193.04 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3498,7 +2929,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 212.09 55.88 0)
+			(at 193.04 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3509,7 +2940,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 212.09 55.88 0)
+			(at 193.04 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3520,18 +2951,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed1dc1a0-c3af-4b4a-8e9a-7a16d9c5e1d5")
+			(uuid "5fdf0ea6-6186-456c-bc8d-cde711f00121")
 		)
 		(pin "2"
-			(uuid "5211b7ea-8f73-4e9e-a211-4d76d40027f6")
+			(uuid "6fd448b4-1c30-4078-bfd0-f442287820c5")
 		)
 		(instances
-			(project "transistors"
-				(path "/dd7715f7-4665-4e2d-be0e-5eaf3bd7a739"
-					(reference "D?")
-					(unit 1)
-				)
-			)
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
 					(reference "D7")
@@ -3632,234 +3057,6 @@
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 191.77 104.14 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c23ae1f-9930-463b-a87b-cc0414bce7ee")
-		(property "Reference" "D31"
-			(at 194.31 102.8699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_transistor"
-			(at 194.31 105.4099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 191.77 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 191.77 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC#" "C908230"
-			(at 191.77 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 191.77 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 191.77 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a2280c1f-7bdc-4681-a1be-b54389d52bee")
-		)
-		(pin "2"
-			(uuid "0f69ee42-24f5-4b08-b6fb-ae32f055dc8f")
-		)
-		(instances
-			(project "carte_servo"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
-					(reference "D31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 208.28 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7919a40-006d-4d1c-89d1-1f9d3392cfcf")
-		(property "Reference" "D28"
-			(at 208.28 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_transistor"
-			(at 208.28 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 208.28 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 208.28 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC#" "C908230"
-			(at 208.28 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 208.28 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 208.28 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "48362193-4617-453c-9133-6ebffd515a48")
-		)
-		(pin "2"
-			(uuid "47570e52-8f67-4e73-9019-31782a9c9791")
-		)
-		(instances
-			(project "carte_servo"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
-					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -4076,6 +3273,121 @@
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
 					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 191.77 104.14 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4a8b1d8-eb31-48ab-9c47-53f6d182145b")
+		(property "Reference" "D26"
+			(at 194.31 102.8699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_transistor"
+			(at 194.31 105.4099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 191.77 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 191.77 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC#" "C908230"
+			(at 191.77 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 191.77 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 191.77 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "339052d5-aced-407f-900e-582510702e09")
+		)
+		(pin "2"
+			(uuid "8a3ec990-ba0d-4df0-be65-7a7667963437")
+		)
+		(instances
+			(project "carte_servo"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -4317,7 +3629,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 193.04 44.45 270)
+		(at 193.04 72.39 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4326,9 +3638,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "da2633b6-afbe-4e36-96bf-b397a9b4bf63")
-		(property "Reference" "D10"
-			(at 195.58 43.1799 90)
+		(uuid "e97bac5b-9fdb-4140-87c0-f17b78ded805")
+		(property "Reference" "D25"
+			(at 195.58 71.1199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4339,7 +3651,7 @@
 			)
 		)
 		(property "Value" "D_transistor"
-			(at 195.58 45.7199 90)
+			(at 195.58 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4350,7 +3662,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 193.04 44.45 0)
+			(at 193.04 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4361,7 +3673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 44.45 0)
+			(at 193.04 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4372,7 +3684,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 193.04 44.45 0)
+			(at 193.04 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4383,7 +3695,7 @@
 			)
 		)
 		(property "LCSC#" "C908230"
-			(at 193.04 44.45 0)
+			(at 193.04 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4394,7 +3706,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 193.04 44.45 0)
+			(at 193.04 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4405,7 +3717,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 193.04 44.45 0)
+			(at 193.04 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4416,15 +3728,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa73bd01-0840-4852-8c81-f02373c3987a")
+			(uuid "848b71c2-911b-4b07-83c5-9cdbad3967df")
 		)
 		(pin "2"
-			(uuid "2cfdcdf6-8803-4ac7-901d-8d048e7d253d")
+			(uuid "3fa10141-48c9-42ca-9757-e5054eaf67cf")
 		)
 		(instances
 			(project "carte_servo"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8cf8b4bb-2251-4ebd-baba-4f57c988e66e"
-					(reference "D10")
+					(reference "D25")
 					(unit 1)
 				)
 			)
